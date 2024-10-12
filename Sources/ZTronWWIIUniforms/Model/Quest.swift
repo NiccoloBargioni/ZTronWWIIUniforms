@@ -31,7 +31,7 @@ public class Quest: ObservableObject, Identifiable, Hashable, Equatable {
         hasher.combine(id)
     }
 
-    internal func getCharacterName() -> String {
+    public func getCharacterName() -> String {
         return self.characterName
     }
 
@@ -39,15 +39,15 @@ public class Quest: ObservableObject, Identifiable, Hashable, Equatable {
         return self.setName
     }
 
-    internal func getMap() -> String {
+    public func getMap() -> String {
         return self.map
     }
 
-    internal func getImage() -> String {
+    public func getImage() -> String {
         return self.image
     }
 
-    internal func getChallenges() -> [Challenge<String>] {
+    public func getChallenges() -> [Challenge<String>] {
         return self.challenges
     }
 }

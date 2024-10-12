@@ -1,7 +1,7 @@
 import Foundation
 import LoremIpsum
 
-internal class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
+public class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
     private let name: String
     private let map: String
     private let riddle: String
@@ -9,7 +9,7 @@ internal class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
     private let donts: [TaggedString]
     private let glitches: [TaggedString]
     private let proTips: [TaggedString]
-    internal let id: String
+    public let id: String
     
     init(
         name: String,
@@ -30,44 +30,44 @@ internal class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
         self.id = self.name + self.riddle
     }
     
-    internal func getName() -> String {
+    public func getName() -> String {
         return self.name
     }
     
-    internal func getMap() -> String {
+    public func getMap() -> String {
         return self.map
     }
     
-    internal func getRiddle() -> String {
+    public func getRiddle() -> String {
         return self.riddle
     }
     
-    internal func getRequirements() -> [TaggedString] {
+    public func getRequirements() -> [TaggedString] {
         return self.requirements
     }
     
-    internal func getDonts() -> [TaggedString] {
+    public func getDonts() -> [TaggedString] {
         return self.donts
     }
     
-    internal func getGlitches() -> [TaggedString] {
+    public func getGlitches() -> [TaggedString] {
         return self.glitches
     }
     
-    internal func getProTips() -> [TaggedString] {
+    public func getProTips() -> [TaggedString] {
         return self.proTips
     }
     
-    internal static func == (_ lhs: Challenge, rhs: Challenge) -> Bool {
+    public static func == (_ lhs: Challenge, rhs: Challenge) -> Bool {
         return lhs.name == rhs.name && lhs.riddle == rhs.riddle
     }
     
-    internal func hash(into hasher: inout Hasher) {
+    public func hash(into hasher: inout Hasher) {
         hasher.combine(self.name)
         hasher.combine(self.riddle)
     }
     
-    internal struct TaggedString: Hashable {
+    public struct TaggedString: Hashable {
         private let string: String
         private let tag: Tag
         
@@ -76,19 +76,19 @@ internal class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
             self.tag = tag
         }
         
-        internal func wrappedValue() -> String {
+        public func wrappedValue() -> String {
             return self.string
         }
         
-        internal func getTag() -> Tag {
+        public func getTag() -> Tag {
             return self.tag
         }
         
-        internal static func == (_ lhs: TaggedString, _ rhs: TaggedString) -> Bool {
+        public static func == (_ lhs: TaggedString, _ rhs: TaggedString) -> Bool {
             return lhs.tag == rhs.tag && lhs.string == rhs.string
         }
         
-        internal func hash(into hasher: inout Hasher) {
+        public func hash(into hasher: inout Hasher) {
             hasher.combine(string)
             hasher.combine(tag)
         }
