@@ -14,7 +14,7 @@ public func makeAllChallengesByMap() -> ZTronRouter<Empty, QuestsPositionMapper,
     
     router.register(
         QuestsPositionMapper(
-            quests: makeGroestenHausQuests(),
+            quests: makeGroestenHausSurvivalQuests(),
             position: 0
         ),
         at: ["groesten haus", "sopravvivenza"]

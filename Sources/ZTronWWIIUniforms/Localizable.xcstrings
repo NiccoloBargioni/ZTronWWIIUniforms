@@ -1,6 +1,346 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "King of the Castle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Re del castello"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill the Brenner that spawns on round 50. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi il Brenner che compare al round 50."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you can’t take the heat"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mi sento un fuoco dentro…"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mint condition"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Come nuovo"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Dont1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The challenge cannot start from any round other than Round 1."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La sfida non può essere avviata da nessun round successivo al primo."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Dont1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dont 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da non fare 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Dont2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Self damage from own equipment results in challenge failure."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Danno autoprodotto dal proprio equipaggiamento nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Dont2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dont 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da non fare 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended camping with De Lisle in the mystery box room."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si consiglia di camperare col De Lisle nella stanza della cassa misteriosa."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended using Shellshock and Sustain Zone. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si consiglia di utilizzare Trauma Letale con Zona Mantenuta."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the first 20 rounds without getting damaged. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soprattivi i primi 20 round senza subire danni."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag world champion"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono intoccabile"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is my haus"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa è la mia haus"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the first 30 rounds without anyone going down.*"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti i primi 30 round senza che nessuno vada a terra.*"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "End stay out!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E non tornate più!"
+          }
+        }
+      }
+    },
     "OUTFIT.MOUNTAINEER.OUTFIT_NAME" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -200,7 +540,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chiuso dentro con me"
+            "value" : "Chiuso dentro con te"
           }
         }
       }

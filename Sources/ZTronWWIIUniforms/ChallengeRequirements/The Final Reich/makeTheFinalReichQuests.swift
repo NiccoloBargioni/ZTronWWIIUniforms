@@ -12,8 +12,8 @@ func makeTheFinalReichQuests() -> [Quest] {
         
         Quest(
             map: "the final reich",
-            setName: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.QuestName"),
-            characterName: String(localized: "OUTFIT.MOUNTAINEER.OUTFIT_NAME"),
+            setName: "OUTFIT.MOUNTAINEER.ROUGHING_IT.QuestName".fromLocalized(),
+            characterName: "OUTFIT.MOUNTAINEER.OUTFIT_NAME".fromLocalized(),
             image: "mountaineer",
             challenges: makeRoughingItChallenges()
         ),

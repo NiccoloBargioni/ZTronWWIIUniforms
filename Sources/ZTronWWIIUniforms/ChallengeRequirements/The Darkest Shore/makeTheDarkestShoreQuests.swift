@@ -28,14 +28,6 @@ func makeTheDarkestShoreQuests() -> [Quest] {
         
         Quest(
             map: "the darkest shore",
-            setName: "ritorno in patria",
-            characterName: "montanaro corvosangue",
-            image: "mountaineer",
-            challenges: makeRitornoInPatriaChallenges()
-        ),
-        
-        Quest(
-            map: "the darkest shore",
             setName: "sempre in movimento",
             characterName: "montanaro corvomorte",
             image: "mountaineer",
