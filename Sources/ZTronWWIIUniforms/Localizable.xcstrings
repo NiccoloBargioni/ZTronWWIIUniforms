@@ -1819,6 +1819,482 @@
           }
         }
       }
+    },
+    "OUTFIT.SURVIVALIST.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survivalist"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survivalista"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I Love My Gun"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adoro la mia arma"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beating every Easter Egg unlocks extra choices for starting weapons."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battere tutti gli Easter Egg garantisce una scelta più ampia per l’arma iniziale."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 with only each players’ starting weapon"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 usando solo le armi di partenza di ogni giocatore, in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only what you brought with you"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo quello che hai portato con te"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In The Dark"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nell’ombra"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can unlock the fire trap in the square of Mittelburg."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi sbloccare la trappola del fuoco nella piazza di Mittelburg."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 without generator power in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 senza ripristinare l’energia in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Back in my day…” "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Ai miei tempi…”"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.LUDDITE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luddite"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luddismo"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.LUDDITE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 without any players using blitzes in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 senza che i giocatori usino blitz in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.LUDDITE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.LUDDITE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t trust this new fangled medicine"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non c’è da fidarsi della medicina moderna"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.NO_TOUCHING.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Touching"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietato toccare"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.NO_TOUCHING.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 with no downed players"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 senza giocatori atterrati, in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.NO_TOUCHING.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.NO_TOUCHING.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No slacking off, on your feet."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non perdere tempo, in piedi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survival Guide"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guida alla sopravvivenza"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roll The Dice"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tira il dado"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mystery box weapon guarantees are allowed."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I consumabili garanzia arma dalla scatola misteriosa sono ammessi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 with only weapons from two mystery box uses per player. Starting weapons are allowed, but cannot be upgraded."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 usando solo le armi della scatola misteriosa in L’Ultimo Reich. Limite di due utilizzi della scatola misteriosa per giocatore. Armi di partenza ammesse, ma non potenziabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roll the dice. Take what you can get."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tira il dado. non fare lo schizzinoso."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

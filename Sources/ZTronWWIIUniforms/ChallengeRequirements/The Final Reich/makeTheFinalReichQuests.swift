@@ -20,8 +20,8 @@ func makeTheFinalReichQuests() -> [Quest] {
         
         Quest(
             map: "the final reich",
-            setName: "guida alla sopravvivenza",
-            characterName: "survivalista",
+            setName: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.QuestName".fromLocalized(),
+            characterName: "OUTFIT.SURVIVALIST.OUTFIT_NAME".fromLocalized(),
             image: "survivalist",
             challenges: makeGuidaAllaSopravvivenzaChallenges()
         ),
