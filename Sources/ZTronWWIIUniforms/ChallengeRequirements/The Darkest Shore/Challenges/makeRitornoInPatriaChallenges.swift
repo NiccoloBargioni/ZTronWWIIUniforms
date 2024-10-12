@@ -54,7 +54,7 @@ internal func makeRitornoInPatriaChallenges() -> [Challenge<String>] {
         ),
         
         Challenge<String>(
-            name: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.ChallengeName".fromLocalized(),
+            name: String(localized: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.ChallengeName"),
             map: "sopravvivenza",
             riddle: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.Riddle".fromLocalized(),
             requirements: [
