@@ -1,12 +1,12 @@
 import Foundation
 
-internal class Quest: ObservableObject, Identifiable, Hashable, Equatable {
+public class Quest: ObservableObject, Identifiable, Hashable, Equatable {
     private let characterName: String
     private let setName: String
     private let map: String
     private let image: String
     private let challenges: [Challenge<String>]
-    internal let id: String
+    public let id: String
 
     internal init(
         map: String,
@@ -23,11 +23,11 @@ internal class Quest: ObservableObject, Identifiable, Hashable, Equatable {
         self.challenges = challenges
     }
 
-    internal static func == (lhs: Quest, rhs: Quest) -> Bool {
+    public static func == (lhs: Quest, rhs: Quest) -> Bool {
         return lhs.id == rhs.id
     }
 
-    internal func hash(into hasher: inout Hasher) {
+    public func hash(into hasher: inout Hasher) {
         hasher.combine(id)
     }
 
@@ -61,11 +61,11 @@ public class QuestsPositionMapper {
         self.position = position
     }
     
-    internal func getQuests() -> [Quest] {
+    public func getQuests() -> [Quest] {
         return self.quests
     }
     
-    internal func getPosition() -> Int {
+    public func getPosition() -> Int {
         return self.position
     }
 }
