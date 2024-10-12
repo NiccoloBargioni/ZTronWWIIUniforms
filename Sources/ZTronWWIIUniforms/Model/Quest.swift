@@ -35,7 +35,7 @@ public class Quest: ObservableObject, Identifiable, Hashable, Equatable {
         return self.characterName
     }
 
-    internal func getSetName() -> String {
+    public func getSetName() -> String {
         return self.setName
     }
 
