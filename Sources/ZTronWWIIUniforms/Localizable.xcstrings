@@ -273,6 +273,23 @@
         }
       }
     },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home Ward"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ritorno in patria"
+          }
+        }
+      }
+    },
     "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -337,6 +354,737 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "E non tornate più!"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloodraven Mountaineer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montanaro Corvosangue"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On The Hunt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A caccia"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter A"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie A"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part A from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte A di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter B"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie B"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part B from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte B di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich.\n"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter C"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie C"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part C from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte C di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich.\n"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter D"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie D"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part D from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte D di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich.\n"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter E"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie E"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part E from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte E di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich.\n"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hunter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore"
           }
         }
       }

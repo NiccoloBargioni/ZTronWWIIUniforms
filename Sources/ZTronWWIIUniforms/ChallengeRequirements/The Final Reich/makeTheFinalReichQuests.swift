@@ -4,8 +4,8 @@ func makeTheFinalReichQuests() -> [Quest] {
     return [
         Quest(
             map: "the final reich",
-            setName: "a caccia",
-            characterName: "cacciatore",
+            setName: "OUTFIT.HUNTER.ON_THE_HUNT.QuestName".fromLocalized(),
+            characterName: "OUTFIT.HUNTER.OUTFIT_NAME".fromLocalized(),
             image: "hunter",
             challenges: makeOnTheHuntChallenges()
         ),
