@@ -52,7 +52,7 @@ internal class Quest: ObservableObject, Identifiable, Hashable, Equatable {
     }
 }
 
-internal class QuestsPositionMapper {
+public class QuestsPositionMapper {
     private let quests: [Quest]
     private let position: Int
     

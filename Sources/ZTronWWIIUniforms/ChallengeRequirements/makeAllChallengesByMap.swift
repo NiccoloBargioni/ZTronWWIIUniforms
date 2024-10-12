@@ -1,7 +1,7 @@
 import Foundation
 import ZTronRouter
 
-internal func makeAllChallengesByMap() -> ZTronRouter<Empty, QuestsPositionMapper, Empty> {
+public func makeAllChallengesByMap() -> ZTronRouter<Empty, QuestsPositionMapper, Empty> {
     let router = ZTronRouter<Empty, QuestsPositionMapper, Empty>()
 
     router.register(

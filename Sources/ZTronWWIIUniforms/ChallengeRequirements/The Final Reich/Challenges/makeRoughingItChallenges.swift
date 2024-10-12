@@ -10,130 +10,130 @@ internal func makeRoughingItChallenges() -> [Challenge<String>] {
             riddle: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Riddle"),
             requirements: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Requirement1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Requirement1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Requirement1Tag".fromLocalized()
                 )
             ],
             donts: [],
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ProTip1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ProTip1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ProTip1Tag".fromLocalized()
                 )
             ]
         ),
         
         // MARK: - LOCKED IN WITH ME
         Challenge<String>(
-            name: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ChallengeName"),
+            name: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ChallengeName".fromLocalized(),
             map: "the final reich",
-            riddle: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Riddle"),
+            riddle: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Requirement1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Requirement1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Requirement1Tag".fromLocalized()
                 )
             ],
             donts: [],
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ProTip1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ProTip1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ProTip1Tag".fromLocalized()
                 )
             ]
         ),
     
         // MARK: - WELCOME HOME
         Challenge<String>(
-            name: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ChallengeName"),
+            name: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ChallengeName".fromLocalized(),
             map: "prologo",
-            riddle: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Riddle"),
+            riddle: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Requirement1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Requirement1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Requirement1Tag".fromLocalized()
                 )
             ],
             donts: [],
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip1Tag".fromLocalized()
                 ),
                 
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip2"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip2Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip2".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip2Tag".fromLocalized()
                 ),
                 
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip3"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip3Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip3".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip3Tag".fromLocalized()
                 ),
             ]
         ),
         
         // MARK: - HOME ADVANTAGE
         Challenge<String>(
-            name: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ChallengeName"),
+            name: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ChallengeName".fromLocalized(),
             map: "prologo",
-            riddle: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Riddle"),
+            riddle: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1Tag".fromLocalized()
                 )
             ],
             donts: [],
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1Tag".fromLocalized()
                 ),
                 
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2Tag".fromLocalized()
                 ),
                 
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3Tag".fromLocalized()
                 ),
             ]
         ),
         
         // MARK: - NO CHEATING
         Challenge<String>(
-            name: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ChallengeName"),
+            name: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ChallengeName".fromLocalized(),
             map: "prologo",
-            riddle: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Riddle"),
+            riddle: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Requirement1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Requirement1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Requirement1Tag".fromLocalized()
                 )
             ],
             donts: [],
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip1"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip1Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip1Tag".fromLocalized()
                 ),
                 
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip2"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip2Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip2".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip2Tag".fromLocalized()
                 ),
                 
                 Challenge<String>.TaggedString(
-                    String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip3"),
-                    tag: String(localized: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip3Tag")
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip3".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip3Tag".fromLocalized()
                 ),
             ]
         )
