@@ -1,0 +1,737 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "OUTFIT.MOUNTAINEER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mountaineer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montanaro"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home Advantage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vantaggio in casa"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your stamina for when you need to go up the stairs by avoiding to sprint immediatly before that."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva la Stamina per quando devi salire le scale, evitando di correre immediatamente prima."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill only a few zombies at a time, so that you won't have too many zombies blocking your way."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi solo pochi zombie a volta, così non avrai zombie che ti tagliano la strada."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can slow down the zombies that sprint too fast by shooting them a bunch of shots."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi stordire gli zombie che corrono troppo velocemente sparandogli qualche colpo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 25 without going down in the Prologue."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 25 senza farti atterrare nel Prologo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back then, everything was perfect"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando era tutto perfetto."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locked In With Me"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiuso dentro con me"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brenner spawns on waves X and Y."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il Brenner arriva alle ondate X ed Y."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 20 with no open doors and with no downed players in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 20 senza aprire porte e senza giocatori atterrati in L'Ultimo Reich"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Right... Nothing will even touch us."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sì... Non riusciranno neppure a toccarci."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locked in with you"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiuso dentro con te"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brenner spawns on waves X and Y."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il Brenner arriva alle ondate X ed Y."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 20 with no open doors in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 20 senza aprire porte in L'Ultimo Reich"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We're safe in here... right?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qui è più sicuro... giusto?"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No cheating"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietato barare"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your stamina for when you need to go up the stairs by avoiding to sprint immediatly before that."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva la Stamina per quando devi salire le scale, evitando di correre immediatamente prima."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill only a few zombies at a time, so that you won't have too many zombies blocking your way."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi solo pochi zombie a volta, così non avrai zombie che ti tagliano la strada."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can slow down the zombies that sprint too fast by shooting them a bunch of shots."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi stordire gli zombie che corrono troppo velocemente sparandogli qualche colpo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 25 without unlocking the secret room in the Prologue."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 25 senza sbloccare la stanza segreta nel Prologo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roughing it"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maniere Forti"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome Home"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Casa dolce casa"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your stamina for when you need to go up the stairs by avoiding to sprint immediatly before that."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva la Stamina per quando devi salire le scale, evitando di correre immediatamente prima."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill only a few zombies at a time, so that you won't have too many zombies blocking your way."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi solo pochi zombie a volta, così non avrai zombie che ti tagliano la strada."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can slow down the zombies that sprint too fast by shooting them a bunch of shots."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi stordire gli zombie che corrono troppo velocemente sparandogli qualche colpo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 25 in the Prologue"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 25 nel Prologo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back to where it all started"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dove tutto ha avuto inizio."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

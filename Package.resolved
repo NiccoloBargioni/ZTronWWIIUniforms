@@ -1,0 +1,78 @@
+{
+  "originHash" : "4d5db63e84841412a4aef58fd3b623c54c719ea57e87ef1a243a73f4ea74763e",
+  "pins" : [
+    {
+      "identity" : "loremipsum",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lukaskubanek/LoremIpsum",
+      "state" : {
+        "branch" : "master",
+        "revision" : "3c739014fd11bcf0a3b2263b95b89d12f1257579"
+      }
+    },
+    {
+      "identity" : "scalingheaderscrollview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exyte/ScalingHeaderScrollView",
+      "state" : {
+        "branch" : "master",
+        "revision" : "87cc269444490be1ba231038718267aceca1f895"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "9cb486020ebf03bfa5b5df985387a14a98744537",
+        "version" : "1.6.1"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/swiftui-introspect",
+      "state" : {
+        "branch" : "main",
+        "revision" : "807f73ce09a9b9723f12385e592b4e0aaebd3336"
+      }
+    },
+    {
+      "identity" : "vdanimation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dankinsoid/VDAnimation",
+      "state" : {
+        "branch" : "master",
+        "revision" : "820c27616c707f52a085b4a971d442f13a11b1b6"
+      }
+    },
+    {
+      "identity" : "vdchain",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dankinsoid/VDChain.git",
+      "state" : {
+        "revision" : "e9aebe911eb92b522cf0fc25ccc1965673bf0c4b",
+        "version" : "2.7.3"
+      }
+    },
+    {
+      "identity" : "ztron-routing-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NickTheFreak97/ztron-routing-kit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b2806b68f199c6a5f51572da90c6357f5a09dd3f"
+      }
+    },
+    {
+      "identity" : "ztronrouter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NiccoloBargioni/ZTronRouter",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1a4888983d2e2f7377b001b8b80139362154b958"
+      }
+    }
+  ],
+  "version" : 3
+}
