@@ -1,6 +1,482 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cooking With Gas"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cucina a gas"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock the Ubsersprengen in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sblocca l’Ubersprengen in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power up"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potenziati"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Did You See That…?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hai visto…?"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill a treasure zombie in The Final Reich"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi uno zombie del tesoro in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“After that… thing!”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Seguiamo quella… cosa!”"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lightning Fast"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocità lampo"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only kill zombies inside the red circles."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi tutti gli zombie solo all’interno dei cerchi rossi."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assemble the Tesla Gun by wave 6, in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assembla l’arma Tesla entro l’ondata 6, in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Oh, I know this part”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Oh, questo lo so fare”"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEASONED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seasoned"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stagionato"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEASONED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 25 in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 25 in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEASONED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEASONED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See You At The Party"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ci vediamo alla festa"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select and keep the 1911, then upgrade them to use them against the Zeppelin’s red lights. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleziona e conserva le 1911, poi potenziale ed usale per sparare alle luci rosse dello Zeppelin."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the Panzermörder in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sconfiggi i Panzermörder in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rest in pieces"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A mai più rivederci"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B.A.T. Agent"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agente BAT"
+          }
+        }
+      }
+    },
     "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {

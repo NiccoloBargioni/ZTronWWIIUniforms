@@ -28,8 +28,8 @@ func makeTheFinalReichQuests() -> [Quest] {
         
         Quest(
             map: "the final reich",
-            setName: "in missione",
-            characterName: "agente BAT",
+            setName: "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.QuestName".fromLocalized(),
+            characterName: "OUTFIT.B.A.T._AGENT.OUTFIT_NAME".fromLocalized(),
             image: "bat agent",
             challenges: makeInMissioneChallenges()
         ),
