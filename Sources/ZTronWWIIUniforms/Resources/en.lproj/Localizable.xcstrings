@@ -2466,6 +2466,40 @@
         }
       }
     },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traps, nukes (from the ground or consumables), lethal equipments, can all be used without impacting the challenge success."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le trappole, nuke (da terra o consumabili) ed equipaggiamenti letali, possono essere usati senza influenzare il successo della sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
     "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.Requirement1" : {
       "extractionState" : "manual",
       "localizations" : {

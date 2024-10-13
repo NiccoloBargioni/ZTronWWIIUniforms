@@ -69,6 +69,11 @@ internal func makeGuidaAllaSopravvivenzaChallenges() -> [Challenge<String>] {
                 Challenge<String>.TaggedString(
                     "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip1".fromLocalized(),
                     tag: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip1Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip2".fromLocalized(),
+                    tag: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip2Tag".fromLocalized()
                 )
             ]
         ),
