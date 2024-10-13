@@ -78,31 +78,31 @@ internal func makeRoughingItChallenges() -> [Challenge<String>] {
         
         // MARK: - HOME ADVANTAGE
         Challenge<String>(
-            name: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.ChallengeName".fromLocalized(),
+            name: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ChallengeName".fromLocalized(),
             map: "prologo",
-            riddle: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.Riddle".fromLocalized(),
+            riddle: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
-                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.Requirement1".fromLocalized(),
-                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.Requirement1Tag".fromLocalized()
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1Tag".fromLocalized()
                 )
             ],
             donts: [],
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(
-                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.ProTip1".fromLocalized(),
-                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.ProTip1Tag".fromLocalized()
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1Tag".fromLocalized()
                 ),
                 
                 Challenge<String>.TaggedString(
                     "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.ProTip2".fromLocalized(),
-                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.ProTip2Tag".fromLocalized()
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2Tag".fromLocalized()
                 ),
                 
                 Challenge<String>.TaggedString(
                     "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.ProTip3".fromLocalized(),
-                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.ProTip3Tag".fromLocalized()
+                    tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3Tag".fromLocalized()
                 ),
             ]
         ),
