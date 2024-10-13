@@ -32,11 +32,11 @@ public class Quest: ObservableObject, Identifiable, Hashable, Equatable {
     }
 
     public func getCharacterName() -> String {
-        return self.characterName
+        return String(localized: String.LocalizationValue(self.characterName), bundle: .module)
     }
 
     public func getSetName() -> String {
-        return self.setName
+        return String(localized: String.LocalizationValue(self.setName), bundle: .module)
     }
 
     public func getMap() -> String {
