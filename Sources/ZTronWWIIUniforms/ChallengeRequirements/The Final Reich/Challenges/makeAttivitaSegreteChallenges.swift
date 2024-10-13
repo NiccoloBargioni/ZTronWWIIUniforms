@@ -2,15 +2,40 @@ import Foundation
 import LoremIpsum
 
 internal func makeAttivitaSegreteChallenges() -> [Challenge<String>] {
-    return Array((0..<Int.random(in: 2...10))).map { _ in
-        return Challenge<String>(
-            name: LoremIpsum.word,
+    return [
+        Challenge<String>(
+            name: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ChallengeName".fromLocalized(),
             map: "the final reich",
-            riddle: LoremIpsum.sentence,
-            requirements: [Challenge<String>.TaggedString(LoremIpsum.word, tag: "requirement 1")],
+            riddle: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Riddle".fromLocalized(),
+            requirements: [
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Requirement1Tag".fromLocalized()
+                )
+            ],
             donts: [],
             glitches: [],
-            proTips: []
-        )
-    }
+            proTips: [
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip3".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip3Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip4".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip4Tag".fromLocalized()
+                )
+            ]
+        ),
+    ]
 }

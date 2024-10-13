@@ -494,6 +494,210 @@
         }
       }
     },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One Man Army"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uomo esercito"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To save rounds, use Frontline for the lightning rod and Tesla Gun upgrade defenses: when Frontline is active, zombies will chase you instead of attacking the objectives. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per risparmiare round, usa Prima Linea per la difesa del parafulmini e le difese del potenziamento dell’arma Tesla: quando Prima Linea è attivo, gli zombi inseguono te invece di attaccare gli obiettivi."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge the Gramophone during a Pest round. There is one every 5 rounds."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carica il grammofono durante un round Pest. Ce n’è uno ogni 5 round."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use one of the bombers that spawn when you open the Salt Mines door to get the Testa battery in the lab area (electric trap, Speed Cola)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa uno dei bombardieri che spawnano quando apri la porta delle miniere di sale per ottenere la batteria della Tesla nell’area del laboratorio (trappola elettrica, Speed Cola)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you get the first part for the Tesla Gun, one Wustling will spawn: you can use that Wustling to obtain the Tesla Gun battery in the sewers (pack-a-punch room)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appena ottieni la prima parte dell’arma Tesla, spawna un Wustling che può essere usato per ottenere la batteria dell’arma Tesla nelle fognature (stanza pack-a-punch)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg in solo."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore in solo."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I’ll save you, brother, even if I have to do it myself."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ti salverò, fratello, anche se dovessi farlo da solo."
+          }
+        }
+      }
+    },
     "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
