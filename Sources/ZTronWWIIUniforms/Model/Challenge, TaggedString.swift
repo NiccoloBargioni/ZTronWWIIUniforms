@@ -39,7 +39,7 @@ public class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
     }
     
     public func getRiddle() -> String {
-        return self.riddle
+        return String(localized: String.LocalizationValue(stringLiteral: self.riddle), bundle: .module)
     }
     
     public func getRequirements() -> [TaggedString] {
