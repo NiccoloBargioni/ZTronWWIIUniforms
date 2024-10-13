@@ -17,16 +17,6 @@ internal func makeAttivitaSegreteChallenges() -> [Challenge<String>] {
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(
-                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1".fromLocalized(),
-                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1Tag".fromLocalized()
-                ),
-                
-                Challenge<String>.TaggedString(
-                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2".fromLocalized(),
-                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2Tag".fromLocalized()
-                ),
-                
-                Challenge<String>.TaggedString(
                     "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip3".fromLocalized(),
                     tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip3Tag".fromLocalized()
                 ),
@@ -34,6 +24,17 @@ internal func makeAttivitaSegreteChallenges() -> [Challenge<String>] {
                 Challenge<String>.TaggedString(
                     "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip4".fromLocalized(),
                     tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip4Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1Tag".fromLocalized()
+                ),
+                
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2Tag".fromLocalized()
                 )
             ]
         ),
