@@ -290,6 +290,23 @@
         }
       }
     },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On Assignment"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In missione"
+          }
+        }
+      }
+    },
     "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEASONED.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
