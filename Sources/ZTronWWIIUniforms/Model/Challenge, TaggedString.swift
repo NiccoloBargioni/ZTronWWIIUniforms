@@ -31,7 +31,7 @@ public class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
     }
     
     public func getName() -> String {
-        return String(localized: String.LocalizationValue(stringLiteral: self.name), bundle: Bundle.module)
+        return String(localized: String.LocalizationValue(stringLiteral: self.name), bundle: .module)
     }
     
     public func getMap() -> String {
