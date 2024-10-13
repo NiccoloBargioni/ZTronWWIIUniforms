@@ -715,6 +715,40 @@
         }
       }
     },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The progress is individual. If a teammate gets damaged, you can still complete this challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il progresso è individuale. Se un compagno subisce danni, puoi comunque completare la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        }
+      }
+    },
     "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Requirement1" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2126,6 +2160,23 @@
         }
       }
     },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Things were simpler back then."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora era tutto più semplice."
+          }
+        }
+      }
+    },
     "OUTFIT.MOUNTAINEER.ROUGHING_IT.QuestName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2700,6 +2751,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tira il dado"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Dont1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It’s not possible to use Free Fire with MK.II (temporary pack-a-punch upgrade). * [to be tested: either this or at least 1 mystery box spin is required]."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non è possibile utilizzare Fuoco Librero con MK.II (potenziamento pack-a-punch temporaneo). * [richiede ulteriori test: in alternativa potrebbe essere necessario almeno un giro di cassa]."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Dont1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da non fare 1"
           }
         }
       }

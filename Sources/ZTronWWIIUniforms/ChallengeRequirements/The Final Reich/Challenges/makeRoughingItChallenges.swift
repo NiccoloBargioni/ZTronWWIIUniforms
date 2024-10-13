@@ -96,12 +96,12 @@ internal func makeRoughingItChallenges() -> [Challenge<String>] {
                 ),
                 
                 Challenge<String>.TaggedString(
-                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.ProTip2".fromLocalized(),
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2".fromLocalized(),
                     tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2Tag".fromLocalized()
                 ),
                 
                 Challenge<String>.TaggedString(
-                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_BDVANTAGE.ProTip3".fromLocalized(),
+                    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3".fromLocalized(),
                     tag: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3Tag".fromLocalized()
                 ),
             ]

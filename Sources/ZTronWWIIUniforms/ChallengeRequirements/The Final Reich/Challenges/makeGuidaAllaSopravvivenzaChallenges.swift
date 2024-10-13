@@ -83,7 +83,12 @@ internal func makeGuidaAllaSopravvivenzaChallenges() -> [Challenge<String>] {
                     tag: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement1Tag".fromLocalized()
                 )
             ],
-            donts: [],
+            donts: [
+                Challenge<String>.TaggedString(
+                    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Dont1".fromLocalized(),
+                    tag: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Dont1Tag".fromLocalized()
+                )
+            ],
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(

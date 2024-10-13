@@ -50,6 +50,11 @@ internal func makeRitornoInPatriaChallenges() -> [Challenge<String>] {
                     "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip2".fromLocalized(),
                     tag: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip2Tag"
                 ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip3".fromLocalized(),
+                    tag: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip3Tag"
+                )
             ]
         ),
         
