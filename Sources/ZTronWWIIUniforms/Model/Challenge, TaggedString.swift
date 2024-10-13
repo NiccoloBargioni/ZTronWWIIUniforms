@@ -20,7 +20,7 @@ public class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
         glitches: [TaggedString],
         proTips: [TaggedString]
     ) {
-        self.name = name.capitalized
+        self.name = name
         self.map = map
         self.riddle = riddle
         self.requirements = requirements
@@ -31,7 +31,7 @@ public class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
     }
     
     public func getName() -> String {
-        return String(localized: String.LocalizationValue(stringLiteral: self.name), bundle: .module)
+        return String(localized: String.LocalizationValue(stringLiteral: self.name), bundle: .module).capitalized
     }
     
     public func getMap() -> String {
