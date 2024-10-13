@@ -81,19 +81,26 @@ internal func makeGuidaAllaSopravvivenzaChallenges() -> [Challenge<String>] {
                 Challenge<String>.TaggedString(
                     "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement1".fromLocalized(),
                     tag: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement1Tag".fromLocalized()
-                )
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement2".fromLocalized(),
+                    tag: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement2Tag".fromLocalized()
+                ),
             ],
             donts: [
-                Challenge<String>.TaggedString(
-                    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Dont1".fromLocalized(),
-                    tag: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Dont1Tag".fromLocalized()
-                )
+                
             ],
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(
                     "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip1".fromLocalized(),
                     tag: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip1Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip2".fromLocalized(),
+                    tag: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip2Tag".fromLocalized()
                 )
             ]
         )

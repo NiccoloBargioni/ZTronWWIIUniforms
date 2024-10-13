@@ -15,7 +15,12 @@ internal func makeRitornoInPatriaChallenges() -> [Challenge<String>] {
             ],
             donts: [],
             glitches: [],
-            proTips: []
+            proTips: [
+                Challenge<String>.TaggedString(
+                    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ProTip1Tag".fromLocalized()
+                )
+            ]
         ),
         
         Challenge<String>(

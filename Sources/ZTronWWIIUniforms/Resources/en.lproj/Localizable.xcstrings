@@ -834,6 +834,40 @@
         }
       }
     },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The progress is individual: you team-mate going down won’t deny the challenge for you."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il progresso è individuale: se un compagno di squadra va a terra, puoi ancora sbloccare la tua sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
     "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.Requirement1" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2755,40 +2789,6 @@
         }
       }
     },
-    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Dont1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "It’s not possible to use Free Fire with MK.II (temporary pack-a-punch upgrade). * [to be tested: either this or at least 1 mystery box spin is required]."
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Non è possibile utilizzare Fuoco Librero con MK.II (potenziamento pack-a-punch temporaneo). * [richiede ulteriori test: in alternativa potrebbe essere necessario almeno un giro di cassa]."
-          }
-        }
-      }
-    },
-    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Dont1Tag" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Don’t 1"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Da non fare 1"
-          }
-        }
-      }
-    },
     "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip1" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2823,6 +2823,40 @@
         }
       }
     },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Free Fire with MK.II (temporary pack-a-punch upgrade) is allowed, on the starting weapon as well. Traps, nukes (from the ground and consumables), and lethal equipments are allowed."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuoco Libero con MK.II (potenziamento temporaneo pack-a-punch) è consentito, anche sull’arma iniziale. Trappole, nuke (da terra o da consumabili), ed equipaggiamenti letali sono consentiti."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
     "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement1" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2853,6 +2887,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At least one mystery box spin is required. 0 spins causes the challenge to fail."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Almeno un giro di scatola magica è richiesto. Con 0 giri la sfida fallisce."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 2"
           }
         }
       }
