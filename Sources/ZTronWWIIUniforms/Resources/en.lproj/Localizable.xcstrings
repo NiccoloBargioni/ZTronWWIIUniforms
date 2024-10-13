@@ -494,6 +494,96 @@
         }
       }
     },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto calcolato"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Having a team is preferable. At the beginning of round 6, one player opens the Salt Mines door and shoots the rear head of all the four bombers that spawn. \\n\\nSuch player goes to the Courtyard area with all the four bombers and trains them until the end of the round. \\n\\nThe other player(s) kills the zombies only inside the Red Circles for the Tesla Gun quest. \\n\\nUpon obtaining the first part of the Tesla Gun, a Wustling will spawn. \\n\\nSuch Wustling needs to be saved and brought at the end of the round to the pack-a-punch room area to unlock the Tesla Gun Battery. \\n\\nThen the player who was training the bombers goes to the pack-a-punch room and kills all four bombers with one trap activation. \\n\\nThis way you have one Tesla Gun battery able to be defended as soon as round 7. "
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg by wave 16."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore entro l’ondata 16 (compresa)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your bullets. Take your time. Do this right."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risparmia i colpi. Vai con calma. Fallo bene."
+          }
+        }
+      }
+    },
     "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -647,6 +737,40 @@
         }
       }
     },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you activate pack-a-punch there’s a chance to spawn extra Pests. Only activate it on round 10 to ensure that you kill enough pests with a single activation of the morgue trap."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando il pack-a-punch viene attivato, c’è la possibilità che spawnino dei Pest extra. Attivalo solamente una volta raggiunto il round 10, così da garantire che vengano uccisi abbastanza Pests con una singola attivazione della trappola dell’obitorio. "
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
     "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Requirement1" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -693,7 +817,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ti salverò, fratello, anche se dovessi farlo da solo."
+            "value" : "Ti salverò, fratello, a costo di farlo io."
           }
         }
       }

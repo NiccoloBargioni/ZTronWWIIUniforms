@@ -31,6 +31,10 @@ internal func makeAttivitaSegreteChallenges() -> [Challenge<String>] {
                     tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1Tag".fromLocalized()
                 ),
                 
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip5".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip5Tag".fromLocalized()
+                ),
                 
                 Challenge<String>.TaggedString(
                     "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2".fromLocalized(),
@@ -38,5 +42,26 @@ internal func makeAttivitaSegreteChallenges() -> [Challenge<String>] {
                 )
             ]
         ),
+        
+        Challenge<String>(
+            name: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ChallengeName".fromLocalized(),
+            map: "the final reich",
+            riddle: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.Riddle".fromLocalized(),
+            requirements: [
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.Requirement1Tag".fromLocalized()
+                )
+            ],
+            donts: [],
+            glitches: [],
+            proTips: [
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip1Tag".fromLocalized()
+                )
+            ]
+        ),
+
     ]
 }
