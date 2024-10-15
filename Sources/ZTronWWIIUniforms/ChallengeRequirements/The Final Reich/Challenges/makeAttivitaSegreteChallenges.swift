@@ -59,7 +59,37 @@ internal func makeAttivitaSegreteChallenges() -> [Challenge<String>] {
                 Challenge<String>.TaggedString(
                     "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip1".fromLocalized(),
                     tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip1Tag".fromLocalized()
-                )
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip2".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip2Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip3".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip3Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip4".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip4Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip5".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip5Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip6".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip6Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip7".fromLocalized(),
+                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip7Tag".fromLocalized()
+                ),
             ]
         ),
 

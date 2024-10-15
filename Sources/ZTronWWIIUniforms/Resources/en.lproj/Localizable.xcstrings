@@ -517,7 +517,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Having a team is preferable. At the beginning of round 6, one player opens the Salt Mines door and shoots the rear head of all the four bombers that spawn. \n\nSuch player goes to the Courtyard area with all the four bombers and trains them until the end of the round.\n\nThe other player(s) kills the zombies only inside the Red Circles for the Tesla Gun quest.\n\nUpon obtaining the first part of the Tesla Gun, a Wustling will spawn.\n\nSuch Wustling needs to be saved and brought at the end of the round to the pack-a-punch room area to unlock the Tesla Gun Battery.\n\nThen the player who was training the bombers goes to the pack-a-punch room and kills all four bombers with one trap activation. \n\n\nThis way you have one Tesla Gun battery able to be defended as soon as round 7. "
+            "value" : "Having a team is preferable. At the beginning of wave 6, one player opens the Salt Mines door and shoots the rear head of all the four bombers that spawn. \n\nSuch player goes to the Courtyard area with all the four bombers and trains them until the end of the wave.\n\nThe other player(s) kills the zombies only inside the Red Circles for the Tesla Gun quest.\n\nUpon obtaining the first part of the Tesla Gun, a Wustling will spawn.\n\nSuch Wustling needs to be saved and brought at the end of the wave to the pack-a-punch room area to unlock the Tesla Gun Battery.\n\nThen the player who was training the bombers goes to the pack-a-punch room and kills all four bombers with one trap activation. \n\nThis way you have one Tesla Gun battery able to be defended as soon as wave 7. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avere una squadra è preferibile. All’inizio del round 6, un giocatore apre la porta delle miniere di sale e spara alla testa posteriore dei quattro bombardieri che spawnano.\n\nQuesto giocatore va nella zona del cortile con tutti e quattro i bombardieri e li gira fino alla fine del round.\n\nL’altro giocatore uccide tutti gli zombie solo all’interno dei cerchi rossi per la sfida dell’arma Tesla.\n\nOttenuta la prima parte di quest’ultima, spawnerà un Wustling. \n\nTaluno dev’essere salvato fino alla fine del round, e portato nella zona del pack-a-punch per sbloccare la batteria dell’arma Tesla.\n\nSuccessivamente, il giocatore che sta girando i bombardieri, si reca nella stanza del pack-a-punch ed uccide tutti e quattro questi ultimi con una singola attivazione della trappola.\n\nIn questo modo è possibile difendere una batteria dell’arma Tesla già dal round 7."
           }
         }
       }
@@ -529,6 +535,216 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At the beginning of wave 7, activate the lightning rod defense step, without killing zombies. When its health bar turns red, activate Frontile. This strategy needs to be repeated for the second defense."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All’inizio del round 7, attiva la difesa del parafulmini, senza uccidere nessuno zombie. Quando la barra della salute del parafulmini diventa rossa, attiva Prima Linea. Seguire la medesima strategia per la prossima difesa."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave 7, in between the two defenses, do the quest for the morgue battery (streetlights). "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round 7, tra la prima difesa e la seconda, esegui il passaggio della batteria dell’obitorio (lampioni)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave 7, after the second defense, damage the Zeppelin while it is hovering the courtyard area: the battery (Uberschnalle) should drop in the courtyard. \n\nGather enough zombies in the courtyard area and activate the trap to fill the Uberschnalle and unlock the Tesla Gun battery at the same time."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round 7, dopo la seconda difesa, danneggia lo Zeppelin mentre sorvola l’area del cortile: la batteria (Uberschnalle) dovrebbe cadere nel cortile. \n\nRaduna un numero sufficiente di zombie nel cortile ed attiva la trappola per riempire l’Uberschnalle e sbloccare la batteria dell’arma Tesla in un solo colpo."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Before wave 10, complete the Zeppelin steps and defend the first two batteries for the Tesla Gun upgrades.\n\nFor the defenses, use Frontline and don’t kill zombies."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima di round 10, completa i passaggi dello Zeppelin e difendi le prime due batterie per il potenziamento delle armi Tesla.\n\nPer le difese, usa Prima Linea e non uccidere zombie."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave 10, make sure that pack-a-punch is ready to be opened, but not open yet. Before the wave starts, interact with the buttons at the end of the pipes, for an high random chance to spawn extra pests.\n\nTrain all the pests in the morgue, then activate the trap and gather (with all your teammates, if applicable), in the middle of the room. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A round 10, accertati che il pack-a-punch sia pronto ad essere aperto ma non ancora aperto. Prima dell’inizio del round, interagisci coi pulsanti in fondo ai tubi, per un’opportunità di spawnare ulteriori pests (probabilità alta). \n\nPorta tutti i pests nell’obitorio, poi attiva la trappola e subito riunisciti ai tuoi compagni (se ci sono) al centro della stanza."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip6Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip7" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At the beginning of wave 11, start the defense for the upgrade of the Tesla Gun battery that you unlocked on wave 10. \n\nWith the red talon sword, go to the pub and charge the gramophone.\n\nAll Wustlings need to be saved during this wave."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All’inizio del round 10, avvia la difesa per il potenziamento della batteria dell’arma Tesla che hai sbloccato al round 10.\n\nCon l’artiglio rosso (spada), recati al pub e carica il grammofono.\n\nTutti i Wustling devono essere salvati durante questa ondata."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip7Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
           }
         }
       }
