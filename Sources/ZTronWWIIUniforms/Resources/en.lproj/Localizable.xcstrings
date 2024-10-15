@@ -551,7 +551,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "At the beginning of wave 7, activate the lightning rod defense step, without killing zombies. When its health bar turns red, activate Frontile. This strategy needs to be repeated for the second defense."
+            "value" : "At the beginning of wave 7, activate the lightning rod defense step, without killing zombies. When its health bar turns red, activate Frontline. This strategy needs to be repeated for the second defense."
           }
         },
         "it" : {
@@ -800,6 +800,108 @@
         }
       }
     },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Old School"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vecchia scuola"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Dont1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do not use self-revives, as they’re considered as consumables."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non utilizzare autorianimazioni, in quanto vengono classificate come consumabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Dont1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da non fare 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg without any player using special abilities, mods, or consumables."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore senza che alcun giocatore usi abilità speciali, mods, o consumabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No school like the old school."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La vecchia scuola è la migliore."
+          }
+        }
+      }
+    },
     "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1034,6 +1136,176 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ti salverò, fratello, a costo di farlo io."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.TIME_IS_OF_ESSENCE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time is of the Essence"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il tempo è cruciale"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.TIME_IS_OF_ESSENCE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg within 75 minutes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore entro 75 minuti."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.TIME_IS_OF_ESSENCE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.TIME_IS_OF_ESSENCE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“We must hurry, he may not have much time!”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Sbrighiamoci, potrebbe restargli poco tempo!”"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unscathed"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Illeso"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use Frontline with Determination (mod) to recover shields and keep the price of geistschild as low as possible."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa Prima Linea con Determinazione (modo) per recuperare gli scudi e mantenere basso il prezzo del geistschild."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg with no downed players."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore senza giocatori atterrati."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No man left behind."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuno sarà abbandonato."
           }
         }
       }
