@@ -135,27 +135,6 @@ internal func makeAttivitaSegreteChallenges() -> [Challenge<String>] {
         
         
         Challenge<String>(
-            name: "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.ChallengeName".fromLocalized(),
-            map: "the final reich",
-            riddle: "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.Riddle".fromLocalized(),
-            requirements: [
-                Challenge<String>.TaggedString(
-                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.Requirement1".fromLocalized(),
-                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.Requirement1Tag".fromLocalized()
-                )
-            ],
-            donts: [],
-            glitches: [],
-            proTips: [
-                Challenge<String>.TaggedString(
-                    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.ProTip1".fromLocalized(),
-                    tag: "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.ProTip1Tag".fromLocalized()
-                )
-            ]
-        ),
-        
-        
-        Challenge<String>(
             name: "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.ChallengeName".fromLocalized(),
             map: "the final reich",
             riddle: "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Riddle".fromLocalized(),

@@ -36,7 +36,7 @@ func makeTheFinalReichQuests() -> [Quest] {
         
         Quest(
             map: "the final reich",
-            setName: "attività segrete",
+            setName: "OUTFIT.B.A.T._ELITE.OFF_RECORD.QuestName".fromLocalized(),
             characterName: "agente scelto BAT",
             image: "bat elite operative",
             challenges: makeAttivitaSegreteChallenges()
@@ -44,8 +44,8 @@ func makeTheFinalReichQuests() -> [Quest] {
         
         Quest(
             map: "the final reich",
-            setName: "caccia grossa",
-            characterName: "uccisore",
+            setName: "OUTFIT.SLAYER.BIG_GAME.QuestName".fromLocalized(),
+            characterName: "OUTFIT.SLAYER.BIG_GAME.OUTFIT_NAME".fromLocalized(),
             image: "slayer",
             challenges: makeCacciaGrossaChallenges()
         )

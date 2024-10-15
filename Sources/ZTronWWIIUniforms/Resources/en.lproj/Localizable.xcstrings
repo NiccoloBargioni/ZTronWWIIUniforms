@@ -840,13 +840,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Don’t 1"
+            "value" : "Requirement 1"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Da non fare 1"
+            "value" : "Requisito 1"
           }
         }
       }
@@ -1140,6 +1140,23 @@
         }
       }
     },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off Record"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attività segrete"
+          }
+        }
+      }
+    },
     "OUTFIT.B.A.T._ELITE.OFF_RECORD.TIME_IS_OF_ESSENCE.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1306,6 +1323,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nessuno sarà abbandonato."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B.A.T Elite"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agente scelto B.A.T."
           }
         }
       }
@@ -3210,6 +3244,516 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dove tutto ha avuto inizio."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.AU_NATUREL.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Au Naturel"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Au Naturel"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.AU_NATUREL.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg without any player using special abilities, mods, or consumables."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base senza che i giocatori usino abilità speciali, mod, o consumabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.AU_NATUREL.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.AU_NATUREL.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No helmet either."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Via anche i caschi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.BLITZLESS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blitzless"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senza blitz"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.BLITZLESS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg without any players using perks."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base senza che i giocatori usino perk."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.BLITZLESS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.BLITZLESS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No fancy German medicine."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niente strani intrugli tedeschi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Power"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bassa potenza"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Free Fire with MK.II is allowed.**"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuoco Libero con MK.II è consentito.**"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg without any players using pack a punch."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base senza che i giocatori usino il pack-a-punch."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No fancy German engineering."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niente strani macchinari tedeschi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.NOT_A_SCRATCH.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not a Scratch"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neanche un graffio"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.NOT_A_SCRATCH.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg with no downed players."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base senza giocatori atterrati."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.NOT_A_SCRATCH.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.NOT_A_SCRATCH.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No mistakes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietato sbagliare."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slayer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccisore"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.OUTFIT_NAME.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Big Game"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caccia grossa"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Practiced"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratico"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op, as soon as wave 1 starts, one player activates Elektromagnet (double jolts) while everyone else activates Vernichten (nuke) to maximise the points."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In cooperativa, appena inizia il round 1, un giocatore attiva Elektromagnet (doppie scosse), mentre tutti gli altri attivano Vernichten (testata nucleare) per massimizzare i punti."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To maximize the points, with 1911, on wave 1, shoot three times to the legs, and then use the shovel. \n\nEvery round, the number of shots you can take increases by 2. \n\nTo speed up the shovel melee animation, make sure you are crouching while performing the attack."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per massimizzare i punti, con le 1911, a round 1, spara tre volte alle gambe, e poi usa la pala.\n\nOgni round, il numero di colpi che puoi infierire aumenta di 2.\n\nPer velocizzare l’animazione della palata, accertati di essere accovacciato mentre esegui l’attacco."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the lightning rod defenses, don’t kill any zombie, and use Frontline when the health bar turns red (while being far from the rod). "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per le difese del parafulmini, non uccidere alcuno zombie, ed usa Prima Linea quando la barra della salute diventa rossa (mentre sei lontano dal parafulmini)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg within wave 12 (included)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base entro il round 12 (compreso)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“We’re professionals”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Siamo professionisti.”"
           }
         }
       }
