@@ -65,8 +65,6 @@ public final class ChallengeRequirementsSwipeManager: ObservableObject, @uncheck
         }
         
         if self.challengesCount > 1 {
-            self.challengesCountLock.wait()
-            
             let nextIndex = forward ?
                 currentIndex.circularNext(upperBound: challengesCount) : currentIndex.circularPrevious(upperBound: challengesCount)
             
