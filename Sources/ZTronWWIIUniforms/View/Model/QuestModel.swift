@@ -3,7 +3,7 @@ import ZTronRouter
 import os
 
 // BY DESIGN CHOICE, PRIVATE METHODS DO NOT WAIT OR SIGNAL SEMAPHORES. IT'S THE CLIENT RESPONSIBILITY TO DO SO.
-internal final class QuestModel: ObservableObject, @unchecked Sendable {
+public final class QuestModel: ObservableObject, @unchecked Sendable {
     private static let logger = Logger(subsystem: "com.zombietron.uniforms", category: "challenges model")
     
     
