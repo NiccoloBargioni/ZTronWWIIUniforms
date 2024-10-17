@@ -71,7 +71,6 @@ public final class ChallengeRequirementsSwipeManager: ObservableObject, @uncheck
             let nextIndex = forward ?
                 currentIndex.circularNext(upperBound: challengesCount) : currentIndex.circularPrevious(upperBound: challengesCount)
             
-            self.challengesCountLock.signal()
             self.currentIndexLock.signal()
             
             self.offScreenBufferLock.wait()
