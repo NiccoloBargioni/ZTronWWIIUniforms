@@ -37,10 +37,12 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
         // Validation 1.
         for i in 0..<withInitialChips.count {
             if (routes.peek(at: withInitialChips[i]) != nil) {
-                tempSelectedChips[withInitialChips[i].count - 2].append(withInitialChips[i])
-                
-                routes.forEachNeighbour(of: withInitialChips[i]) { path, _ in
-                    tempSelectedChips[path.count - 2].append(path)
+                if !tempSelectedChips[withInitialChips[i].count - 2].contains(withInitialChips[i]) {
+                    tempSelectedChips[withInitialChips[i].count - 2].append(withInitialChips[i])
+                    
+                    routes.forEachNeighbour(of: withInitialChips[i]) { path, _ in
+                        tempSelectedChips[path.count - 2].append(path)
+                    }
                 }
             } else {
                 return nil
