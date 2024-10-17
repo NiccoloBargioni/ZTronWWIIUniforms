@@ -36,6 +36,7 @@ public final class ChallengeRequirementsSwipeManager: ObservableObject, @uncheck
     }
     
     public final func prepareForNext(forward: Bool = true) {
+        print(#function)
         self.currentIndexLock.wait()
         let nextIndex = forward ?
             currentIndex.circularNext(upperBound: challengesCount) : currentIndex.circularPrevious(upperBound: challengesCount)
@@ -58,6 +59,8 @@ public final class ChallengeRequirementsSwipeManager: ObservableObject, @uncheck
     }
     
     public final func swapBackground(forward: Bool = true) {
+        print(#function)
+
         self.challengesCountLock.wait()
         
         defer {
@@ -80,6 +83,8 @@ public final class ChallengeRequirementsSwipeManager: ObservableObject, @uncheck
     }
         
     public final func swapOnscreenBuffer() {
+        print(#function)
+
         self.viewStackLock.wait()
         self.offScreenBufferLock.wait()
                 
@@ -90,6 +95,8 @@ public final class ChallengeRequirementsSwipeManager: ObservableObject, @uncheck
     }
     
     public func getCurrentVisibleChallenge() -> Int {
+        print(#function)
+
         self.currentIndexLock.wait()
         
         defer {
@@ -100,6 +107,8 @@ public final class ChallengeRequirementsSwipeManager: ObservableObject, @uncheck
     }
     
     public func getChallengesStack() -> [BufferedChallenge] {
+        print(#function)
+
         self.viewStackLock.wait()
         
         defer {
