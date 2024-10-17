@@ -24,7 +24,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     /// 3. All the chips at depth > 0 must be in the subtree with root in the selected chip at depth 0.
     ///
     /// If the inputs can't be validated, nil is returned instead.
-    internal init?(
+    public init?(
         routes: ZTronRouter<Empty, QuestsPositionMapper, Empty>,
         withInitialChips: [ZTronNavigator.PathComponents] = []
     ) {
