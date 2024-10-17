@@ -1,7 +1,7 @@
 import Foundation
 import LoremIpsum
 
-public class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
+public final class Challenge<Tag>: Hashable, Identifiable, Sendable where Tag: Hashable & Sendable {
     private let name: String
     private let map: String
     private let riddle: String
@@ -67,7 +67,7 @@ public class Challenge<Tag>: Hashable, Identifiable where Tag: Hashable {
         hasher.combine(self.riddle)
     }
     
-    public struct TaggedString: Hashable {
+    public struct TaggedString: Hashable, Sendable {
         private let string: String
         private let tag: Tag
         

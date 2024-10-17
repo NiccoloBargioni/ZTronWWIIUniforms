@@ -1,6 +1,6 @@
 import Foundation
 
-public class Quest: ObservableObject, Identifiable, Hashable, Equatable {
+public final class Quest: ObservableObject, Identifiable, Hashable, Equatable, Sendable {
     private let characterName: String
     private let setName: String
     private let map: String
@@ -52,7 +52,7 @@ public class Quest: ObservableObject, Identifiable, Hashable, Equatable {
     }
 }
 
-public class QuestsPositionMapper {
+public final class QuestsPositionMapper: Sendable {
     private let quests: [Quest]
     private let position: Int
     

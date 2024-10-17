@@ -476,9 +476,9 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
     
     
     /// A structure that represent a parent -> child relationship between two quests.
-    internal struct QuestSetWithParent: Hashable {
-        private var quests: QuestsPositionMapper
-        private var parentPath: ZTronNavigator.PathComponents
+    internal struct QuestSetWithParent: Hashable, Sendable {
+        private let quests: QuestsPositionMapper
+        private let parentPath: ZTronNavigator.PathComponents
         
         init(quests: QuestsPositionMapper, parentPath: ZTronNavigator.PathComponents) {
             self.quests = quests
