@@ -13,7 +13,7 @@ public final class ChallengeRequirementsSwipeManager: ObservableObject, @uncheck
     private let offScreenBufferLock = DispatchSemaphore(value: 1)
     private let currentIndexLock = DispatchSemaphore(value: 1)
     
-    init(challengesCount: Int, initialChallenge: Int) {
+    public init(challengesCount: Int, initialChallenge: Int) {
         precondition(initialChallenge >= 0 && initialChallenge < challengesCount)
         self.challengesCount = challengesCount
         self.currentIndex = initialChallenge
