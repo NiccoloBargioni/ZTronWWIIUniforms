@@ -68,7 +68,6 @@ public final class ChallengeRequirementsSwipeManager: ObservableObject, @uncheck
         }
         
         if self.challengesCount > 1 {
-            self.currentIndexLock.wait()
             self.challengesCountLock.wait()
             
             let nextIndex = forward ?
