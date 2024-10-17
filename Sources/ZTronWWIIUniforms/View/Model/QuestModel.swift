@@ -14,6 +14,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     
     private let routesLock: DispatchSemaphore = .init(value: 1)
     private let selectedChipsLock: DispatchSemaphore = .init(value: 1)
+    private let allChipsLock: DispatchSemaphore = .init(value: 1)
     
     /// Initialized a selection of chips from the specified router and initial chips, and validates it.
     ///
@@ -73,12 +74,19 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
             }
         }
         
+        self.allChipsLock.wait()
         self.allChips = initialChips
+        self.allChipsLock.signal()
+        
         self.selectedChips = tempSelectedChips
         
         self.routesLock.wait()
         self.selectedChipsLock.wait()
+        
+        self.allChipsLock.wait()
         self.sortChips(startingAt: 0, buffer: &self.allChips)
+        self.allChipsLock.signal()
+        
         self.sortChips(startingAt: 0, buffer: &self.selectedChips)
         self.selectedChipsLock.signal()
         self.routesLock.signal()
@@ -163,6 +171,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
         precondition(self.routes.peek(at: chip) != nil)
         self.routesLock.signal()
         
+        self.allChipsLock.wait()
         // Is the requested chip a valid one?
         guard (self.allChips[chip.count - 2].firstIndex (where: { selectedChip in
             return selectedChip == chip
@@ -170,8 +179,11 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
             #if DEBUG
             Self.logger.debug("\(#function) invoked on non-registered path \(chip)")
             #endif
+            
+            self.allChipsLock.signal()
             return
         }
+        self.allChipsLock.signal()
         
         self.selectedChipsLock.wait()
         guard !(self.selectedChips[chip.count - 2].contains(chip)) else {
@@ -325,6 +337,12 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
         
         defer {
             self.selectedChipsLock.signal()
+        }
+        
+        self.allChipsLock.wait()
+        
+        defer {
+            self.allChipsLock.signal()
         }
         
         return self.allChips.enumerated().map { offset, chipLevel in
