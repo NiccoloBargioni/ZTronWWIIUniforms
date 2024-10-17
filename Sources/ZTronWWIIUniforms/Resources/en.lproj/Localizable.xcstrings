@@ -3571,23 +3571,6 @@
         }
       }
     },
-    "OUTFIT.SLAYER.BIG_GAME.OUTFIT_NAME.QuestName" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Big Game"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Caccia grossa"
-          }
-        }
-      }
-    },
     "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3754,6 +3737,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "“Siamo professionisti.”"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Big Game"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caccia grossa"
           }
         }
       }
