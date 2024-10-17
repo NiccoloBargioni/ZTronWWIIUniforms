@@ -12,7 +12,8 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
     @Published private var selectedChips: [[ZTronNavigator.PathComponents]]
     private var allChips: [[ZTronNavigator.PathComponents]]
     
-    private var routesLock: DispatchSemaphore = .init(value: 1)
+    private let routesLock: DispatchSemaphore = .init(value: 1)
+    private let selectedChipsLock: DispatchSemaphore = .init(value: 1)
     
     /// Initialized a selection of chips from the specified router and initial chips, and validates it.
     ///
@@ -76,8 +77,10 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
         self.selectedChips = tempSelectedChips
         
         self.routesLock.wait()
+        self.selectedChipsLock.wait()
         self.sortChips(startingAt: 0, buffer: &self.allChips)
         self.sortChips(startingAt: 0, buffer: &self.selectedChips)
+        self.selectedChipsLock.signal()
         self.routesLock.signal()
     }
     
@@ -99,6 +102,12 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
             #endif
             return 0
         } else {
+            selectedChipsLock.wait()
+            
+            defer {
+                selectedChipsLock.signal()
+            }
+            
             return self.selectedChips[depth].count
         }
     }
@@ -115,6 +124,8 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
         _ chip: ZTronNavigator.PathComponents,
         from buffer: inout [[ZTronNavigator.PathComponents]]
     ) {
+        print(#function)
+
         var clone = self.cloneSelectedChips()
         
         self.routes.forEachBFS(from: chip) { path, quest in
@@ -162,19 +173,22 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
             return
         }
         
+        self.selectedChipsLock.wait()
         guard !(self.selectedChips[chip.count - 2].contains(chip)) else {
             #if DEBUG
             Self.logger.debug("\(#function) invoked on already selected chip. Ignored.")
             #endif
+            self.selectedChipsLock.signal()
             return
         }
-        
+
         var clone = cloneSelectedChips()
+        selectedChipsLock.signal()
         
         var oneChipPerParent: Bool = true
         
         for i in 0..<chip.count - 2 {
-            if self.selectedChips[i].count != 1 {
+            if clone[i].count != 1 {
                 oneChipPerParent = false
                 break
             }
@@ -183,9 +197,11 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
         if chip.count <= 2 || !oneChipPerParent {
             print("Unselecting chips at level \(chip.count - 2)")
             self.routesLock.wait()
+            self.selectedChipsLock.wait()
             clone[chip.count - 2].forEach { chip in
                 self.unselectChip(chip, from: &clone)
             }
+            self.selectedChipsLock.signal()
             self.routesLock.signal()
         }
         
@@ -211,6 +227,12 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
     internal func lastVisibleLevel() -> Int {
         var firstNilLevelFound: Bool = false
         var lastVisibleLevelIdx: Int = 0
+ 
+        self.selectedChipsLock.wait()
+        
+        defer {
+            self.selectedChipsLock.signal()
+        }
         
         for i in 0..<self.selectedChips.count {
             if self.selectedChips[i].count <= 0 {
@@ -237,6 +259,7 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
     /// - Note: This implementation preconditions that `chip.count > 1`, and `chip` must be registered in the router.
     /// - Complexity: O(`n*m`) where `n` is the number of distinct path components in the subtree with root in `chip`, and `m` is the number of selected chips at level `chip.count - 2`.
     internal func unselectChip(_ chip: ZTronNavigator.PathComponents) {
+        
         print(#function)
         precondition(chip.count > 1)
         
@@ -251,6 +274,12 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
             #endif
             
             return
+        }
+        
+        self.selectedChipsLock.wait()
+        
+        defer {
+            self.selectedChipsLock.signal()
         }
         
         if self.selectedChips[chip.count - 2].count <= 1 {
@@ -278,7 +307,13 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
     
     
     public func getSelectedChips() -> [[ZTronNavigator.PathComponents]] {
-        return self.selectedChips
+        self.selectedChipsLock.wait()
+        
+        defer {
+            self.selectedChipsLock.signal()
+        }
+        
+        return self.cloneSelectedChips()
     }
     
     
@@ -286,6 +321,12 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
     ///
     /// - Complexity: O(`n^2`) where n is the number of levels of chips.
     public func getChips() -> [[ZTronNavigator.PathComponents]] {
+        self.selectedChipsLock.wait()
+        
+        defer {
+            self.selectedChipsLock.signal()
+        }
+        
         return self.allChips.enumerated().map { offset, chipLevel in
             if offset <= 0 {
                 return chipLevel
@@ -321,6 +362,12 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
             #endif
             return false
         } else {
+            self.selectedChipsLock.wait()
+            
+            defer {
+                self.selectedChipsLock.signal()
+            }
+            
             return self.selectedChips[chip.count - 2].contains(chip)
         }
     }
@@ -332,8 +379,17 @@ internal final class QuestModel: ObservableObject, @unchecked Sendable {
     ///
     /// - Complexity: O(n), where `n` is the number of selected chips.
     internal func getSelectedChipsAtLastLevel() -> [ZTronNavigator.PathComponents] {
-        return self.selectedChips[self.lastVisibleLevel()]
+        let lastLevel = self.lastVisibleLevel()
+        
+        self.selectedChipsLock.wait()
+        
+        defer {
+            self.selectedChipsLock.signal()
+        }
+        
+        return Array(self.selectedChips[lastLevel])
     }
+    
     
     /// - Parameter chip: The URL of the chip to get neighbours for.
     /// - Returns: The sorted set of neighbouring chips (that is, elements at depth 1 in the subtree rooted in `chip`), for the specified `chip`.
