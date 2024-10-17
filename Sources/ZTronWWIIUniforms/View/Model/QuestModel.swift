@@ -89,7 +89,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     /// - Parameter depth: The depth at which the chips need to be counted.
     ///
     /// - Note: `rootSymbol` has depth 0.
-    internal func activeChipsAtDepth(_ depth: Int) -> Int {
+    public func activeChipsAtDepth(_ depth: Int) -> Int {
         self.routesLock.wait()
         
         defer {
@@ -154,7 +154,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     ///
     /// - Parameter `chip`: The URL of the chip to select.
     /// - Complexity: O(`d*nlog n`) where `d` is the max depth of a chip and `n` is the max number of chips per level
-    internal func selectChip(_ chip: ZTronNavigator.PathComponents) {
+    public func selectChip(_ chip: ZTronNavigator.PathComponents) {
         // chip has at least ">" (rootSymbol) as its path component, therefore set for the current chip is `chip.count - 2`.
         
         precondition(chip.count > 1)
@@ -224,7 +224,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     /// - Note: As a fault protection, this method tests whether there is an empty level of chips between two any level with at least one chip.
     ///
     /// - Complexity: O(n) where n is the number of selected chips.
-    internal func lastVisibleLevel() -> Int {
+    public func lastVisibleLevel() -> Int {
         var firstNilLevelFound: Bool = false
         var lastVisibleLevelIdx: Int = 0
  
@@ -258,7 +258,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     ///
     /// - Note: This implementation preconditions that `chip.count > 1`, and `chip` must be registered in the router.
     /// - Complexity: O(`n*m`) where `n` is the number of distinct path components in the subtree with root in `chip`, and `m` is the number of selected chips at level `chip.count - 2`.
-    internal func unselectChip(_ chip: ZTronNavigator.PathComponents) {
+    public func unselectChip(_ chip: ZTronNavigator.PathComponents) {
         
         print(#function)
         precondition(chip.count > 1)
@@ -378,7 +378,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     /// - Note: This implementation makes self use of `lastVisibleLevel` to compute the level of chips to return.
     ///
     /// - Complexity: O(n), where `n` is the number of selected chips.
-    internal func getSelectedChipsAtLastLevel() -> [ZTronNavigator.PathComponents] {
+    public func getSelectedChipsAtLastLevel() -> [ZTronNavigator.PathComponents] {
         let lastLevel = self.lastVisibleLevel()
         
         self.selectedChipsLock.wait()
@@ -394,7 +394,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     /// - Parameter chip: The URL of the chip to get neighbours for.
     /// - Returns: The sorted set of neighbouring chips (that is, elements at depth 1 in the subtree rooted in `chip`), for the specified `chip`.
     /// - Complexity: O(`nlog n`) where `n` is the number of neighbours of the specified chip.
-    internal func getNeighbouringChips(for chip: ZTronNavigator.PathComponents) -> [ZTronNavigator.PathComponents]? {
+    public func getNeighbouringChips(for chip: ZTronNavigator.PathComponents) -> [ZTronNavigator.PathComponents]? {
         return self.routes.mapNeighbours(for: chip) { absolutePath, quest in
             return absolutePath
         }?.sorted { lhs, rhs in
@@ -437,7 +437,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     /// Returns a quest and its associated position for a specified chip.
     ///
     /// - Complexity: O(`chip.count`).
-    internal func getQuestsMapperFor(chip: ZTronNavigator.PathComponents) -> QuestsPositionMapper? {
+    public func getQuestsMapperFor(chip: ZTronNavigator.PathComponents) -> QuestsPositionMapper? {
         self.routesLock.wait()
         
         defer {
@@ -452,7 +452,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     ///
     /// - Parameter chip: The chip to collect the parents for.
     /// - Complexity: O(`chip.count * nlog n`), where `n`is the number of parents for the specified quest.
-    internal func getParentQuests(for chip: ZTronNavigator.PathComponents) -> [QuestSetWithParent] {
+    public func getParentQuests(for chip: ZTronNavigator.PathComponents) -> [QuestSetWithParent] {
         var quests: [QuestSetWithParent] = []
         
         for i in 0..<chip.count {
@@ -476,7 +476,7 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     
     
     /// A structure that represent a parent -> child relationship between two quests.
-    internal struct QuestSetWithParent: Hashable, Sendable {
+    public struct QuestSetWithParent: Hashable, Sendable {
         private let quests: QuestsPositionMapper
         private let parentPath: ZTronNavigator.PathComponents
         
@@ -485,19 +485,19 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
             self.parentPath = parentPath
         }
         
-        internal func getQuestsMapper() -> QuestsPositionMapper {
+        public func getQuestsMapper() -> QuestsPositionMapper {
             return self.quests
         }
         
-        internal func getParentPath() -> ZTronNavigator.PathComponents {
+        public func getParentPath() -> ZTronNavigator.PathComponents {
             return self.parentPath
         }
         
-        internal static func ==(_ lhs: QuestSetWithParent, _ rhs: QuestSetWithParent) -> Bool {
+        public static func ==(_ lhs: QuestSetWithParent, _ rhs: QuestSetWithParent) -> Bool {
             return lhs.parentPath == rhs.parentPath && lhs.quests.getQuests() == rhs.quests.getQuests()
         }
         
-        internal func hash(into hasher: inout Hasher) {
+        public func hash(into hasher: inout Hasher) {
             hasher.combine(parentPath)
         }
     }
