@@ -29,6 +29,10 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/NiccoloBargioni/ZTronRouter", branch: "main"
+        ),
+        
+        .package(
+            url: "https://github.com/jasudev/AxisTabView", branch: "main"
         )
     ],
     targets: [
@@ -41,7 +45,8 @@ let package = Package(
                 .product(name: "ScalingHeaderScrollView", package: "ScalingHeaderScrollView"),
                 .product(name: "SwiftUIIntrospect", package: "swiftui-introspect"),
                 .product(name: "VDAnimation", package: "VDAnimation"),
-                .product(name: "ZTronRouter", package: "ZTronRouter")
+                .product(name: "ZTronRouter", package: "ZTronRouter"),
+                .product(name: "AxisTabView", package: "AxisTabView")
             ]
         ),
         .testTarget(
