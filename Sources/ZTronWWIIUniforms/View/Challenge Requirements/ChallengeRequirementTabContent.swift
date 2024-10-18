@@ -2,7 +2,7 @@ import SwiftUI
 import AxisTabView
 import Combine
 
-struct ChallengeRequirementTabContent: View {
+public struct ChallengeRequirementTabContent: View {
     @StateObject private var requirementsModel: ConcreteChallengeRequirementsModel
     @State private var listHeight: [CGFloat] = .init(repeating: .zero, count: 4)
     @State private var selection: Int = 0
@@ -16,7 +16,7 @@ struct ChallengeRequirementTabContent: View {
     
     private var listHeightPublisher = PassthroughSubject<CGFloat, Never>()
     
-    init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect) {
+    public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect) {
         self.challenge = peers[challenge]
         self.quest = quest
         self.peerChallenges = peers
@@ -29,7 +29,7 @@ struct ChallengeRequirementTabContent: View {
         )
     }
     
-    var body: some View {
+    public var body: some View {
         VStack {
             AxisTabView(selection: $selection, constant: ATConstant(axisMode: .top)) { state in
                 ATBeadStyle(

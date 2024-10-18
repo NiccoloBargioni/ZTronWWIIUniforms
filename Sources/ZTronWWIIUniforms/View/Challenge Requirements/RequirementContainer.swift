@@ -1,6 +1,6 @@
 import SwiftUI
 
-public struct RequirementContainer: View {
+struct RequirementContainer: View {
     @Environment(\.colorScheme) private var colorScheme
     
     private var accentColor: Color
@@ -21,7 +21,7 @@ public struct RequirementContainer: View {
     private var onBugsChipTapped: (() -> Void)? = nil
     private var onProTipsChipTapped: (() -> Void)? = nil
 
-    public init(
+    init(
         accentColor: Color,
         text: String,
         _ colorMapper: @escaping (Int) -> Color
@@ -31,7 +31,7 @@ public struct RequirementContainer: View {
         self.colorMapper = colorMapper
     }
     
-    public var body: some View {
+    var body: some View {
         HStack(spacing: 0) {
             Rectangle()
                 .fill(accentColor)
