@@ -1,5 +1,5 @@
 {
-  "originHash" : "4c7ad2b15c0a72e09b76130c85786aba4db765994c6cb494f908e64c085d4f53",
+  "originHash" : "6943e27a94f39685c7d68e4055dfe671a7880fb79724fa0d5cdd050997686b20",
   "pins" : [
     {
       "identity" : "axistabview",
@@ -8,6 +8,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "a96f3ad288a733f1c774ea57bad8be87b45aa56e"
+      }
+    },
+    {
+      "identity" : "lazy-view-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/joehinkle11/Lazy-View-SwiftUI",
+      "state" : {
+        "branch" : "master",
+        "revision" : "0f838ed8eb0beb3faab35aae225f2545a1dd5338"
       }
     },
     {
@@ -67,7 +76,7 @@
     {
       "identity" : "ztron-routing-kit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/NickTheFreak97/ztron-routing-kit",
+      "location" : "https://github.com/NickTheFreak97/ztron-routing-kit.git",
       "state" : {
         "branch" : "main",
         "revision" : "b2806b68f199c6a5f51572da90c6357f5a09dd3f"

@@ -33,6 +33,10 @@ let package = Package(
         
         .package(
             url: "https://github.com/jasudev/AxisTabView", branch: "main"
+        ),
+        
+        .package(
+            url: "https://github.com/joehinkle11/Lazy-View-SwiftUI", branch: "master"
         )
     ],
     targets: [
@@ -46,7 +50,8 @@ let package = Package(
                 .product(name: "SwiftUIIntrospect", package: "swiftui-introspect"),
                 .product(name: "VDAnimation", package: "VDAnimation"),
                 .product(name: "ZTronRouter", package: "ZTronRouter"),
-                .product(name: "AxisTabView", package: "AxisTabView")
+                .product(name: "AxisTabView", package: "AxisTabView"),
+                .product(name: "LazyViewSwiftUI", package: "Lazy-View-SwiftUI")
             ]
         ),
         .testTarget(
