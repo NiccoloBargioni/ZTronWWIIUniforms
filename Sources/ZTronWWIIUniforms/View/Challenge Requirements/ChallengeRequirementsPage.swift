@@ -91,7 +91,7 @@ public struct ChallengeRequirementsPage: View {
                                 peers: self.peerChallenges,
                                 frame: geo.frame(in: .global)
                             )
-                            .environment(self.navigator)
+                            .environmentObject(self.navigator)
                         }
                         .setHeaderSnapMode(.afterFinishAccelerating)
                         .height(min: 0, max: 150)
