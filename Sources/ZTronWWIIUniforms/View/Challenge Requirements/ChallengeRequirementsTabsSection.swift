@@ -10,7 +10,7 @@ public struct ChallengeRequirementsTabsSection: View {
     @State private var selection: Int = 0
     @State private var origin: Int = 0
     
-    @EnvironmentObject private var history: ZTronNavigator
+    @ObservedObject private var history: ZTronNavigator
 
     private var quest: Quest
     private var challenge: Challenge<String>
@@ -18,7 +18,7 @@ public struct ChallengeRequirementsTabsSection: View {
     private var challengeOffset: Int
     private var frame: CGRect
     
-    public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect) {
+    public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect, navigator: ZTronNavigator) {
         self.challenge = peers[challenge]
         self.quest = quest
         self.peerChallenges = peers
@@ -29,6 +29,8 @@ public struct ChallengeRequirementsTabsSection: View {
         self._requirementsModel = StateObject(
             wrappedValue: ConcreteChallengeRequirementsModel(quest: quest, challenge: peers[challenge])
         )
+        
+        self._history = ObservedObject(wrappedValue: navigator)
         
         self.history.navigate([0.toString()])
     }

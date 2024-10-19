@@ -89,7 +89,8 @@ public struct ChallengeRequirementsPage: View {
                                 quest: quest,
                                 challenge: challengeBuffer.getWrappedValue(),
                                 peers: self.peerChallenges,
-                                frame: geo.frame(in: .global)
+                                frame: geo.frame(in: .global),
+                                navigator: self.navigator
                             )
                         }
                         .setHeaderSnapMode(.afterFinishAccelerating)
@@ -102,7 +103,6 @@ public struct ChallengeRequirementsPage: View {
                 }
             }
         }
-        .environmentObject(self.navigator)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Image(self.quest.getImage())
