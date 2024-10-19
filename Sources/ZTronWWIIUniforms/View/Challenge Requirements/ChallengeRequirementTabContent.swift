@@ -40,52 +40,54 @@ public struct ChallengeRequirementTabContent: View {
                     marbleColor: makeColorFor(tag: selection)
                 )
             } content: {
-                RequirementTab(for: self.requirementsModel.getRequirements())
-                    .tabItem(tag: 0, normal: {
-                        Image(systemName: "checkmark.seal")
-                            .font(.system(size: 16, design: .rounded))
-                    }, select: {
-                        Image(systemName: "checkmark.seal.fill")
-                            .font(.system(size: 16, design: .rounded))
-                            .foregroundStyle(makeColorFor(tag: 0))
-                            .padding(.bottom, 10)
-                    })
-                
-                RequirementTab(for: self.requirementsModel.getDonts())
-                    .tabItem(tag: 1, normal: {
-                        Image(systemName: "hand.thumbsdown")
-                            .font(.system(size: 16, design: .rounded))
-                        
-                    }, select: {
-                        Image(systemName: "hand.thumbsdown.fill")
-                            .font(.system(size: 16, design: .rounded))
-                            .foregroundStyle(makeColorFor(tag: 1))
-                            .padding(.bottom, 10)
-                    })
-                
-                RequirementTab(for: self.requirementsModel.getBugs())
-                    .tabItem(tag: 2, normal: {
-                        Image(systemName: "ladybug")
-                            .font(.system(size: 16, design: .rounded))
-                        
-                    }, select: {
-                        Image(systemName: "ladybug.fill")
-                            .font(.system(size: 16, design: .rounded))
-                            .foregroundStyle(makeColorFor(tag: 2))
-                            .padding(.bottom, 10)
-                    })
-                
-                RequirementTab(for: self.requirementsModel.getProTips())
-                    .tabItem(tag: 3, normal: {
-                        Image(systemName: "lightbulb")
-                            .font(.system(size: 16, design: .rounded))
-                        
-                    }, select: {
-                        Image(systemName: "lightbulb.fill")
-                            .font(.system(size: 16, design: .rounded))
-                            .foregroundStyle(makeColorFor(tag: 3))
-                            .padding(.bottom, 10)
-                    })
+                Group {
+                    RequirementTab(for: self.requirementsModel.getRequirements())
+                        .tabItem(tag: 0, normal: {
+                            Image(systemName: "checkmark.seal")
+                                .font(.system(size: 16, design: .rounded))
+                        }, select: {
+                            Image(systemName: "checkmark.seal.fill")
+                                .font(.system(size: 16, design: .rounded))
+                                .foregroundStyle(makeColorFor(tag: 0))
+                                .padding(.bottom, 10)
+                        })
+                    
+                    RequirementTab(for: self.requirementsModel.getDonts())
+                        .tabItem(tag: 1, normal: {
+                            Image(systemName: "hand.thumbsdown")
+                                .font(.system(size: 16, design: .rounded))
+                            
+                        }, select: {
+                            Image(systemName: "hand.thumbsdown.fill")
+                                .font(.system(size: 16, design: .rounded))
+                                .foregroundStyle(makeColorFor(tag: 1))
+                                .padding(.bottom, 10)
+                        })
+                    
+                    RequirementTab(for: self.requirementsModel.getBugs())
+                        .tabItem(tag: 2, normal: {
+                            Image(systemName: "ladybug")
+                                .font(.system(size: 16, design: .rounded))
+                            
+                        }, select: {
+                            Image(systemName: "ladybug.fill")
+                                .font(.system(size: 16, design: .rounded))
+                                .foregroundStyle(makeColorFor(tag: 2))
+                                .padding(.bottom, 10)
+                        })
+                    
+                    RequirementTab(for: self.requirementsModel.getProTips())
+                        .tabItem(tag: 3, normal: {
+                            Image(systemName: "lightbulb")
+                                .font(.system(size: 16, design: .rounded))
+                            
+                        }, select: {
+                            Image(systemName: "lightbulb.fill")
+                                .font(.system(size: 16, design: .rounded))
+                                .foregroundStyle(makeColorFor(tag: 3))
+                                .padding(.bottom, 10)
+                        })
+                }
             }
         }
         .frame(width: frame.size.width, height: max(frame.size.height, self.listHeight[self.selection]*1.05))
