@@ -134,8 +134,6 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
         _ chip: ZTronNavigator.PathComponents,
         from buffer: inout [[ZTronNavigator.PathComponents]]
     ) {
-        print(#function)
-
         var clone = self.cloneSelectedChips()
         
         self.routes.forEachBFS(from: chip) { path, quest in
@@ -209,7 +207,6 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
         }
         
         if chip.count <= 2 || !oneChipPerParent {
-            print("Unselecting chips at level \(chip.count - 2)")
             self.routesLock.wait()
             self.selectedChipsLock.wait()
             clone[chip.count - 2].forEach { chip in
@@ -273,8 +270,6 @@ public final class QuestModel: ObservableObject, @unchecked Sendable {
     /// - Note: This implementation preconditions that `chip.count > 1`, and `chip` must be registered in the router.
     /// - Complexity: O(`n*m`) where `n` is the number of distinct path components in the subtree with root in `chip`, and `m` is the number of selected chips at level `chip.count - 2`.
     public func unselectChip(_ chip: ZTronNavigator.PathComponents) {
-        
-        print(#function)
         precondition(chip.count > 1)
         
         defer {

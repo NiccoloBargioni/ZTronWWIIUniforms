@@ -117,83 +117,98 @@ public struct ChallengeRequirementTabContent: View {
     }
     
     @ViewBuilder func RequirementTab(for buffer: [Challenge<String>.TaggedString]) -> some View {
-        VStack(alignment: .leading, spacing: 20) {
-            
-            if let searchToken = self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!) {
-                Button {
-                    self.requirementsModel.removeTokens(for: .init(rawValue: self.selection)!)
-                    self.selection = self.origin
-                } label: {
-                    Chip(text: searchToken.capitalized, isActive: true)
-                        .softColor(self.makeColorFor(tag: 0).opacity(0.2))
-                        .highlightColor(self.makeColorFor(tag: 0))
-                        .fontWeight(.heavy)
-                        .rightComponent {
-                            Image(systemName: "xmark.circle.fill")
-                                .font(.system(size: 14, design: .rounded))
-                                .foregroundStyle(.black)
-                                .erasedToAnyView()
+        VStack(alignment: .leading, spacing: 0) {
+            Color.clear
+                .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
+                .background {
+                    GeometryReader { geoProxy in
+                        Color.clear.onAppear {
+                            print(geoProxy.frame(in: .local))
+                        }.onValueChange(of: geoProxy.frame(in: .local)) {
+                            print(geoProxy.frame(in: .local).maxY)
                         }
-                }
-                .tint(Color(UIColor.label))
-            }
-            
-            ForEach(buffer, id: \.self) { requirement in
-                RequirementContainer(
-                    accentColor: makeColorFor(tag: self.selection),
-                    text: requirement.wrappedValue()
-                ) { tab in
-                    return self.makeColorFor(tag: tab)
-                }
-                .includeRequirementsChip(
-                    self.selection != 0 &&
-                    self.requirementsModel.getRequirements(requirement.getTag()).count > 0
-                ) {
-                    self.origin = self.selection
-                    self.selection = 0
-                    self.requirementsModel.setToken(for: .init(rawValue: 0)!, requirement.getTag())
-                }
-                .includeDontsChip(
-                    self.selection != 1 &&
-                    self.requirementsModel.getDonts(requirement.getTag()).count > 0
-                ) {
-                    self.origin = self.selection
-                    self.selection = 1
-                    self.requirementsModel.setToken(for: .init(rawValue: 1)!, requirement.getTag())
-                }
-                .includeBugsChip(
-                    self.selection != 2 &&
-                    self.requirementsModel.getBugs(requirement.getTag()).count > 0
-                ) {
-                    self.origin = self.selection
-                    self.selection = 2
-                    self.requirementsModel.setToken(for: .init(rawValue: 2)!, requirement.getTag())
-                }
-                .includeProTipsChip(
-                    self.selection != 3 &&
-                    self.requirementsModel.getProTips(requirement.getTag()).count > 0
-                ) {
-                    self.origin = self.selection
-                    self.selection = 3
-                    self.requirementsModel.setToken(for: .init(rawValue: 3)!, requirement.getTag())
-                }
-            }
-            
-            Spacer()
-        }
-        .padding()
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background {
-            GeometryReader { bgProxy in
-                Color.clear
-                    .onAppear {
-                        self.listHeightPublisher.send(bgProxy.size.height)
                     }
-                    .onChange(of: bgProxy.size.height) { newHeight in
-                        self.listHeightPublisher.send(bgProxy.size.height)
+                }
+            
+            VStack(alignment: .leading, spacing: 20) {
+                
+                if let searchToken = self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!) {
+                    Button {
+                        self.requirementsModel.removeTokens(for: .init(rawValue: self.selection)!)
+                        self.selection = self.origin
+                    } label: {
+                        Chip(text: searchToken.capitalized, isActive: true)
+                            .softColor(self.makeColorFor(tag: 0).opacity(0.2))
+                            .highlightColor(self.makeColorFor(tag: 0))
+                            .fontWeight(.heavy)
+                            .rightComponent {
+                                Image(systemName: "xmark.circle.fill")
+                                    .font(.system(size: 14, design: .rounded))
+                                    .foregroundStyle(.black)
+                                    .erasedToAnyView()
+                            }
                     }
+                    .tint(Color(UIColor.label))
+                }
+                
+                ForEach(buffer, id: \.self) { requirement in
+                    RequirementContainer(
+                        accentColor: makeColorFor(tag: self.selection),
+                        text: requirement.wrappedValue()
+                    ) { tab in
+                        return self.makeColorFor(tag: tab)
+                    }
+                    .includeRequirementsChip(
+                        self.selection != 0 &&
+                        self.requirementsModel.getRequirements(requirement.getTag()).count > 0
+                    ) {
+                        self.origin = self.selection
+                        self.selection = 0
+                        self.requirementsModel.setToken(for: .init(rawValue: 0)!, requirement.getTag())
+                    }
+                    .includeDontsChip(
+                        self.selection != 1 &&
+                        self.requirementsModel.getDonts(requirement.getTag()).count > 0
+                    ) {
+                        self.origin = self.selection
+                        self.selection = 1
+                        self.requirementsModel.setToken(for: .init(rawValue: 1)!, requirement.getTag())
+                    }
+                    .includeBugsChip(
+                        self.selection != 2 &&
+                        self.requirementsModel.getBugs(requirement.getTag()).count > 0
+                    ) {
+                        self.origin = self.selection
+                        self.selection = 2
+                        self.requirementsModel.setToken(for: .init(rawValue: 2)!, requirement.getTag())
+                    }
+                    .includeProTipsChip(
+                        self.selection != 3 &&
+                        self.requirementsModel.getProTips(requirement.getTag()).count > 0
+                    ) {
+                        self.origin = self.selection
+                        self.selection = 3
+                        self.requirementsModel.setToken(for: .init(rawValue: 3)!, requirement.getTag())
+                    }
+                }
+                
+                Spacer()
             }
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
+        
+        Color.clear
+            .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
+            .background {
+                GeometryReader { geoProxy in
+                    Color.clear.onAppear {
+                        print(geoProxy.frame(in: .local))
+                    }.onValueChange(of: geoProxy.frame(in: .local)) {
+                        print(geoProxy.frame(in: .local).minY)
+                    }
+                }
+            }
     }
 }
 
