@@ -6,27 +6,27 @@ internal struct ARequirementTab: View {
     private let cardsInThisSection: [Challenge<String>.TaggedString]
     private let activeToken: String?
 
-    private var activeChipTapped: (() -> Void)? = nil
+    private var activeChipTapped: (@MainActor @Sendable () -> Void)? = nil
     private let colorMapping: (Int) -> SwiftUI.Color
     
     private let activeTabIndex: Int
     
     // Forwarding
-    private var includeRequirementsChip = false
-    private var includeDontsChip = false
-    private var includeBugsChip = false
-    private var includeProTipsChip = false
+    private var includeRequirementsChip: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool)? = nil
+    private var includeDontsChip: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool)? = nil
+    private var includeBugsChip: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool)? = nil
+    private var includeProTipsChip: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool)? = nil
     
-    private var onRequirementsChipTapped: (@Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
-    private var onDontsChipTapped: (@Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
-    private var onBugsChipTapped: (@Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
-    private var onProTipsChipTapped: (@Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
+    private var onRequirementsChipTapped: (@MainActor @Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
+    private var onDontsChipTapped: (@MainActor @Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
+    private var onBugsChipTapped: (@MainActor @Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
+    private var onProTipsChipTapped: (@MainActor @Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
     
     internal init(
         cardsInThisSection: [Challenge<String>.TaggedString],
         activeTab: Int,
         activeToken: String? = nil,
-        colorMapping: @escaping @Sendable (Int) -> SwiftUI.Color
+        colorMapping: @escaping @MainActor @Sendable (Int) -> SwiftUI.Color
     ) {
         self.cardsInThisSection = Array(cardsInThisSection) // shallow copy is enough, tagged strings are immutable anyway
         self.activeTabIndex = activeTab
@@ -69,24 +69,40 @@ internal struct ARequirementTab: View {
                         .tint(Color(UIColor.label))
                     }
                     
-                    ForEach(cardsInThisSection, id: \.self) { requirement in
+                    ForEach(cardsInThisSection, id: \.self) { card in
                         RequirementContainer(
                             accentColor: colorMapping(self.activeTabIndex),
-                            text: requirement.wrappedValue()
+                            text: card.wrappedValue()
                         ) { tab in
                             return self.colorMapping(tab)
                         }
-                        .includeRequirementsChip(includeRequirementsChip) { @Sendable in
-                            self.onRequirementsChipTapped?(requirement)
+                        .includeRequirementsChip(includeRequirementsChip?(card) ?? false) { @Sendable in
+                            Task {
+                                await MainActor.run {
+                                    self.onRequirementsChipTapped?(card)
+                                }
+                            }
                         }
-                        .includeDontsChip(includeDontsChip) { @Sendable in
-                            self.onDontsChipTapped?(requirement)
+                        .includeDontsChip(includeDontsChip?(card) ?? false) { @Sendable in
+                            Task {
+                                await MainActor.run {
+                                    self.onDontsChipTapped?(card)
+                                }
+                            }
                         }
-                        .includeBugsChip(includeBugsChip) { @Sendable in
-                            self.onBugsChipTapped?(requirement)
+                        .includeBugsChip(includeBugsChip?(card) ?? false) { @Sendable in
+                            Task {
+                                await MainActor.run {
+                                    self.onBugsChipTapped?(card)
+                                }
+                            }
                         }
-                        .includeProTipsChip(includeProTipsChip) { @Sendable in
-                            self.onProTipsChipTapped?(requirement)
+                        .includeProTipsChip(includeProTipsChip?(card) ?? false) { @Sendable in
+                            Task {
+                                await MainActor.run {
+                                    self.onProTipsChipTapped?(card)
+                                }
+                            }
                         }
                     }
                     
@@ -113,7 +129,10 @@ internal struct ARequirementTab: View {
 
 
 extension ARequirementTab {
-    func includeRequirementsChip(_ include: Bool, _ action: (@Sendable (_ requirement: Challenge<String>.TaggedString) -> Void)? = nil ) -> Self {
+    func includeRequirementsChip(
+        _ include: (@escaping @MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool),
+        _ action: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Void)? = nil
+    ) -> Self {
         var copy = self
         
         copy.includeRequirementsChip = include
@@ -122,7 +141,10 @@ extension ARequirementTab {
         return copy
     }
     
-    func includeDontsChip(_ include: Bool, _ action: (@Sendable (_: Challenge<String>.TaggedString) -> Void)? = nil ) -> Self {
+    func includeDontsChip(
+        _ include: (@escaping @MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool),
+        _ action: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Void)? = nil
+    ) -> Self {
         var copy = self
         
         copy.includeDontsChip = include
@@ -131,7 +153,10 @@ extension ARequirementTab {
         return copy
     }
     
-    func includeBugsChip(_ include: Bool, _ action: (@Sendable (_: Challenge<String>.TaggedString) -> Void)? = nil ) -> Self {
+    func includeBugsChip(
+        _ include: (@escaping @MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool),
+        _ action: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Void)? = nil
+    ) -> Self {
         var copy = self
         
         copy.includeBugsChip = include
@@ -140,7 +165,10 @@ extension ARequirementTab {
         return copy
     }
     
-    func includeProTipsChip(_ include: Bool, _ action: (@Sendable (_: Challenge<String>.TaggedString) -> Void)? = nil ) -> Self {
+    func includeProTipsChip(
+        _ include: (@escaping @MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool),
+        _ action: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Void)? = nil
+    ) -> Self {
         var copy = self
         
         copy.includeProTipsChip = include
@@ -150,7 +178,7 @@ extension ARequirementTab {
     }
     
     
-    func onActiveChipTapped(_ action: (@escaping @Sendable () -> Void)) -> Self {
+    func onActiveChipTapped(_ action: (@escaping @MainActor @Sendable () -> Void)) -> Self {
         var copy = self
         
         copy.activeChipTapped = action
