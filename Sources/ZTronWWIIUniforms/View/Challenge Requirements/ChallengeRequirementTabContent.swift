@@ -118,11 +118,11 @@ public struct ChallengeRequirementTabContent: View {
     
     @ViewBuilder func RequirementTab(for buffer: [Challenge<String>.TaggedString]) -> some View {
         VStack(alignment: .leading, spacing: 0) {
-            Color.clear
+            Color.red
                 .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
                 .background {
                     GeometryReader { geoProxy in
-                        Color.clear.onAppear {
+                        Color.blue.onAppear {
                             print(geoProxy.frame(in: .local))
                         }.onValueChange(of: geoProxy.frame(in: .local)) {
                             print(geoProxy.frame(in: .local).maxY)
@@ -197,11 +197,11 @@ public struct ChallengeRequirementTabContent: View {
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             
-            Color.clear
+            Color.purple
                 .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
                 .background {
                     GeometryReader { geoProxy in
-                        Color.clear.onAppear {
+                        Color.indigo.onAppear {
                             print(geoProxy.frame(in: .local))
                         }.onValueChange(of: geoProxy.frame(in: .local)) {
                             print(geoProxy.frame(in: .local).minY)
