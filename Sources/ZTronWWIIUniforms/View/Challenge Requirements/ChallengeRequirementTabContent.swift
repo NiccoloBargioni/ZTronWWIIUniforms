@@ -54,7 +54,11 @@ public struct ChallengeRequirementTabContent: View {
                 .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
                 .onActiveChipTapped(self.onActiveChipTapped)
                 .subscribeToHeightChanges(withCancellable: &self.sectionHeightChangedSubscription) { newHeight in
-                    print("New height \(newHeight) just dropped")
+                    Task {
+                        await MainActor.run {
+                            print("New height \(newHeight) just dropped")
+                        }
+                    }
                 }
                 .tabItem(tag: 0, normal: {
                     Image(systemName: "checkmark.seal")
