@@ -15,9 +15,8 @@ public struct ChallengeRequirementTabContent: View {
     private var challengeOffset: Int
     private var frame: CGRect
     
-    private var listHeightPublisher = PassthroughSubject<CGFloat, Never>()
-    
     public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect) {
+        
         self.challenge = peers[challenge]
         self.quest = quest
         self.peerChallenges = peers
@@ -30,7 +29,16 @@ public struct ChallengeRequirementTabContent: View {
         )
     }
     
+    
+    public static let SECTION_ICONS: [String] = [
+        "checkmark.seal",
+        "hand.thumbsdown",
+        "ladybug",
+        "lightbulb"
+    ]
+    
     public var body: some View {
+        
         VStack {
             AxisTabView(selection: $selection, constant: ATConstant(axisMode: .top)) { state in
                 ATBeadStyle(
@@ -40,103 +48,34 @@ public struct ChallengeRequirementTabContent: View {
                     marbleColor: makeColorFor(tag: selection)
                 )
             } content: {
-                ARequirementTab(
-                    cardsInThisSection: requirementsModel.getRequirements(),
-                    activeTab: self.selection,
-                    activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
-                    sectionHeight: self.$listHeight[0],
-                    colorMapping: self.makeColorFor(tag:)
-                )
-                .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
-                .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
-                .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
-                .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
-                .onActiveChipTapped(self.onActiveChipTapped)
-                .tabItem(tag: 0, normal: {
-                    Image(systemName: "checkmark.seal")
-                        .font(.system(size: 16, design: .rounded))
-                }, select: {
-                    Image(systemName: "checkmark.seal.fill")
-                        .font(.system(size: 16, design: .rounded))
-                        .foregroundStyle(makeColorFor(tag: 0))
-                        .padding(.bottom, 10)
-                })
-                
-                ARequirementTab(
-                    cardsInThisSection: requirementsModel.getDonts(),
-                    activeTab: self.selection,
-                    activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
-                    colorMapping: self.makeColorFor(tag:)
-                )
-                .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
-                .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
-                .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
-                .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
-                .onActiveChipTapped(self.onActiveChipTapped)
-                    .tabItem(tag: 1, normal: {
-                        Image(systemName: "hand.thumbsdown")
+                ForEach(Array(Self.SECTION_ICONS.enumerated()), id: \.element) { index, icon in
+                    ARequirementTab(
+                        cardsInThisSection: self.cardsForTab(withIndex: index),
+                        activeTab: self.selection,
+                        activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
+                        sectionHeight: self.$listHeight[index],
+                        colorMapping: self.makeColorFor(tag:)
+                    )
+                    .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
+                    .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
+                    .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
+                    .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
+                    .onActiveChipTapped(self.onActiveChipTapped)
+                    .tabItem(tag: 0, normal: {
+                        Image(systemName: icon)
                             .font(.system(size: 16, design: .rounded))
-                        
                     }, select: {
-                        Image(systemName: "hand.thumbsdown.fill")
+                        Image(systemName: icon + ".fill")
                             .font(.system(size: 16, design: .rounded))
-                            .foregroundStyle(makeColorFor(tag: 1))
+                            .foregroundStyle(makeColorFor(tag: index))
                             .padding(.bottom, 10)
                     })
-                
-                
-                ARequirementTab(
-                    cardsInThisSection: requirementsModel.getBugs(),
-                    activeTab: self.selection,
-                    activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
-                    colorMapping: self.makeColorFor(tag:)
-                )
-                .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
-                .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
-                .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
-                .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
-                .onActiveChipTapped(self.onActiveChipTapped)
-                    .tabItem(tag: 2, normal: {
-                        Image(systemName: "ladybug")
-                            .font(.system(size: 16, design: .rounded))
-                        
-                    }, select: {
-                        Image(systemName: "ladybug.fill")
-                            .font(.system(size: 16, design: .rounded))
-                            .foregroundStyle(makeColorFor(tag: 2))
-                            .padding(.bottom, 10)
-                    })
-                
-                
-                ARequirementTab(
-                    cardsInThisSection: requirementsModel.getProTips    (),
-                    activeTab: self.selection,
-                    activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
-                    colorMapping: self.makeColorFor(tag:)
-                )
-                .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
-                .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
-                .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
-                .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
-                .onActiveChipTapped(self.onActiveChipTapped)
-                    .tabItem(tag: 3, normal: {
-                        Image(systemName: "lightbulb")
-                            .font(.system(size: 16, design: .rounded))
-                        
-                    }, select: {
-                        Image(systemName: "lightbulb.fill")
-                            .font(.system(size: 16, design: .rounded))
-                            .foregroundStyle(makeColorFor(tag: 3))
-                            .padding(.bottom, 10)
-                    })
+                }
             }
         }
         .frame(width: frame.size.width, height: max(frame.size.height, self.listHeight[self.selection]*1.05))
         .background {
             Color(UIColor.systemGroupedBackground)
-        }
-        .onReceive(self.listHeightPublisher.throttle(for: 0.25, scheduler: RunLoop.main, latest: true)) { height in
-            self.listHeight[self.selection] = height
         }
         .onValueChange(of: self.listHeight[0]) {
             print("New height \(self.listHeight[0]) just dropped")
@@ -161,6 +100,28 @@ public struct ChallengeRequirementTabContent: View {
                 
             default:
                 return Color(UIColor.systemMint)
+        }
+    }
+    
+    
+    private func cardsForTab(withIndex: Int) -> [Challenge<String>.TaggedString] {
+        precondition(withIndex >= 0 && withIndex <= 3)
+        
+        switch withIndex {
+        case 0:
+            return self.requirementsModel.getRequirements()
+            
+        case 1:
+            return self.requirementsModel.getDonts()
+            
+        case 2:
+            return self.requirementsModel.getBugs()
+            
+        case 3:
+            return self.requirementsModel.getProTips()
+            
+        default:
+            fatalError("Invalid tab index: \(withIndex). Expected [0,3].")
         }
     }
     
