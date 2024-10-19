@@ -15,7 +15,6 @@ internal struct ARequirementTab: View {
     @State private var minY: CGFloat = .zero
     @State private var maxY: CGFloat = .zero
     
-    @State private var height: CGFloat = .zero
     
     internal let heightPublisher: PassthroughSubject<CGFloat, Never> = .init()
     
@@ -50,9 +49,17 @@ internal struct ARequirementTab: View {
                     .background {
                         GeometryReader { geoProxy in
                             Color.blue.onAppear {
-                                self.minY = geoProxy.frame(in: .global).maxY
+                                Task {
+                                    await MainActor.run {
+                                        self.minY = geoProxy.frame(in: .global).maxY
+                                    }
+                                }
                             }.onValueChange(of: geoProxy.frame(in: .global)) {
-                                self.minY = geoProxy.frame(in: .global).maxY
+                                Task {
+                                    await MainActor.run {
+                                        self.minY = geoProxy.frame(in: .global).maxY
+                                    }
+                                }
                             }
                         }
                     }
