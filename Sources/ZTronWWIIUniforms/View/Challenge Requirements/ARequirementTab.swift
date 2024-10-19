@@ -154,7 +154,7 @@ internal struct ARequirementTab: View {
         .onValueChange(of: self.minY) {
             Task {
                 await MainActor.run {
-                    if self.maxY > self.minY && self.maxY - self.minY != self.sectionHeight {
+                    if self.maxY > self.minY && abs((self.maxY - self.minY) - self.sectionHeight) > sqrt(1.ulp) {
                         self.sectionHeight = self.maxY - self.minY
                     }
                 }
@@ -163,7 +163,7 @@ internal struct ARequirementTab: View {
         .onValueChange(of: self.maxY) {
             Task {
                 await MainActor.run {
-                    if self.maxY > self.minY && self.maxY - self.minY != self.sectionHeight {
+                    if self.maxY > self.minY && abs((self.maxY - self.minY) - self.sectionHeight) > sqrt(1.ulp) {
                         self.sectionHeight = self.maxY - self.minY
                     }
                 }
