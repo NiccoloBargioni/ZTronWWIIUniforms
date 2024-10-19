@@ -61,7 +61,17 @@ public struct ChallengeRequirementTabContent: View {
                         .padding(.bottom, 10)
                 })
                 
-                RequirementTab(for: self.requirementsModel.getDonts())
+                ARequirementTab(
+                    cardsInThisSection: requirementsModel.getDonts(),
+                    activeTab: self.selection,
+                    activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
+                    colorMapping: self.makeColorFor(tag:)
+                )
+                .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
+                .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
+                .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
+                .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
+                .onActiveChipTapped(self.onActiveChipTapped)
                     .tabItem(tag: 1, normal: {
                         Image(systemName: "hand.thumbsdown")
                             .font(.system(size: 16, design: .rounded))
@@ -73,7 +83,18 @@ public struct ChallengeRequirementTabContent: View {
                             .padding(.bottom, 10)
                     })
                 
-                RequirementTab(for: self.requirementsModel.getBugs())
+                
+                ARequirementTab(
+                    cardsInThisSection: requirementsModel.getBugs(),
+                    activeTab: self.selection,
+                    activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
+                    colorMapping: self.makeColorFor(tag:)
+                )
+                .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
+                .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
+                .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
+                .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
+                .onActiveChipTapped(self.onActiveChipTapped)
                     .tabItem(tag: 2, normal: {
                         Image(systemName: "ladybug")
                             .font(.system(size: 16, design: .rounded))
@@ -85,7 +106,18 @@ public struct ChallengeRequirementTabContent: View {
                             .padding(.bottom, 10)
                     })
                 
-                RequirementTab(for: self.requirementsModel.getProTips())
+                
+                ARequirementTab(
+                    cardsInThisSection: requirementsModel.getProTips(),
+                    activeTab: self.selection,
+                    activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
+                    colorMapping: self.makeColorFor(tag:)
+                )
+                .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
+                .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
+                .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
+                .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
+                .onActiveChipTapped(self.onActiveChipTapped)
                     .tabItem(tag: 3, normal: {
                         Image(systemName: "lightbulb")
                             .font(.system(size: 16, design: .rounded))
@@ -128,6 +160,7 @@ public struct ChallengeRequirementTabContent: View {
         }
     }
     
+    /*
     @ViewBuilder func RequirementTab(for buffer: [Challenge<String>.TaggedString]) -> some View {
         LazyView(
             VStack(alignment: .leading, spacing: 0) {
@@ -224,6 +257,7 @@ public struct ChallengeRequirementTabContent: View {
                 }
             )
         }
+     */
     
     
     private func includeRequirementChip(for card: Challenge<String>.TaggedString) -> Bool {
