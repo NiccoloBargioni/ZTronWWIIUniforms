@@ -2,7 +2,7 @@ import SwiftUI
 import AxisTabView
 import ScalingHeaderScrollView
 
-public struct ChallengeRequirementsView: View {
+public struct ChallengeRequirementsPage: View {
     private var quest: Quest
     private var challenge: Challenge<String>
     private var peerChallenges: [Challenge<String>]
@@ -13,7 +13,7 @@ public struct ChallengeRequirementsView: View {
     
     @StateObject private var swipeManager: ChallengeRequirementsSwipeManager
 
-    internal init(quest: Quest, challenge: Int, peers: [Challenge<String>]) {
+    public init(quest: Quest, challenge: Int, peers: [Challenge<String>]) {
         self.challenge = peers[challenge]
         self.quest = quest
         self.peerChallenges = peers
