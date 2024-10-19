@@ -1,6 +1,7 @@
 import SwiftUI
 import AxisTabView
 import ScalingHeaderScrollView
+import ZTronRouter
 
 public struct ChallengeRequirementsPage: View {
     private var quest: Quest
@@ -12,6 +13,7 @@ public struct ChallengeRequirementsPage: View {
     @State private var swipeAngle: CGFloat = .zero
     
     @StateObject private var swipeManager: ChallengeRequirementsSwipeManager
+    @StateObject private var navigator: ZTronNavigator = .init(initialPath: [">"])
 
     public init(quest: Quest, challenge: Int, peers: [Challenge<String>]) {
         self.challenge = peers[challenge]
@@ -89,6 +91,7 @@ public struct ChallengeRequirementsPage: View {
                                 peers: self.peerChallenges,
                                 frame: geo.frame(in: .global)
                             )
+                            .environment(self.navigator)
                         }
                         .setHeaderSnapMode(.afterFinishAccelerating)
                         .height(min: 0, max: 150)

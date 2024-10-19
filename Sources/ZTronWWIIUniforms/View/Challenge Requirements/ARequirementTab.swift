@@ -75,7 +75,7 @@ internal struct ARequirementTab: View {
                         } label: {
                             Chip(text: searchToken.capitalized, isActive: true)
                                 .softColor(self.colorMapping(0).opacity(0.2))
-                                .highlightColor(self.colorMapping(0))
+                                .highlightColor(self.colorMapping(0).opacity(0.7))
                                 .fontWeight(.heavy)
                                 .rightComponent {
                                     Image(systemName: "xmark.circle.fill")

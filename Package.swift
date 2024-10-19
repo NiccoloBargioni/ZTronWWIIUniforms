@@ -17,16 +17,15 @@ let package = Package(
         .package(
             url: "https://github.com/lukaskubanek/LoremIpsum", branch: "master"
         ),
-        // Dependencies declare other packages that this package depends on.
+        
         .package(
             url: "https://github.com/exyte/ScalingHeaderScrollView", branch: "master"
         ),
+        
         .package(
             url: "https://github.com/siteline/swiftui-introspect", branch: "main"
         ),
-        .package(
-            url: "https://github.com/dankinsoid/VDAnimation", branch: "master"
-        ),
+
         .package(
             url: "https://github.com/NiccoloBargioni/ZTronRouter", branch: "main"
         ),
@@ -48,7 +47,6 @@ let package = Package(
                 .product(name: "LoremIpsum", package: "LoremIpsum"),
                 .product(name: "ScalingHeaderScrollView", package: "ScalingHeaderScrollView"),
                 .product(name: "SwiftUIIntrospect", package: "swiftui-introspect"),
-                .product(name: "VDAnimation", package: "VDAnimation"),
                 .product(name: "ZTronRouter", package: "ZTronRouter"),
                 .product(name: "AxisTabView", package: "AxisTabView"),
                 .product(name: "LazyViewSwiftUI", package: "Lazy-View-SwiftUI")

@@ -10,7 +10,7 @@ public struct ChallengeRequirementsTabsSection: View {
     @State private var selection: Int = 0
     @State private var origin: Int = 0
     
-    private let history = ZTronNavigator(initialPath: [">"])
+    @EnvironmentObject private var history: ZTronNavigator
 
     private var quest: Quest
     private var challenge: Challenge<String>
@@ -77,7 +77,7 @@ public struct ChallengeRequirementsTabsSection: View {
                 }
             }
         }
-        .frame(width: frame.size.width, height: max(frame.size.height, self.tabContentHeight.max() ?? -1))
+        .frame(width: frame.size.width, height: max(frame.size.height, (self.tabContentHeight.max() ?? -1)*1.05))
         .background {
             Color(UIColor.systemGroupedBackground)
         }
