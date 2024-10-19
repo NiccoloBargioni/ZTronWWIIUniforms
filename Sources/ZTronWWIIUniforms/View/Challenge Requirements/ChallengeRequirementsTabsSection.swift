@@ -83,9 +83,9 @@ public struct ChallengeRequirementsTabsSection: View {
         .background {
             Color(UIColor.systemGroupedBackground)
         }
-        .onValueChange(of: self.selection) { @MainActor in
+        .onChange(of: self.selection, perform: { @MainActor _ in
             self.history.navigate([">", self.selection.toString()])
-        }
+        })
     }
     
     
