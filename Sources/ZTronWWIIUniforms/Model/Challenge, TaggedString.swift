@@ -96,7 +96,7 @@ public final class Challenge<Tag>: Hashable, Identifiable, Sendable where Tag: H
 }
 
 
-extension Challenge<String>.TaggedString {
+public extension Challenge<String>.TaggedString {
     func getTag() -> String {
         return self.tag.fromLocalized()
     }
