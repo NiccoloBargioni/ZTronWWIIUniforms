@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct RequirementContainer: View {
+struct RequirementCard: View {
     @Environment(\.colorScheme) private var colorScheme
     
     private var accentColor: Color
@@ -112,7 +112,7 @@ struct RequirementContainer: View {
     }
 }
 
-extension RequirementContainer {
+extension RequirementCard {
     func includeRequirementsChip(_ include: Bool, _ action: (() -> Void)? = nil ) -> Self {
         var copy = self
         

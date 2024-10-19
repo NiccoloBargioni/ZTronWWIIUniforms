@@ -1,5 +1,6 @@
 import SwiftUI
 import LazyViewSwiftUI
+import Combine
 
 internal struct ARequirementTab: View {
     
@@ -10,6 +11,13 @@ internal struct ARequirementTab: View {
     private let colorMapping: (Int) -> SwiftUI.Color
     
     private let activeTabIndex: Int
+    
+    @State private var minY: CGFloat = .zero
+    @State private var maxY: CGFloat = .zero
+    
+    @State private var height: CGFloat = .zero
+    
+    internal let heightPublisher: PassthroughSubject<CGFloat, Never> = .init()
     
     // Forwarding
     private var includeRequirementsChip: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool)? = nil
@@ -42,9 +50,9 @@ internal struct ARequirementTab: View {
                     .background {
                         GeometryReader { geoProxy in
                             Color.blue.onAppear {
-                                print(geoProxy.frame(in: .global))
+                                self.minY = geoProxy.frame(in: .global).maxY
                             }.onValueChange(of: geoProxy.frame(in: .global)) {
-                                print(geoProxy.frame(in: .global).maxY)
+                                self.minY = geoProxy.frame(in: .global).maxY
                             }
                         }
                     }
@@ -70,7 +78,7 @@ internal struct ARequirementTab: View {
                     }
                     
                     ForEach(cardsInThisSection, id: \.self) { card in
-                        RequirementContainer(
+                        RequirementCard(
                             accentColor: colorMapping(self.activeTabIndex),
                             text: card.wrappedValue()
                         ) { tab in
@@ -116,14 +124,24 @@ internal struct ARequirementTab: View {
                     .background {
                         GeometryReader { geoProxy in
                             Color.indigo.onAppear {
-                                print(geoProxy.frame(in: .global))
+                                self.maxY = geoProxy.frame(in: .global).minY
                             }.onValueChange(of: geoProxy.frame(in: .global)) {
-                                print(geoProxy.frame(in: .global).minY)
+                                self.maxY = geoProxy.frame(in: .global).minY
                             }
                         }
                     }
                 }
             )
+        .onValueChange(of: self.minY) {
+            if self.maxY > self.minY {
+                self.heightPublisher.send(self.maxY - self.minY)
+            }
+        }
+        .onValueChange(of: self.maxY) {
+            if self.maxY > self.minY {
+                self.heightPublisher.send(self.maxY - self.minY)
+            }
+        }
     }
 }
 
@@ -184,5 +202,18 @@ extension ARequirementTab {
         copy.activeChipTapped = action
         
         return copy
+    }
+    
+    // TODO: Self a struct, test for memory leaks!!
+    func subscribeToHeightChanges(withCancellable: inout AnyCancellable?, _ onValueChanged: (@escaping @MainActor @Sendable (_:CGFloat) -> Void)) -> Self {
+        withCancellable = self.heightPublisher.receive(on: RunLoop.main).removeDuplicates().sink { value in
+            Task {
+                await MainActor.run {
+                    onValueChanged(value)
+                }
+            }
+        }
+        
+        return self
     }
 }

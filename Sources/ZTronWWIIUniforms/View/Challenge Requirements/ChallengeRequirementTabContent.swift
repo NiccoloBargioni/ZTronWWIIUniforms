@@ -17,6 +17,8 @@ public struct ChallengeRequirementTabContent: View {
     
     private var listHeightPublisher = PassthroughSubject<CGFloat, Never>()
     
+    @State private var sectionHeightChangedSubscription: AnyCancellable? = nil
+    
     public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect) {
         self.challenge = peers[challenge]
         self.quest = quest
@@ -51,6 +53,9 @@ public struct ChallengeRequirementTabContent: View {
                 .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
                 .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
                 .onActiveChipTapped(self.onActiveChipTapped)
+                .subscribeToHeightChanges(withCancellable: &self.sectionHeightChangedSubscription) { newHeight in
+                    print("New height \(newHeight) just dropped")
+                }
                 .tabItem(tag: 0, normal: {
                     Image(systemName: "checkmark.seal")
                         .font(.system(size: 16, design: .rounded))
@@ -137,6 +142,9 @@ public struct ChallengeRequirementTabContent: View {
         .onReceive(self.listHeightPublisher.throttle(for: 0.25, scheduler: RunLoop.main, latest: true)) { height in
             self.listHeight[self.selection] = height
         }
+        .onDisappear {
+            self.sectionHeightChangedSubscription?.cancel()
+        }
     }
     
     
@@ -160,123 +168,20 @@ public struct ChallengeRequirementTabContent: View {
         }
     }
     
-    /*
-    @ViewBuilder func RequirementTab(for buffer: [Challenge<String>.TaggedString]) -> some View {
-        LazyView(
-            VStack(alignment: .leading, spacing: 0) {
-                Color.red
-                    .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
-                    .background {
-                        GeometryReader { geoProxy in
-                            Color.blue.onAppear {
-                                print(geoProxy.frame(in: .global))
-                            }.onValueChange(of: geoProxy.frame(in: .global)) {
-                                print(geoProxy.frame(in: .global).maxY)
-                            }
-                        }
-                    }
-                
-                VStack(alignment: .leading, spacing: 20) {
-                    
-                    if let searchToken = self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!) {
-                        Button {
-                            self.requirementsModel.removeTokens(for: .init(rawValue: self.selection)!)
-                            self.selection = self.origin
-                        } label: {
-                            Chip(text: searchToken.capitalized, isActive: true)
-                                .softColor(self.makeColorFor(tag: 0).opacity(0.2))
-                                .highlightColor(self.makeColorFor(tag: 0))
-                                .fontWeight(.heavy)
-                                .rightComponent {
-                                    Image(systemName: "xmark.circle.fill")
-                                        .font(.system(size: 14, design: .rounded))
-                                        .foregroundStyle(.black)
-                                        .erasedToAnyView()
-                                }
-                        }
-                        .tint(Color(UIColor.label))
-                    }
-                    
-                    ForEach(buffer, id: \.self) { requirement in
-                        RequirementContainer(
-                            accentColor: makeColorFor(tag: self.selection),
-                            text: requirement.wrappedValue()
-                        ) { tab in
-                            return self.makeColorFor(tag: tab)
-                        }
-                        .includeRequirementsChip(
-                            self.selection != 0 &&
-                            self.requirementsModel.getRequirements(requirement.getTag()).count > 0
-                        ) {
-                            self.origin = self.selection
-                            self.selection = 0
-                            self.requirementsModel.setToken(for: .init(rawValue: 0)!, requirement.getTag())
-                        }
-                        .includeDontsChip(
-                            self.selection != 1 &&
-                            self.requirementsModel.getDonts(requirement.getTag()).count > 0
-                        ) {
-                            self.origin = self.selection
-                            self.selection = 1
-                            self.requirementsModel.setToken(for: .init(rawValue: 1)!, requirement.getTag())
-                        }
-                        .includeBugsChip(
-                            self.selection != 2 &&
-                            self.requirementsModel.getBugs(requirement.getTag()).count > 0
-                        ) {
-                            self.origin = self.selection
-                            self.selection = 2
-                            self.requirementsModel.setToken(for: .init(rawValue: 2)!, requirement.getTag())
-                        }
-                        .includeProTipsChip(
-                            self.selection != 3 &&
-                            self.requirementsModel.getProTips(requirement.getTag()).count > 0
-                        ) {
-                            self.origin = self.selection
-                            self.selection = 3
-                            self.requirementsModel.setToken(for: .init(rawValue: 3)!, requirement.getTag())
-                        }
-                    }
-                    
-                    Spacer()
-                }
-                .padding()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                
-                Color.purple
-                    .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
-                    .background {
-                        GeometryReader { geoProxy in
-                            Color.indigo.onAppear {
-                                print(geoProxy.frame(in: .global))
-                            }.onValueChange(of: geoProxy.frame(in: .global)) {
-                                print(geoProxy.frame(in: .global).minY)
-                            }
-                        }
-                    }
-                }
-            )
-        }
-     */
-    
     
     private func includeRequirementChip(for card: Challenge<String>.TaggedString) -> Bool {
-        print("card w/ tag \(card.getTag()) has \(self.requirementsModel.getRequirements(card.getTag()).count) requirements")
         return self.selection != 0 && self.requirementsModel.getRequirements(card.getTag()).count > 0
     }
     
     private func includeDontsChip(for card: Challenge<String>.TaggedString) -> Bool {
-        print("card w/ tag \(card.getTag()) has \(self.requirementsModel.getRequirements(card.getTag()).count) donts")
         return self.selection != 1 && self.requirementsModel.getDonts(card.getTag()).count > 0
     }
     
     private func includeBugsChip(for card: Challenge<String>.TaggedString) -> Bool {
-        print("card w/ tag \(card.getTag()) has \(self.requirementsModel.getRequirements(card.getTag()).count) glitches")
         return self.selection != 2 && self.requirementsModel.getBugs(card.getTag()).count > 0
     }
     
     private func includeProTipsChip(for card: Challenge<String>.TaggedString) -> Bool {
-        print("card w/ tag \(card.getTag()) has \(self.requirementsModel.getRequirements(card.getTag()).count) protips")
         return self.selection != 3 && self.requirementsModel.getProTips(card.getTag()).count > 0
     }
     
