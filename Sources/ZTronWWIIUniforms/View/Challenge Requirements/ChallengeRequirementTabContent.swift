@@ -10,7 +10,7 @@ public struct ChallengeRequirementTabContent: View {
     @State private var selection: Int = 0
     @State private var origin: Int = 0
     
-    private let history = ZTronNavigator(initialPath: [">", 0.toString()])
+    private let history = ZTronNavigator(initialPath: [">"])
 
     private var quest: Quest
     private var challenge: Challenge<String>
@@ -29,6 +29,8 @@ public struct ChallengeRequirementTabContent: View {
         self._requirementsModel = StateObject(
             wrappedValue: ConcreteChallengeRequirementsModel(quest: quest, challenge: peers[challenge])
         )
+        
+        self.history.navigate([0.toString()])
     }
     
     
