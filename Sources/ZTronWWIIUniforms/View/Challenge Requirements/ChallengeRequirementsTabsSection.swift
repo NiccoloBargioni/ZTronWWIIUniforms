@@ -84,7 +84,9 @@ public struct ChallengeRequirementsTabsSection: View {
             Color(UIColor.systemGroupedBackground)
         }
         .onValueChange(of: self.selection) {
-            self.history.navigate([">", self.selection.toString()])
+            DispatchQueue.main.async {
+                self.history.navigate([">", self.selection.toString()])
+            }
         }
     }
     
