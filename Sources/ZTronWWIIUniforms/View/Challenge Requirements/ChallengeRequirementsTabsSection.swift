@@ -154,22 +154,30 @@ public struct ChallengeRequirementsTabsSection: View {
     
     private func onRequirementChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 0
-        self.requirementsModel.setToken(for: .init(rawValue: 0)!, card.getTag())
+        let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
+        
+        self.requirementsModel.setToken(for: .init(rawValue: 0)!, tag)
     }
     
     private func onDontsChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 1
-        self.requirementsModel.setToken(for: .init(rawValue: 1)!, card.getTag())
+        let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
+
+        self.requirementsModel.setToken(for: .init(rawValue: 1)!, tag)
     }
     
     private func onGlitchChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 2
-        self.requirementsModel.setToken(for: .init(rawValue: 2)!, card.getTag())
+        let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
+
+        self.requirementsModel.setToken(for: .init(rawValue: 2)!, tag)
     }
     
     private func onProTipChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 3
-        self.requirementsModel.setToken(for: .init(rawValue: 3)!, card.getTag())
+        let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
+
+        self.requirementsModel.setToken(for: .init(rawValue: 3)!, tag)
     }
     
     
