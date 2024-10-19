@@ -17,8 +17,6 @@ public struct ChallengeRequirementTabContent: View {
     
     private var listHeightPublisher = PassthroughSubject<CGFloat, Never>()
     
-    @State private var sectionHeightChangedSubscription: AnyCancellable? = nil
-    
     public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect) {
         self.challenge = peers[challenge]
         self.quest = quest
@@ -46,6 +44,7 @@ public struct ChallengeRequirementTabContent: View {
                     cardsInThisSection: requirementsModel.getRequirements(),
                     activeTab: self.selection,
                     activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
+                    sectionHeight: self.$listHeight[0],
                     colorMapping: self.makeColorFor(tag:)
                 )
                 .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
@@ -53,9 +52,6 @@ public struct ChallengeRequirementTabContent: View {
                 .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
                 .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
                 .onActiveChipTapped(self.onActiveChipTapped)
-                .subscribeToHeightChanges(withCancellable: &self.sectionHeightChangedSubscription) { newHeight in
-                    print("New height \(newHeight) just dropped")
-                }
                 .tabItem(tag: 0, normal: {
                     Image(systemName: "checkmark.seal")
                         .font(.system(size: 16, design: .rounded))
@@ -142,8 +138,8 @@ public struct ChallengeRequirementTabContent: View {
         .onReceive(self.listHeightPublisher.throttle(for: 0.25, scheduler: RunLoop.main, latest: true)) { height in
             self.listHeight[self.selection] = height
         }
-        .onDisappear {
-            self.sectionHeightChangedSubscription?.cancel()
+        .onValueChange(of: self.listHeight[0]) {
+            print("New height \(self.listHeight[0]) just dropped")
         }
     }
     

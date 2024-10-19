@@ -15,8 +15,7 @@ internal struct ARequirementTab: View {
     @State private var minY: CGFloat = .zero
     @State private var maxY: CGFloat = .zero
     
-    
-    internal let heightPublisher: PassthroughSubject<CGFloat, Never> = .init()
+    @Binding private var sectionHeight: CGFloat
     
     // Forwarding
     private var includeRequirementsChip: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool)? = nil
@@ -29,17 +28,22 @@ internal struct ARequirementTab: View {
     private var onBugsChipTapped: (@MainActor @Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
     private var onProTipsChipTapped: (@MainActor @Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
     
+    
+    
     internal init(
         cardsInThisSection: [Challenge<String>.TaggedString],
         activeTab: Int,
         activeToken: String? = nil,
+        sectionHeight: Binding<CGFloat> = .constant(.zero),
         colorMapping: @escaping @MainActor @Sendable (Int) -> SwiftUI.Color
     ) {
         self.cardsInThisSection = Array(cardsInThisSection) // shallow copy is enough, tagged strings are immutable anyway
         self.activeTabIndex = activeTab
         self.activeToken = activeToken
+        self._sectionHeight = sectionHeight
         self.colorMapping = colorMapping
     }
+    
     
     internal var body: some View {
         LazyView(
@@ -150,8 +154,8 @@ internal struct ARequirementTab: View {
         .onValueChange(of: self.minY) {
             Task {
                 await MainActor.run {
-                    if self.maxY > self.minY {
-                        self.heightPublisher.send(self.maxY - self.minY)
+                    if self.maxY > self.minY && self.maxY - self.minY != self.sectionHeight {
+                        self.sectionHeight = self.maxY - self.minY
                     }
                 }
             }
@@ -159,8 +163,8 @@ internal struct ARequirementTab: View {
         .onValueChange(of: self.maxY) {
             Task {
                 await MainActor.run {
-                    if self.maxY > self.minY {
-                        self.heightPublisher.send(self.maxY - self.minY)
+                    if self.maxY > self.minY && self.maxY - self.minY != self.sectionHeight {
+                        self.sectionHeight = self.maxY - self.minY
                     }
                 }
             }
@@ -227,16 +231,4 @@ extension ARequirementTab {
         return copy
     }
     
-    // TODO: Self a struct, test for memory leaks!!
-    func subscribeToHeightChanges(withCancellable: inout AnyCancellable?, _ onValueChanged: (@escaping @MainActor @Sendable (_:CGFloat) -> Void)) -> Self {
-        withCancellable = self.heightPublisher.receive(on: RunLoop.main).removeDuplicates().sink { value in
-            Task {
-                await MainActor.run {
-                    onValueChanged(value)
-                }
-            }
-        }
-        
-        return self
-    }
 }
