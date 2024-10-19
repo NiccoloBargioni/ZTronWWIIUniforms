@@ -123,9 +123,9 @@ public struct ChallengeRequirementTabContent: View {
                 .background {
                     GeometryReader { geoProxy in
                         Color.blue.onAppear {
-                            print(geoProxy.frame(in: .local))
+                            print(geoProxy.frame(in: .global))
                         }.onValueChange(of: geoProxy.frame(in: .local)) {
-                            print(geoProxy.frame(in: .local).maxY)
+                            print(geoProxy.frame(in: .global).maxY)
                         }
                     }
                 }
@@ -202,9 +202,9 @@ public struct ChallengeRequirementTabContent: View {
                 .background {
                     GeometryReader { geoProxy in
                         Color.indigo.onAppear {
-                            print(geoProxy.frame(in: .local))
+                            print(geoProxy.frame(in: .global))
                         }.onValueChange(of: geoProxy.frame(in: .local)) {
-                            print(geoProxy.frame(in: .local).minY)
+                            print(geoProxy.frame(in: .global).minY)
                         }
                     }
                 }
