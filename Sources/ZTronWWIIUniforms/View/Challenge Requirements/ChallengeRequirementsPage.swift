@@ -13,7 +13,6 @@ public struct ChallengeRequirementsPage: View {
     @State private var swipeAngle: CGFloat = .zero
     
     @StateObject private var swipeManager: ChallengeRequirementsSwipeManager
-    @StateObject private var navigator: ZTronNavigator = .init(initialPath: [">"])
 
     public init(quest: Quest, challenge: Int, peers: [Challenge<String>]) {
         self.challenge = peers[challenge]
@@ -90,8 +89,8 @@ public struct ChallengeRequirementsPage: View {
                                 challenge: challengeBuffer.getWrappedValue(),
                                 peers: self.peerChallenges,
                                 frame: geo.frame(in: .global),
-                                navigator: self.navigator
                             )
+                            .id(challenge.getName())
                         }
                         .setHeaderSnapMode(.afterFinishAccelerating)
                         .height(min: 0, max: 150)

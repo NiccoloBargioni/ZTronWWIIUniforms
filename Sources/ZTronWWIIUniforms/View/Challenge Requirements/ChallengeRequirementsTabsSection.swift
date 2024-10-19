@@ -10,7 +10,7 @@ public struct ChallengeRequirementsTabsSection: View {
     @State private var selection: Int = 0
     @State private var origin: Int = 0
     
-    @ObservedObject private var history: ZTronNavigator
+    @StateObject private var history: ZTronNavigator = .init(initialPath: [">"])
 
     private var quest: Quest
     private var challenge: Challenge<String>
@@ -18,7 +18,7 @@ public struct ChallengeRequirementsTabsSection: View {
     private var challengeOffset: Int
     private var frame: CGRect
     
-    public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect, navigator: ZTronNavigator) {
+    public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect) {
         self.challenge = peers[challenge]
         self.quest = quest
         self.peerChallenges = peers
@@ -29,8 +29,6 @@ public struct ChallengeRequirementsTabsSection: View {
         self._requirementsModel = StateObject(
             wrappedValue: ConcreteChallengeRequirementsModel(quest: quest, challenge: peers[challenge])
         )
-        
-        self._history = ObservedObject(wrappedValue: navigator)
         
         self.history.navigate([0.toString()])
     }
@@ -82,6 +80,9 @@ public struct ChallengeRequirementsTabsSection: View {
         .frame(width: frame.size.width, height: max(frame.size.height, (self.tabContentHeight.max() ?? -1)*1.05))
         .background {
             Color(UIColor.systemGroupedBackground)
+        }
+        .onValueChange(of: self.selection) { @MainActor in
+            self.history.navigate([">", self.selection.toString()])
         }
     }
     
@@ -153,8 +154,6 @@ public struct ChallengeRequirementsTabsSection: View {
     
     private func onRequirementChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 0
-        self.history.navigate([">", 0.toString()])
-        
         let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
         
         self.requirementsModel.setToken(for: .init(rawValue: 0)!, tag)
@@ -162,8 +161,6 @@ public struct ChallengeRequirementsTabsSection: View {
     
     private func onDontsChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 1
-        self.history.navigate([">", 1.toString()])
-
         let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
 
         self.requirementsModel.setToken(for: .init(rawValue: 1)!, tag)
@@ -171,8 +168,6 @@ public struct ChallengeRequirementsTabsSection: View {
     
     private func onGlitchChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 2
-        self.history.navigate([">", 2.toString()])
-
         let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
 
         self.requirementsModel.setToken(for: .init(rawValue: 2)!, tag)
@@ -180,8 +175,6 @@ public struct ChallengeRequirementsTabsSection: View {
     
     private func onProTipChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 3
-        self.history.navigate([">", 3.toString()])
-
         let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
 
         self.requirementsModel.setToken(for: .init(rawValue: 3)!, tag)
