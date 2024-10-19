@@ -108,7 +108,7 @@ public struct ChallengeRequirementTabContent: View {
                 
                 
                 ARequirementTab(
-                    cardsInThisSection: requirementsModel.getProTips(),
+                    cardsInThisSection: requirementsModel.getProTips    (),
                     activeTab: self.selection,
                     activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
                     colorMapping: self.makeColorFor(tag:)
@@ -261,19 +261,23 @@ public struct ChallengeRequirementTabContent: View {
     
     
     private func includeRequirementChip(for card: Challenge<String>.TaggedString) -> Bool {
+        print("card w/ tag \(card.getTag()) has \(self.requirementsModel.getRequirements(card.getTag()).count) requirements")
         return self.selection != 0 && self.requirementsModel.getRequirements(card.getTag()).count > 0
     }
     
     private func includeDontsChip(for card: Challenge<String>.TaggedString) -> Bool {
-        self.selection != 1 && self.requirementsModel.getDonts(card.getTag()).count > 0
+        print("card w/ tag \(card.getTag()) has \(self.requirementsModel.getRequirements(card.getTag()).count) requirements")
+        return self.selection != 1 && self.requirementsModel.getDonts(card.getTag()).count > 0
     }
     
     private func includeBugsChip(for card: Challenge<String>.TaggedString) -> Bool {
-        self.selection != 2 && self.requirementsModel.getBugs(card.getTag()).count > 0
+        print("card w/ tag \(card.getTag()) has \(self.requirementsModel.getRequirements(card.getTag()).count) requirements")
+        return self.selection != 2 && self.requirementsModel.getBugs(card.getTag()).count > 0
     }
     
     private func includeProTipsChip(for card: Challenge<String>.TaggedString) -> Bool {
-        self.selection != 3 && self.requirementsModel.getProTips(card.getTag()).count > 0
+        print("card w/ tag \(card.getTag()) has \(self.requirementsModel.getRequirements(card.getTag()).count) requirements")
+        return self.selection != 3 && self.requirementsModel.getProTips(card.getTag()).count > 0
     }
     
     
