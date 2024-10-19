@@ -83,9 +83,6 @@ public struct ChallengeRequirementsTabsSection: View {
         .background {
             Color(UIColor.systemGroupedBackground)
         }
-        .onChange(of: self.selection, perform: { @MainActor _ in
-            self.history.navigate([">", self.selection.toString()])
-        })
     }
     
     
@@ -156,6 +153,8 @@ public struct ChallengeRequirementsTabsSection: View {
     
     private func onRequirementChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 0
+        self.history.navigate([">", 0.toString()])
+        
         let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
         
         self.requirementsModel.setToken(for: .init(rawValue: 0)!, tag)
@@ -163,6 +162,8 @@ public struct ChallengeRequirementsTabsSection: View {
     
     private func onDontsChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 1
+        self.history.navigate([">", 1.toString()])
+
         let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
 
         self.requirementsModel.setToken(for: .init(rawValue: 1)!, tag)
@@ -170,6 +171,8 @@ public struct ChallengeRequirementsTabsSection: View {
     
     private func onGlitchChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 2
+        self.history.navigate([">", 2.toString()])
+
         let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
 
         self.requirementsModel.setToken(for: .init(rawValue: 2)!, tag)
@@ -177,6 +180,8 @@ public struct ChallengeRequirementsTabsSection: View {
     
     private func onProTipChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 3
+        self.history.navigate([">", 3.toString()])
+
         let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
 
         self.requirementsModel.setToken(for: .init(rawValue: 3)!, tag)
