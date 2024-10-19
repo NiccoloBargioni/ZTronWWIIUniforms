@@ -61,7 +61,7 @@ public struct ChallengeRequirementTabContent: View {
                     .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
                     .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
                     .onActiveChipTapped(self.onActiveChipTapped)
-                    .tabItem(tag: 0, normal: {
+                    .tabItem(tag: index, normal: {
                         Image(systemName: icon)
                             .font(.system(size: 16, design: .rounded))
                     }, select: {
