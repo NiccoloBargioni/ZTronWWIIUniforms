@@ -2,12 +2,15 @@ import SwiftUI
 import AxisTabView
 import Combine
 import LazyViewSwiftUI
+import ZTronRouter
 
 public struct ChallengeRequirementTabContent: View {
     @StateObject private var requirementsModel: ConcreteChallengeRequirementsModel
-    @State private var listHeight: [CGFloat] = .init(repeating: .zero, count: 4)
+    @State private var tabContentHeight: [CGFloat] = .init(repeating: .zero, count: 4)
     @State private var selection: Int = 0
     @State private var origin: Int = 0
+    
+    private let history = ZTronNavigator(initialPath: [">", 0.toString()])
 
     private var quest: Quest
     private var challenge: Challenge<String>
@@ -16,7 +19,6 @@ public struct ChallengeRequirementTabContent: View {
     private var frame: CGRect
     
     public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect) {
-        
         self.challenge = peers[challenge]
         self.quest = quest
         self.peerChallenges = peers
@@ -53,7 +55,7 @@ public struct ChallengeRequirementTabContent: View {
                         cardsInThisSection: self.cardsForTab(withIndex: index),
                         activeTab: self.selection,
                         activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
-                        sectionHeight: self.$listHeight[index],
+                        sectionHeight: self.$tabContentHeight[index],
                         colorMapping: self.makeColorFor(tag:)
                     )
                     .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
@@ -73,12 +75,15 @@ public struct ChallengeRequirementTabContent: View {
                 }
             }
         }
-        .frame(width: frame.size.width, height: max(frame.size.height, self.listHeight[self.selection]*1.05))
+        .frame(width: frame.size.width, height: max(frame.size.height, self.tabContentHeight.max() ?? -1))
         .background {
             Color(UIColor.systemGroupedBackground)
         }
-        .onValueChange(of: self.listHeight[0]) {
-            print("New height \(self.listHeight[0]) just dropped")
+        .onValueChange(of: self.tabContentHeight.max()) {
+            print("New height \(self.tabContentHeight[0]) just dropped")
+        }
+        .onValueChange(of: self.selection) {
+            self.history.navigate([">", self.selection.toString()])
         }
     }
     
@@ -145,25 +150,21 @@ public struct ChallengeRequirementTabContent: View {
     
     
     private func onRequirementChipTap(from card: Challenge<String>.TaggedString) {
-        self.origin = self.selection
         self.selection = 0
         self.requirementsModel.setToken(for: .init(rawValue: 0)!, card.getTag())
     }
     
     private func onDontsChipTap(from card: Challenge<String>.TaggedString) {
-        self.origin = self.selection
         self.selection = 1
         self.requirementsModel.setToken(for: .init(rawValue: 1)!, card.getTag())
     }
     
     private func onGlitchChipTap(from card: Challenge<String>.TaggedString) {
-        self.origin = self.selection
         self.selection = 2
         self.requirementsModel.setToken(for: .init(rawValue: 2)!, card.getTag())
     }
     
     private func onProTipChipTap(from card: Challenge<String>.TaggedString) {
-        self.origin = self.selection
         self.selection = 3
         self.requirementsModel.setToken(for: .init(rawValue: 3)!, card.getTag())
     }
@@ -171,7 +172,16 @@ public struct ChallengeRequirementTabContent: View {
     
     private func onActiveChipTapped() {
         self.requirementsModel.removeTokens(for: .init(rawValue: self.selection)!)
-        self.selection = self.origin
+        self.history.goBack()
+        
+        guard let origin = self.history.path.last?.toInt() else {
+            fatalError(self.history.path.description + " is not a valid path: its last component is \(self.history.path.last!.description) was expected to be an integer")
+        }
+        
+        self.selection = origin
+        
+        // self.selection onChange would cause duplicate origin. Just remove the current one, that will be replaced by the same path for effect of onValueChange(of: self.selection)
+        self.history.goBack()
     }
 }
 
