@@ -124,22 +124,38 @@ internal struct ARequirementTab: View {
                     .background {
                         GeometryReader { geoProxy in
                             Color.indigo.onAppear {
-                                self.maxY = geoProxy.frame(in: .global).minY
+                                Task {
+                                    await MainActor.run {
+                                        self.maxY = geoProxy.frame(in: .global).minY
+                                    }
+                                }
                             }.onValueChange(of: geoProxy.frame(in: .global)) {
-                                self.maxY = geoProxy.frame(in: .global).minY
+                                Task {
+                                    await MainActor.run {
+                                        self.maxY = geoProxy.frame(in: .global).minY
+                                    }
+                                }
                             }
                         }
                     }
                 }
             )
         .onValueChange(of: self.minY) {
-            if self.maxY > self.minY {
-                self.heightPublisher.send(self.maxY - self.minY)
+            Task {
+                await MainActor.run {
+                    if self.maxY > self.minY {
+                        self.heightPublisher.send(self.maxY - self.minY)
+                    }
+                }
             }
         }
         .onValueChange(of: self.maxY) {
-            if self.maxY > self.minY {
-                self.heightPublisher.send(self.maxY - self.minY)
+            Task {
+                await MainActor.run {
+                    if self.maxY > self.minY {
+                        self.heightPublisher.send(self.maxY - self.minY)
+                    }
+                }
             }
         }
     }
