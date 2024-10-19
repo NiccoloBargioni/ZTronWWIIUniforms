@@ -120,7 +120,7 @@ public struct UniformsChallenges: View {
                         self.listContentHeight = updateCoalescingTableView.contentSize.height
                     }
                 }
-                .introspect(.list, on: .iOS(.v16, .v17)) { updateCoalescingTableView in
+                .introspect(.list, on: .iOS(.v16, .v17, .v18)) { updateCoalescingTableView in
                     DispatchQueue.main.async {
                         updateCoalescingTableView.layoutIfNeeded()
                         

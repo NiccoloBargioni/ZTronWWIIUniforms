@@ -4335,6 +4335,12 @@
           }
         }
       }
+    },
+    "Select a map" : {
+
+    },
+    "Uniforms" : {
+
     }
   },
   "version" : "1.0"
