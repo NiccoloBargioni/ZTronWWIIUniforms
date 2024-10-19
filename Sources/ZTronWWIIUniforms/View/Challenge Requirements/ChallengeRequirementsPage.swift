@@ -91,7 +91,6 @@ public struct ChallengeRequirementsPage: View {
                                 peers: self.peerChallenges,
                                 frame: geo.frame(in: .global)
                             )
-                            .environmentObject(self.navigator)
                         }
                         .setHeaderSnapMode(.afterFinishAccelerating)
                         .height(min: 0, max: 150)
@@ -103,6 +102,7 @@ public struct ChallengeRequirementsPage: View {
                 }
             }
         }
+        .environmentObject(self.navigator)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Image(self.quest.getImage())
