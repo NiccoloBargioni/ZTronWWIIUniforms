@@ -29,8 +29,6 @@ public struct ChallengeRequirementsTabsSection: View {
         self._requirementsModel = StateObject(
             wrappedValue: ConcreteChallengeRequirementsModel(quest: quest, challenge: peers[challenge])
         )
-        
-        self.history.navigate([0.toString()])
     }
     
     
@@ -82,6 +80,9 @@ public struct ChallengeRequirementsTabsSection: View {
             Color(UIColor.systemGroupedBackground)
         }
         .onValueChange(of: self.selection) { @MainActor in
+            self.history.navigate([">", self.selection.toString()])
+        }
+        .onAppear {
             self.history.navigate([">", self.selection.toString()])
         }
     }
