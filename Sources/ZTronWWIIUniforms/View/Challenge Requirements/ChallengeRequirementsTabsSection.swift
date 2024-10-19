@@ -4,7 +4,7 @@ import Combine
 import LazyViewSwiftUI
 import ZTronRouter
 
-public struct ChallengeRequirementTabContent: View {
+public struct ChallengeRequirementsTabsSection: View {
     @StateObject private var requirementsModel: ConcreteChallengeRequirementsModel
     @State private var tabContentHeight: [CGFloat] = .init(repeating: .zero, count: 4)
     @State private var selection: Int = 0
@@ -80,9 +80,6 @@ public struct ChallengeRequirementTabContent: View {
         .frame(width: frame.size.width, height: max(frame.size.height, self.tabContentHeight.max() ?? -1))
         .background {
             Color(UIColor.systemGroupedBackground)
-        }
-        .onValueChange(of: self.tabContentHeight.max()) {
-            print("New height \(self.tabContentHeight[0]) just dropped")
         }
         .onValueChange(of: self.selection) {
             self.history.navigate([">", self.selection.toString()])

@@ -1,6 +1,5 @@
 import SwiftUI
 import LazyViewSwiftUI
-import Combine
 
 internal struct ARequirementTab: View {
     
@@ -48,11 +47,11 @@ internal struct ARequirementTab: View {
     internal var body: some View {
         LazyView(
             VStack(alignment: .leading, spacing: 0) {
-                Color.red
+                Color.clear
                     .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
                     .background {
                         GeometryReader { geoProxy in
-                            Color.blue.onAppear {
+                            Color.clear.onAppear {
                                 Task {
                                     await MainActor.run {
                                         self.minY = geoProxy.frame(in: .global).maxY
@@ -130,11 +129,11 @@ internal struct ARequirementTab: View {
                 .padding()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 
-                Color.purple
+                Color.clear
                     .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
                     .background {
                         GeometryReader { geoProxy in
-                            Color.indigo.onAppear {
+                            Color.clear.onAppear {
                                 Task {
                                     await MainActor.run {
                                         self.maxY = geoProxy.frame(in: .global).minY
