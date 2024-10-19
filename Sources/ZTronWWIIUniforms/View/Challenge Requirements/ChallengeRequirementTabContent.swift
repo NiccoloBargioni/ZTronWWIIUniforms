@@ -196,19 +196,19 @@ public struct ChallengeRequirementTabContent: View {
             }
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-        }
-        
-        Color.clear
-            .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
-            .background {
-                GeometryReader { geoProxy in
-                    Color.clear.onAppear {
-                        print(geoProxy.frame(in: .local))
-                    }.onValueChange(of: geoProxy.frame(in: .local)) {
-                        print(geoProxy.frame(in: .local).minY)
+            
+            Color.clear
+                .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
+                .background {
+                    GeometryReader { geoProxy in
+                        Color.clear.onAppear {
+                            print(geoProxy.frame(in: .local))
+                        }.onValueChange(of: geoProxy.frame(in: .local)) {
+                            print(geoProxy.frame(in: .local).minY)
+                        }
                     }
                 }
             }
-    }
+        }
 }
 
