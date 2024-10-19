@@ -88,7 +88,7 @@ public struct ChallengeRequirementsPage: View {
                                 quest: quest,
                                 challenge: challengeBuffer.getWrappedValue(),
                                 peers: self.peerChallenges,
-                                frame: geo.frame(in: .global),
+                                frame: geo.frame(in: .global)
                             )
                             .id(challenge.getName())
                         }
