@@ -83,10 +83,8 @@ public struct ChallengeRequirementsTabsSection: View {
         .background {
             Color(UIColor.systemGroupedBackground)
         }
-        .onValueChange(of: self.selection) {
-            DispatchQueue.main.async {
-                self.history.navigate([">", self.selection.toString()])
-            }
+        .onValueChange(of: self.selection) { @MainActor in
+            self.history.navigate([">", self.selection.toString()])
         }
     }
     
@@ -193,10 +191,13 @@ public struct ChallengeRequirementsTabsSection: View {
             fatalError(self.history.path.description + " is not a valid path: its last component is \(self.history.path.last!.description) was expected to be an integer")
         }
         
-        self.selection = origin
-        
-        // self.selection onChange would cause duplicate origin. Just remove the current one, that will be replaced by the same path for effect of onValueChange(of: self.selection)
-        self.history.goBack()
+        // what if you tap the chip when you're already in the destination tab?
+        if self.selection != origin {
+            self.selection = origin
+            
+            // self.selection onChange would cause duplicate origin. Just remove the current one, that will be replaced by the same path for effect of onValueChange(of: self.selection)
+            self.history.goBack()
+        }
     }
 }
 
