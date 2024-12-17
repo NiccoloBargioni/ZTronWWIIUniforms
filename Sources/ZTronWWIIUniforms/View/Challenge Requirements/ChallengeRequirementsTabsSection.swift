@@ -15,7 +15,6 @@ public struct ChallengeRequirementsTabsSection: View {
     private var quest: Quest
     private var challenge: Challenge<String>
     private var peerChallenges: [Challenge<String>]
-    private var challengeOffset: Int
     private var frame: CGRect
     
     public init(quest: Quest, challenge: Int, peers: [Challenge<String>], frame: CGRect) {
@@ -23,14 +22,11 @@ public struct ChallengeRequirementsTabsSection: View {
         self.quest = quest
         self.peerChallenges = peers
         self.frame = frame
-        
-        self.challengeOffset = challenge
-        
+
         self._requirementsModel = StateObject(
             wrappedValue: ConcreteChallengeRequirementsModel(quest: quest, challenge: peers[challenge])
         )
     }
-    
     
     public static let SECTION_ICONS: [String] = [
         "checkmark.seal",
@@ -40,7 +36,6 @@ public struct ChallengeRequirementsTabsSection: View {
     ]
     
     public var body: some View {
-        
         VStack {
             AxisTabView(selection: $selection, constant: ATConstant(axisMode: .top)) { state in
                 ATBeadStyle(
@@ -86,7 +81,6 @@ public struct ChallengeRequirementsTabsSection: View {
             self.history.navigate([">", self.selection.toString()])
         }
     }
-    
     
     @MainActor
     private func makeColorFor(tag: Int) -> Color {
@@ -199,4 +193,3 @@ public struct ChallengeRequirementsTabsSection: View {
         }
     }
 }
-

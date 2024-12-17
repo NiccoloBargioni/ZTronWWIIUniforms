@@ -55,7 +55,6 @@ public struct UniformQuests: View {
                                     } else {
                                         self.questsModel.selectChip(chip)
                                     }
-                                    
                                     scrollViewReader.scrollTo(chip.last!.capitalized, anchor: .center)
                                 }
                             }
