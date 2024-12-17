@@ -77,7 +77,7 @@ public final class Challenge<Tag>: Hashable, Identifiable, Sendable where Tag: H
         }
         
         public func wrappedValue() -> String {
-            return String(localized: String.LocalizationValue(stringLiteral: self.string), bundle: .module)
+            self.string.fromLocalized()
         }
         
         public func getTag() -> Tag {
