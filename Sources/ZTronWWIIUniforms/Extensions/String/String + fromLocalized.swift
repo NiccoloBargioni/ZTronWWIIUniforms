@@ -6,7 +6,7 @@ public extension String {
             localized: String.LocalizationValue(self),
             bundle: .module,
             locale: Locale(
-                identifier: Bundle.main.preferredLocalizations.first ?? "en-US"
+                identifier: Locale.preferredLanguages.first ?? "en-US"
             )
         )
     }
