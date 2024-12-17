@@ -1,0 +1,4373 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cooking With Gas"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cucina a gas"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock the Ubsersprengen in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sblocca l’Ubersprengen in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power up"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potenziati"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Did You See That…?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hai visto…?"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill a treasure zombie in The Final Reich"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi uno zombie del tesoro in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.DID_YOU_SEE_THAT...?.ChallengeName.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“After that… thing!”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Seguiamo quella… cosa!”"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lightning Fast"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocità lampo"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only kill zombies inside the red circles."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi tutti gli zombie solo all’interno dei cerchi rossi."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assemble the Tesla Gun by wave 6, in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assembla l’arma Tesla entro l’ondata 6, in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.LIGHTNING_FAST.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Oh, I know this part”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Oh, questo lo so fare”"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On Assignment"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In missione"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEASONED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seasoned"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stagionato"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEASONED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 25 in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 25 in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEASONED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEASONED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See You At The Party"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ci vediamo alla festa"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select and keep the 1911, then upgrade them to use them against the Zeppelin’s red lights. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleziona e conserva le 1911, poi potenziale ed usale per sparare alle luci rosse dello Zeppelin."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the Panzermörder in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sconfiggi i Panzermörder in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.SEE_YOU_AT_THE_PARTY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rest in pieces"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A mai più rivederci"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._AGENT.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B.A.T. Agent"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agente BAT"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto calcolato"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Having a team is preferable. At the beginning of wave 6, one player opens the Salt Mines door and shoots the rear head of all the four bombers that spawn. \n\nSuch player goes to the Courtyard area with all the four bombers and trains them until the end of the wave.\n\nThe other player(s) kills the zombies only inside the Red Circles for the Tesla Gun quest.\n\nUpon obtaining the first part of the Tesla Gun, a Wustling will spawn.\n\nSuch Wustling needs to be saved and brought at the end of the wave to the pack-a-punch room area to unlock the Tesla Gun Battery.\n\nThen the player who was training the bombers goes to the pack-a-punch room and kills all four bombers with one trap activation. \n\nThis way you have one Tesla Gun battery able to be defended as soon as wave 7. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avere una squadra è preferibile. All’inizio del round 6, un giocatore apre la porta delle miniere di sale e spara alla testa posteriore dei quattro bombardieri che spawnano.\n\nQuesto giocatore va nella zona del cortile con tutti e quattro i bombardieri e li gira fino alla fine del round.\n\nL’altro giocatore uccide tutti gli zombie solo all’interno dei cerchi rossi per la sfida dell’arma Tesla.\n\nOttenuta la prima parte di quest’ultima, spawnerà un Wustling. \n\nTaluno dev’essere salvato fino alla fine del round, e portato nella zona del pack-a-punch per sbloccare la batteria dell’arma Tesla.\n\nSuccessivamente, il giocatore che sta girando i bombardieri, si reca nella stanza del pack-a-punch ed uccide tutti e quattro questi ultimi con una singola attivazione della trappola.\n\nIn questo modo è possibile difendere una batteria dell’arma Tesla già dal round 7."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At the beginning of wave 7, activate the lightning rod defense step, without killing zombies. When its health bar turns red, activate Frontline. This strategy needs to be repeated for the second defense."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All’inizio del round 7, attiva la difesa del parafulmini, senza uccidere nessuno zombie. Quando la barra della salute del parafulmini diventa rossa, attiva Prima Linea. Seguire la medesima strategia per la prossima difesa."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave 7, in between the two defenses, do the quest for the morgue battery (streetlights). "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round 7, tra la prima difesa e la seconda, esegui il passaggio della batteria dell’obitorio (lampioni)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave 7, after the second defense, damage the Zeppelin while it is hovering the courtyard area: the battery (Uberschnalle) should drop in the courtyard. \n\nGather enough zombies in the courtyard area and activate the trap to fill the Uberschnalle and unlock the Tesla Gun battery at the same time."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round 7, dopo la seconda difesa, danneggia lo Zeppelin mentre sorvola l’area del cortile: la batteria (Uberschnalle) dovrebbe cadere nel cortile. \n\nRaduna un numero sufficiente di zombie nel cortile ed attiva la trappola per riempire l’Uberschnalle e sbloccare la batteria dell’arma Tesla in un solo colpo."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Before wave 10, complete the Zeppelin steps and defend the first two batteries for the Tesla Gun upgrades.\n\nFor the defenses, use Frontline and don’t kill zombies."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima di round 10, completa i passaggi dello Zeppelin e difendi le prime due batterie per il potenziamento delle armi Tesla.\n\nPer le difese, usa Prima Linea e non uccidere zombie."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave 10, make sure that pack-a-punch is ready to be opened, but not open yet. Before the wave starts, interact with the buttons at the end of the pipes, for an high random chance to spawn extra pests.\n\nTrain all the pests in the morgue, then activate the trap and gather (with all your teammates, if applicable), in the middle of the room. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A round 10, accertati che il pack-a-punch sia pronto ad essere aperto ma non ancora aperto. Prima dell’inizio del round, interagisci coi pulsanti in fondo ai tubi, per un’opportunità di spawnare ulteriori pests (probabilità alta). \n\nPorta tutti i pests nell’obitorio, poi attiva la trappola e subito riunisciti ai tuoi compagni (se ci sono) al centro della stanza."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip6Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip7" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At the beginning of wave 11, start the defense for the upgrade of the Tesla Gun battery that you unlocked on wave 10. \n\nWith the red talon sword, go to the pub and charge the gramophone.\n\nAll Wustlings need to be saved during this wave."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All’inizio del round 10, avvia la difesa per il potenziamento della batteria dell’arma Tesla che hai sbloccato al round 10.\n\nCon l’artiglio rosso (spada), recati al pub e carica il grammofono.\n\nTutti i Wustling devono essere salvati durante questa ondata."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.ProTip7Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg by wave 16."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore entro l’ondata 16 (compresa)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.CALCULATED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your bullets. Take your time. Do this right."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risparmia i colpi. Vai con calma. Fallo bene."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Old School"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vecchia scuola"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Dont1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do not use self-revives, as they’re considered as consumables."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non utilizzare autorianimazioni, in quanto vengono classificate come consumabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Dont1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg without any player using special abilities, mods, or consumables."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore senza che alcun giocatore usi abilità speciali, mods, o consumabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.OLD_SCHOOL.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No school like the old school."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La vecchia scuola è la migliore."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One Man Army"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uomo esercito"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To save rounds, use Frontline for the lightning rod and Tesla Gun upgrade defenses: when Frontline is active, zombies will chase you instead of attacking the objectives. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per risparmiare round, usa Prima Linea per la difesa del parafulmini e le difese del potenziamento dell’arma Tesla: quando Prima Linea è attivo, gli zombi inseguono te invece di attaccare gli obiettivi."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge the Gramophone during a Pest round. There is one every 5 rounds."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carica il grammofono durante un round Pest. Ce n’è uno ogni 5 round."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use one of the bombers that spawn when you open the Salt Mines door to get the Testa battery in the lab area (electric trap, Speed Cola)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa uno dei bombardieri che spawnano quando apri la porta delle miniere di sale per ottenere la batteria della Tesla nell’area del laboratorio (trappola elettrica, Speed Cola)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you get the first part for the Tesla Gun, one Wustling will spawn: you can use that Wustling to obtain the Tesla Gun battery in the sewers (pack-a-punch room)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appena ottieni la prima parte dell’arma Tesla, spawna un Wustling che può essere usato per ottenere la batteria dell’arma Tesla nelle fognature (stanza pack-a-punch)."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you activate pack-a-punch there’s a chance to spawn extra Pests. Only activate it on round 10 to ensure that you kill enough pests with a single activation of the morgue trap."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando il pack-a-punch viene attivato, c’è la possibilità che spawnino dei Pest extra. Attivalo solamente una volta raggiunto il round 10, così da garantire che vengano uccisi abbastanza Pests con una singola attivazione della trappola dell’obitorio. "
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg in solo."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore in solo."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.ONE_MAN_ARMY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I’ll save you, brother, even if I have to do it myself."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ti salverò, fratello, a costo di farlo io."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off Record"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attività segrete"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.TIME_IS_OF_ESSENCE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time is of the Essence"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il tempo è cruciale"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.TIME_IS_OF_ESSENCE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg within 75 minutes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore entro 75 minuti."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.TIME_IS_OF_ESSENCE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.TIME_IS_OF_ESSENCE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“We must hurry, he may not have much time!”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Sbrighiamoci, potrebbe restargli poco tempo!”"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unscathed"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Illeso"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use Frontline with Determination (mod) to recover shields and keep the price of geistschild as low as possible."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa Prima Linea con Determinazione (modo) per recuperare gli scudi e mantenere basso il prezzo del geistschild."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the hardcore easter egg with no downed players."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore senza giocatori atterrati."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OFF_RECORD.UNSCATHED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No man left behind."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuno sarà abbandonato."
+          }
+        }
+      }
+    },
+    "OUTFIT.B.A.T._ELITE.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B.A.T Elite"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agente scelto B.A.T."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "King of the Castle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Re del castello"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill the Brenner that spawns on round 50. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi il Brenner che compare al round 50."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you can’t take the heat"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mi sento un fuoco dentro…"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mint condition"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Come nuovo"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Dont1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The challenge cannot start from any round other than Round 1."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La sfida non può essere avviata da nessun round successivo al primo."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Dont1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dont 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da non fare 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Dont2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Self damage from own equipment results in challenge failure."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Danno autoprodotto dal proprio equipaggiamento nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Dont2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dont 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da non fare 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended camping with De Lisle in the mystery box room."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si consiglia di camperare col De Lisle nella stanza della cassa misteriosa."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended using Shellshock and Sustain Zone. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si consiglia di utilizzare Trauma Letale con Zona Mantenuta."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The progress is individual. If a teammate gets damaged, you can still complete this challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il progresso è individuale. Se un compagno subisce danni, puoi comunque completare la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the first 20 rounds without getting damaged. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soprattivi i primi 20 round senza subire danni."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag world champion"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono intoccabile"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home Ward"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ritorno in patria"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is my haus"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa è la mia haus"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The progress is individual: you team-mate going down won’t deny the challenge for you."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il progresso è individuale: se un compagno di squadra va a terra, puoi ancora sbloccare la tua sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the first 30 rounds without anyone going down.*"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti i primi 30 round senza che nessuno vada a terra.*"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "End stay out!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E non tornate più!"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_MOUNTAINEER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloodraven Mountaineer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montanaro Corvosangue"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On The Hunt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A caccia"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter A"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie A"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part A from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte A di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_A.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter B"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie B"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part B from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte B di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich.\n"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_B.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter C"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie C"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part C from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte C di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich.\n"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_C.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter D"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie D"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part D from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte D di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich.\n"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_D.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Hunter E"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di zombie E"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salt Mines door must be open, otherwise no treasure zombie will ever spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le porte delle miniere di sale devono essere aperte. In caso contrario, lo zombie del tesoro non spawnerà mai."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part E from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte E di Cacciatore di zombie da uno zombie del tesoro in L’Ultimo Reich.\n"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.ON_THE_HUNT.ZOMBIE_HUNTER_E.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catch me if you can"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova a prendermi."
+          }
+        }
+      }
+    },
+    "OUTFIT.HUNTER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hunter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mountaineer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montanaro"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home Advantage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vantaggio in casa"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your stamina for when you need to go up the stairs by avoiding to sprint immediatly before that."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva la Stamina per quando devi salire le scale, evitando di correre immediatamente prima."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill only a few zombies at a time, so that you won't have too many zombies blocking your way."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi solo pochi zombie a volta, così non avrai zombie che ti tagliano la strada."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can slow down the zombies that sprint too fast by shooting them a bunch of shots."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi stordire gli zombie che corrono troppo velocemente sparandogli qualche colpo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 25 without going down in the Prologue."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 25 senza farti atterrare nel Prologo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back then, everything was perfect"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando era tutto perfetto."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locked In With Me"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiuso dentro con te"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brenner spawns on waves X and Y."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il Brenner arriva alle ondate X ed Y."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 20 with no open doors and with no downed players in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 20 senza aprire porte e senza giocatori atterrati in L'Ultimo Reich"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_ME.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Right... Nothing will even touch us."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sì... Non riusciranno neppure a toccarci."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locked in with you"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiuso dentro con te"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brenner spawns on waves X and Y."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il Brenner arriva alle ondate X ed Y."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 20 with no open doors in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 20 senza aprire porte in L'Ultimo Reich"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.LOCKED_IN_WITH_YOU.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We're safe in here... right?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qui è più sicuro... giusto?"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No cheating"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietato barare"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your stamina for when you need to go up the stairs by avoiding to sprint immediatly before that."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva la Stamina per quando devi salire le scale, evitando di correre immediatamente prima."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill only a few zombies at a time, so that you won't have too many zombies blocking your way."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi solo pochi zombie a volta, così non avrai zombie che ti tagliano la strada."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can slow down the zombies that sprint too fast by shooting them a bunch of shots."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi stordire gli zombie che corrono troppo velocemente sparandogli qualche colpo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 25 without unlocking the secret room in the Prologue."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 25 senza sbloccare la stanza segreta nel Prologo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Things were simpler back then."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora era tutto più semplice."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roughing it"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maniere Forti"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome Home"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Casa dolce casa"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your stamina for when you need to go up the stairs by avoiding to sprint immediatly before that."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva la Stamina per quando devi salire le scale, evitando di correre immediatamente prima."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill only a few zombies at a time, so that you won't have too many zombies blocking your way."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi solo pochi zombie a volta, così non avrai zombie che ti tagliano la strada."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can slow down the zombies that sprint too fast by shooting them a bunch of shots."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi stordire gli zombie che corrono troppo velocemente sparandogli qualche colpo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro Tip 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 25 in the Prologue"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all'ondata 25 nel Prologo."
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back to where it all started"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dove tutto ha avuto inizio."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.AU_NATUREL.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Au Naturel"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Au Naturel"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.AU_NATUREL.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg without any player using special abilities, mods, or consumables."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base senza che i giocatori usino abilità speciali, mod, o consumabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.AU_NATUREL.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.AU_NATUREL.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No helmet either."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Via anche i caschi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.BLITZLESS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blitzless"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senza blitz"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.BLITZLESS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg without any players using perks."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base senza che i giocatori usino perk."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.BLITZLESS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.BLITZLESS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No fancy German medicine."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niente strani intrugli tedeschi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Power"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bassa potenza"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Free Fire with MK.II is allowed.**"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuoco Libero con MK.II è consentito.**"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg without any players using pack a punch."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base senza che i giocatori usino il pack-a-punch."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.LOW_POWER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No fancy German engineering."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niente strani macchinari tedeschi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.NOT_A_SCRATCH.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not a Scratch"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neanche un graffio"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.NOT_A_SCRATCH.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg with no downed players."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base senza giocatori atterrati."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.NOT_A_SCRATCH.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.NOT_A_SCRATCH.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No mistakes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietato sbagliare."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slayer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccisore"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Practiced"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratico"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op, as soon as wave 1 starts, one player activates Elektromagnet (double jolts) while everyone else activates Vernichten (nuke) to maximise the points."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In cooperativa, appena inizia il round 1, un giocatore attiva Elektromagnet (doppie scosse), mentre tutti gli altri attivano Vernichten (testata nucleare) per massimizzare i punti."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To maximize the points, with 1911, on wave 1, shoot three times to the legs, and then use the shovel. \n\nEvery round, the number of shots you can take increases by 2. \n\nTo speed up the shovel melee animation, make sure you are crouching while performing the attack."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per massimizzare i punti, con le 1911, a round 1, spara tre volte alle gambe, e poi usa la pala.\n\nOgni round, il numero di colpi che puoi infierire aumenta di 2.\n\nPer velocizzare l’animazione della palata, accertati di essere accovacciato mentre esegui l’attacco."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the lightning rod defenses, don’t kill any zombie, and use Frontline when the health bar turns red (while being far from the rod). "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per le difese del parafulmini, non uccidere alcuno zombie, ed usa Prima Linea quando la barra della salute diventa rossa (mentre sei lontano dal parafulmini)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the casual easter egg within wave 12 (included)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg base entro il round 12 (compreso)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.PRACTICED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“We’re professionals”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Siamo professionisti.”"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER.BIG_GAME.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Big Game"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caccia grossa"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survivalist"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survivalista"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I Love My Gun"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adoro la mia arma"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beating every Easter Egg unlocks extra choices for starting weapons."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battere tutti gli Easter Egg garantisce una scelta più ampia per l’arma iniziale."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traps, nukes (from the ground or consumables), lethal equipments, can all be used without impacting the challenge success."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le trappole, nuke (da terra o consumabili) ed equipaggiamenti letali, possono essere usati senza influenzare il successo della sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 with only each players’ starting weapon"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 usando solo le armi di partenza di ogni giocatore, in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.I_LOVE_MY_GUN.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only what you brought with you"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo quello che hai portato con te"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In The Dark"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nell’ombra"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can unlock the fire trap in the square of Mittelburg."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi sbloccare la trappola del fuoco nella piazza di Mittelburg."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 without generator power in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 senza ripristinare l’energia in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.IN_THE_DARK.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Back in my day…” "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Ai miei tempi…”"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.LUDDITE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luddite"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luddismo"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.LUDDITE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 without any players using blitzes in The Final Reich."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 senza che i giocatori usino blitz in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.LUDDITE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.LUDDITE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t trust this new fangled medicine"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non c’è da fidarsi della medicina moderna"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.NO_TOUCHING.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Touching"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietato toccare"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.NO_TOUCHING.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 with no downed players"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 senza giocatori atterrati, in L’Ultimo Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.NO_TOUCHING.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.NO_TOUCHING.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No slacking off, on your feet."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non perdere tempo, in piedi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survival Guide"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guida alla sopravvivenza"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roll The Dice"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tira il dado"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mystery box weapon guarantees are allowed."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I consumabili garanzia arma dalla scatola misteriosa sono ammessi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Free Fire with MK.II (temporary pack-a-punch upgrade) is allowed, on the starting weapon as well. Traps, nukes (from the ground and consumables), and lethal equipments are allowed."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuoco Libero con MK.II (potenziamento temporaneo pack-a-punch) è consentito, anche sull’arma iniziale. Trappole, nuke (da terra o da consumabili), ed equipaggiamenti letali sono consentiti."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tip 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive wave 30 with only weapons from two mystery box uses per player. Starting weapons are allowed, but cannot be upgraded."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi all’ondata 30 usando solo le armi della scatola misteriosa in L’Ultimo Reich. Limite di due utilizzi della scatola misteriosa per giocatore. Armi di partenza ammesse, ma non potenziabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At least one mystery box spin is required. 0 spins causes the challenge to fail."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Almeno un giro di scatola magica è richiesto. Con 0 giri la sfida fallisce."
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Requirement2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.ROLL_THE_DICE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roll the dice. Take what you can get."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tira il dado. non fare lo schizzinoso."
+          }
+        }
+      }
+    },
+    "Select a map" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a map"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleziona una mappa"
+          }
+        }
+      }
+    },
+    "Uniforms" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uniforms"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uniformi"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
