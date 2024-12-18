@@ -29,7 +29,7 @@ public struct UniformsHome: View {
                             .frame(maxWidth: .infinity)
                     }
                     .frame(maxWidth: .infinity)
-                    .tint(self.selectedView == 0 ? Color("SelectedTab") : Color("SelectedTab"))
+                    .tint(self.selectedView == 0 ? Color("SelectedTab", bundle: .module) : Color("SelectedTab", bundle: .module))
 
                     Button {
 
@@ -40,7 +40,7 @@ public struct UniformsHome: View {
                             .frame(maxWidth: .infinity)
                     }
                     .frame(maxWidth: .infinity)
-                    .tint(self.selectedView == 1 ? Color("SelectedTab") : Color(UIColor.label))
+                    .tint(self.selectedView == 1 ? Color("SelectedTab", bundle: .module) : Color(UIColor.label))
                 }
                 .background {
                     Rectangle()

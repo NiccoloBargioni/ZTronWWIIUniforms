@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Key" : {
+      "extractionState" : "manual"
+    },
     "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2777,6 +2780,23 @@
         }
       }
     },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deathraven Mountaineer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montanaro corvomorte"
+          }
+        }
+      }
+    },
     "OUTFIT.HUNTER.ON_THE_HUNT.QuestName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5395,23 +5415,6 @@
         }
       }
     },
-    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.ROLLING_IN_IT" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add more zeros."
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aggiungi pure qualche zero"
-          }
-        }
-      }
-    },
     "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.ROLLING_IN_IT.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5459,6 +5462,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.ROLLING_IN_IT.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add more zeros."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi pure qualche zero"
           }
         }
       }
