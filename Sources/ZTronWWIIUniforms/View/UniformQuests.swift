@@ -127,7 +127,7 @@ public struct UniformQuests: View {
             } else {
                 GeometryReader { geoProxy in
                     VStack {
-                        Image("Challenge Banner")
+                        Image("Challenge Banner", bundle: .module)
                             .resizable()
                             .aspectRatio(1.0, contentMode: .fit)
                             .frame(width: geoProxy.size.width * 0.15)

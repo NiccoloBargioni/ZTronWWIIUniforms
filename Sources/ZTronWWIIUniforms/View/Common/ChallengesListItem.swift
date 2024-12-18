@@ -13,7 +13,7 @@ struct ChallengesListItem: View {
     
     var body: some View {
         HStack {
-            Image(image)
+            Image(image, bundle: .module)
                 .resizable()
                 .frame(width: 50, height: 50)
                 .clipShape(Circle())

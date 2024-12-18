@@ -75,7 +75,7 @@ public struct UniformsHome: View {
                                 
                             } label: {
                                 NavigationLink(destination: UniformQuests(map: map)) {
-                                    Image(map)
+                                    Image(map, bundle: .module)
                                         .resizable()
                                         .frame(width: cellSize)
                                         .aspectRatio(1.0, contentMode: .fit)

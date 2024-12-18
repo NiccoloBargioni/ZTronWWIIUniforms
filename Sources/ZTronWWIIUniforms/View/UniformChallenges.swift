@@ -29,7 +29,7 @@ public struct UniformsChallenges: View {
             ScalingHeaderScrollView {
                 ZStack {
                     VStack {
-                        Image(self.quest.getImage())
+                        Image(self.quest.getImage(), bundle: .module)
                             .resizable()
                             .aspectRatio(1.0, contentMode: .fit)
                             .clipShape(Circle())
@@ -80,7 +80,7 @@ public struct UniformsChallenges: View {
                             ) {
                                 HStack {
                                     ZStack {
-                                        Image("Challenge Banner")
+                                        Image("Challenge Banner", bundle: .module)
                                             .resizable()
                                             .frame(maxWidth: .infinity, maxHeight: .infinity)
                                         

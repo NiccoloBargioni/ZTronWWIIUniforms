@@ -33,7 +33,7 @@ public struct ChallengeRequirementsPage: View {
                     if challengeBuffer.getPosition() > 0 || self.offset != 0 || self.swipeAngle != 0 {
                         ScalingHeaderScrollView {
                             VStack {
-                                Image("Challenge Banner")
+                                Image("Challenge Banner", bundle: .module)
                                     .resizable()
                                     .aspectRatio(1.0, contentMode: .fit)
                                     .frame(width: 75)
@@ -104,7 +104,7 @@ public struct ChallengeRequirementsPage: View {
         }
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
-                Image(self.quest.getImage())
+                Image(self.quest.getImage(), bundle: .module)
                     .resizable()
                     .aspectRatio(1.0, contentMode: .fit)
                     .frame(width: 35)
