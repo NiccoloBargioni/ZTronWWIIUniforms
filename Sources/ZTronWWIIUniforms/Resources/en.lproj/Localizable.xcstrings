@@ -1344,6 +1344,346 @@
         }
       }
     },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.APEX_PREDATOR.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apex Predator"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souvenir inutile"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.APEX_PREDATOR.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Treasure Zombie spawns approximately every 75 minutes of playtime (persists across games)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo zombie del tesoro spawna approssimativamente ogni 75 minuti di gioco (cambiare partita non reimposta il timer)."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.APEX_PREDATOR.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.APEX_PREDATOR.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter Part C from a treasure zombie."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte C da uno zombie del tesoro."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.APEX_PREDATOR.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.APEX_PREDATOR.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Why steal this?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chi si sognerebbe di rubarlo?"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LOST_CHANGE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lost Change"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggetto smarrito"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LOST_CHANGE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Treasure Zombie spawns approximately every 75 minutes of playtime (persists across games)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo zombie del tesoro spawna approssimativamente ogni 75 minuti di gioco (cambiare partita non reimposta il timer)."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LOST_CHANGE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LOST_CHANGE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter Part A from a treasure zombie."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte A da uno zombie del tesoro."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LOST_CHANGE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LOST_CHANGE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You dropped more than your wallet…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non hai perso solo il portafoglio…."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LUNCH_MONEY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lunch Money"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refurtiva di scarto"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LUNCH_MONEY.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Treasure Zombie spawns approximately every 75 minutes of playtime (persists across games)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo zombie del tesoro spawna approssimativamente ogni 75 minuti di gioco (cambiare partita non reimposta il timer)."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LUNCH_MONEY.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LUNCH_MONEY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter Part B from a treasure zombie."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte B da uno zombie del tesoro."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LUNCH_MONEY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LUNCH_MONEY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twice stolen, once shy."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attenzione, questa è roba che scotta."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antique Collector"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collezionista di antichità"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_HUNTER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloodraven Hunter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore Corvosangue"
+          }
+        }
+      }
+    },
     "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1782,6 +2122,657 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Montanaro Corvosangue"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bronzing"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbronzatura"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aliquam luctus tempus ullamcorper. Nullam finibus velit malesuada commodo porta. Nullam sed pretium risus. In vitae mauris gravida, porta eros sit amet, sodales enim. Aenean non tellus venenatis, luctus quam vel, auctor eros. Nulla facilisi. Nunc ex nulla, iaculis vel euismod posuere, pellentesque vitae quam."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting from wave one, complete 25 waves in spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A partire dal round 1, completa 25 ondate nello spawn."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You should put on sunscreen."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hai messo la crema solare?"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.OVERWEIGHT.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overweight"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scansafatiche"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.OVERWEIGHT.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The most effective strategy is to camp by ubersprengen (pack-a-punch), possibly with De-Lisle."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La strategia più efficace è comperare presso l’ubersprengen (pack-a-punch), se possibile con il De-Lisle."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.OVERWEIGHT.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.OVERWEIGHT.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting from wave zero, complete 20 waves without sprinting."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A partire dal round zero, completa 20 round senza mai correre."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.OVERWEIGHT.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.OVERWEIGHT.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No rush."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna fretta."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Living The Dream"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vivere il sogno"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.STAYING_SAFE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staying Safe"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massima sicurezza"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.STAYING_SAFE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maecenas vitae lacus porta, luctus turpis eget, dictum magna. Mauris egestas aliquet tortor et aliquet. Nam finibus sollicitudin volutpat. Nullam et sollicitudin est, at sodales odio. Vestibulum tincidunt, risus id vehicula ullamcorper, tortor eros placerat magna, id mattis lectus velit ut nibh. Aliquam ornare a enim non pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam eget ante vitae augue mattis tincidunt. Mauris id auctor arcu. Proin eu scelerisque magna. Sed quam neque, varius at consequat nec, accumsan nec ipsum. Pellentesque mollis rhoncus libero, congue commodo urna volutpat eget. Aenean non dictum nulla. Vivamus volutpat laoreet arcu, a ultrices ante."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.STAYING_SAFE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.STAYING_SAFE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting from wave one, complete 20 waves in spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A partire dal round 1, completa 20 ondate nello spawn."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.STAYING_SAFE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.STAYING_SAFE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you afraid of the dark?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chi ha paura del buio?"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_HUNTER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deathraven Hunter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore corvomorte"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.BURNING_DESIRE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burning Desire"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ardente Desiderio"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.BURNING_DESIRE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Against common belief, it’s possible to take damage from fire and zombies."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contrariamente al mito popolare, è consentito subire danni da fuoco e da zombie."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.BURNING_DESIRE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.BURNING_DESIRE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "During the lockdown step in the U-BOAT pens, survive four full waves."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durante lo step dell’isolamento nella base degli U-BOAT, sopravvivi 4 round completi."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.BURNING_DESIRE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.BURNING_DESIRE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frog in water."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bollito in pentola."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.FRYING_PAN.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frying Pan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spadellata"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.FRYING_PAN.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eluding the lockdown to use other traps around the map won’t count for the completion."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eludere l’isolamento per usare le altre trappole in giro per la mappa non conta ai fini del completamento."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.FRYING_PAN.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.FRYING_PAN.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "During the lockdown step in the U-BOAT pens, get 100 zombie kills with the trap. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durante lo step dell’isolamento nella base degli U-BOAT, uccidi 100 zombie con la trappola."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.FRYING_PAN.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.FRYING_PAN.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitchen appliances"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attrezzi da cucina"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep Moving"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sempre in movimento"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.UNDER_PRESSURE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Under Pressure"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sotto pressione"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.UNDER_PRESSURE.Dont1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eluding the lockdown step to train zombies outside of the U-BOAT pens will negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eludere lo step dell’isolamento per girare gli zombie fuori dalla base degli U-BOAT nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.UNDER_PRESSURE.Dont1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.UNDER_PRESSURE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "During the lockdown step in the U-BOAT pens, obtain 10 headshots. Getting consecutive headshots isn’t required."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durante lo step dell’isolamento nella base degli U-BOAT, ottieni 10 colpi alla testa, non necessariamente consecutivi."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.UNDER_PRESSURE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.UNDER_PRESSURE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take a deep breath."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fai un bel respiro."
           }
         }
       }
@@ -4332,6 +5323,516 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tira il dado. non fare lo schizzinoso."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Hunter From Seville"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il cacciatore di siviglia"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.CHA-CHING!.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hit 25k jolts before wave <whatever>"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raggiungi le 25k scosse prima del round <classificato>"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.CHA-CHING!.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stock Broker"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agente di cambio"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.ROLLING_IN_IT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add more zeros."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi pure qualche zero"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.ROLLING_IN_IT.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolling in it"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rendimento immediato"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.ROLLING_IN_IT.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hit 30k jolts before wave <redacted>"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raggiungi le 30k scosse prima del round <classificato>"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.ROLLING_IN_IT.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.SAVINGS_ACCOUNT.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Savings Account"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risparmiatore"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.SAVINGS_ACCOUNT.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the bossfight with at least 15k jolts on you."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti la battaglia boss avendo nelle tue tasche almeno 15 mila scosse."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.SAVINGS_ACCOUNT.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.SAVINGS_ACCOUNT.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take it with you."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tieniti stretto il tesoro."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barbarossa"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barbarossa"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.TOOLS_OF_THE_TRADE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tools Of The Trade"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferri dei mestiere"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.TOOLS_OF_THE_TRADE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain the pommel without ever killing any zombie with the blade ranged attack of the ripsaw (right trigger). Accidentally killing a zombie even during a step that requires such attack will negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni il pomolo senza mai uccidere zombie con l’attacco a distanza della lama della motosega (tasto destro). Ucciderci accidentalmente uno zombie, anche durante un passaggio che richieda questo attacco, nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.TOOLS_OF_THE_TRADE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.TOOLS_OF_THE_TRADE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No dirty kills."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo uccisioni pulite"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.ULTIMATE_POWER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultimate Power"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potere definitivo"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.ULTIMATE_POWER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Self revives count as consumables. In solo, getting revived by the Quick Revive perk doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le autorianimazioni contano come consumabili. In solo, essere rianimati dal perk Rianimazione Rapida non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.ULTIMATE_POWER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.ULTIMATE_POWER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain the pommel without any player using special abilities, mods or consumables."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni il pomolo senza che nessun giocatore utilizzi abilità speciali, mod o consumabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.ULTIMATE_POWER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.ULTIMATE_POWER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Streaking around the island."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ecco il nuovo padrone dell'isola."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.UNTARNISHED_PROPERTY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Untarnished Property"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proprietà privatissima"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.UNTARNISHED_PROPERTY.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op, one player should use Free Fire with MK.II and Marksmanship, and the other player should use Shellshock with Sustain Zone.  "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In cooperativa, un giocatore dovrebbe usare Fuoco libero con MK.II e Precisione, mentre l’altro dovrebbe usare Trauma Letale con Zona Mantenuta."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.UNTARNISHED_PROPERTY.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.UNTARNISHED_PROPERTY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t lose any armor during the pommel rituals (pest, meuchler, wustling, and monk head). Progression is team-based."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non perdere scudi durante nessuno dei rituali per ottenere il pomolo (pest, meuchler, wustling, testa del monaco). Il completamento è di squadra."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.UNTARNISHED_PROPERTY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.UNTARNISHED_PROPERTY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t touch the merchandise."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non toccate la mercanzia!"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Mountaineer From Ruskeala"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il montanaro di Ruskeala"
           }
         }
       }

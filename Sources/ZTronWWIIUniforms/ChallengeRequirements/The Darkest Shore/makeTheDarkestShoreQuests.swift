@@ -4,44 +4,45 @@ func makeTheDarkestShoreQuests() -> [Quest] {
     return [
         Quest(
             map: "the darkest shore",
-            setName: "collezionista di antichità",
-            characterName: "cacciatore corvosangue",
+            setName: "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.QuestName".fromLocalized(),
+            characterName: "OUTFIT.BLOODRAVEN_HUNTER.OUTFIT_NAME".fromLocalized(),
             image: "hunter",
             challenges: makeCollezionistaDiAntichitaChallenges()
         ),
         
         Quest(
             map: "the darkest shore",
-            setName: "vivere il sogno",
-            characterName: "cacciatore corvomorte",
+            setName: "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.QuestName",
+            characterName: "OUTFIT.DEATHRAVEN_HUNTER.OUTFIT_NAME",
             image: "hunter",
             challenges: makeVivereIlSognoChallenges()
         ),
         
         Quest(
             map: "the darkest shore",
-            setName: "agente di cambio",
-            characterName: "cacciatore di siviglia",
+            setName: "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.QuestName",
+            characterName: "OUTFIT.THE_HUNTER_FROM_SEVILLE.OUTFIT_NAME",
             image: "hunter",
             challenges: makeAgenteDiCambioChallenges()
         ),
         
         Quest(
             map: "the darkest shore",
-            setName: "sempre in movimento",
-            characterName: "montanaro corvomorte",
+            setName: "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.QuestName",
+            characterName: "OUTFIT.DEATHRAVEN_MOUNTAINEER.OUTFIT_NAME",
             image: "mountaineer",
             challenges: makeSempreInMovimentoChallenges()
         ),
         
         Quest(
             map: "the darkest shore",
-            setName: "barbarossa",
-            characterName: "montanaro di ruskeala",
+            setName: "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.QuestName",
+            characterName: "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.OUTFIT_NAME",
             image: "mountaineer",
             challenges: makeBarbarossaChallenges()
         ),
         
+        // MARK: - RESTART FROM HERE
         Quest(
             map: "the darkest shore",
             setName: "al comando",
