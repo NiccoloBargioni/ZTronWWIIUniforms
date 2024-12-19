@@ -2129,6 +2129,618 @@
         }
       }
     },
+    "OUTFIT.BLOODRAVEN_SLAYER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloodaven Slayer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massacratore Corvosangue"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.BOMBS_AWAY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bombs away"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bombe sganciate"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.BOMBS_AWAY.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The challenge is easier to complete in solo or duo, because only two ships will spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La sfida è più facile da completare in solo o coppie, poiché solo due navi spawneranno."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.BOMBS_AWAY.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.BOMBS_AWAY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "During the battleship step, don’t miss any shot. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durante la fase della battaglia navale, non mancare alcun colpo."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.BOMBS_AWAY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.BOMBS_AWAY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mathematician"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matematico."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.MOLE_KING.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mole King"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Re delle talpe"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.MOLE_KING.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Since the progression is team-based, it is advisable that you let the most experienced player take care of this challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dato che il progresso è di squadra, è consigliabile lasciare che il giocatore di maggiore esperienza si occupi di completare la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.MOLE_KING.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.MOLE_KING.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contrary to common belief, .9mm SAP pistols can be used to unlock the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contrariamente a quanto si crede, è consentito usare le .9mm SAP per sbloccare la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.MOLE_KING.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.MOLE_KING.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "While riding the cart in the mines system, get 10 consecutive headshots on bombers. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mentre usi il carrello nel sistema minerario, ottieni 10 colpi alla testa consecutivi sui bombardieri."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.MOLE_KING.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.MOLE_KING.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I live underground."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’è vita nel sottosuolo."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V.I.B"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V.I.B"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.SECRET_SERVICE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Secret Service"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servizio segreto"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.SECRET_SERVICE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "During the bomber escort step of the easter egg, don’t let the bomber take any damage."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durante la fase dell’easter egg in cui scorti il bombardiere, non lasciare che questo subisca alcun danno."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.SECRET_SERVICE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.SECRET_SERVICE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Untouched Mayhem."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caos intatto."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.HEAD_OF_THE_SPEAR.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Head Of The Spear"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Punta della lancia"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.HEAD_OF_THE_SPEAR.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill the purple Meistermeuchler first in every single phase of the bossfight."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi il Meistermeuchler viola per primo in ogni fase della battaglia boss."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.HEAD_OF_THE_SPEAR.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.HEAD_OF_THE_SPEAR.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There is no point."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di qui non si passa."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.IRON_LEGS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iron Legs"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gambe d’acciaio"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.IRON_LEGS.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After the U-BOAT pens lockdown, a Brenner will spawn and drop Max Ammo power-up that never despawns. You can save it for the second phase of the bossfight so that you can have a total of six jacks-in-the-box.   "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dopo l’isolamento nella base degli U-BOAT, arriverà un Brenner che rilascerà un potenziamento Munizioni al massimo che non scompare mai. Si può salvare per la seconda fase della battaglia boss in modo da avere sei usi del jack-in-the-box. "
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.IRON_LEGS.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.IRON_LEGS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the bossfight without any player being downed."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa la battaglia boss senza che alcun giocatore venga atterrato."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.IRON_LEGS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.IRON_LEGS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive on your feet."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guai ad alzare bandiera bianca."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In Charge"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al comando"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.STATIC_BUILDUP.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Static Buildup"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accumulo statico"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.STATIC_BUILDUP.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the bossfight without any player being hit by the stunning attack of the red Meistermeuchler."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa la battaglia boss senza che alcun giocatore venga colpito dall’attacco stordente del Meistermeuchler rosso."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.STATIC_BUILDUP.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.STATIC_BUILDUP.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bright lights and pain."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luci abbaglianti e tanto dolore."
+          }
+        }
+      }
+    },
+    "OUTFIT.BLOODRAVEN_SURVIVALIST.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloodraven Survivalist"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survivalista Corvosangue"
+          }
+        }
+      }
+    },
     "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2793,6 +3405,822 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Montanaro corvomorte"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deathraven Slayer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massacratore Corvomorte"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.Bug1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It seems that non-better identified events reset the round tracker so that it starts from zero at the beginning of next round."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sembra che determinati eventi non meglio identificati reimpostino il conteggio dei round da zero a partire dal round successivo."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.Bug1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lady Luck"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dea Bendata"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instakill and nuke power-ups do not negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All’istante e Nuke non negano la sfida"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weapon variants do not negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le varianti delle armi non negano la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Going down doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andare a terra non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete 25 waves using only the first weapon from the box. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa 25 round usando solo la prima arma dalla cassa."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.LADY_LUCK.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natural 20."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compagni inseparabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.Bug1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It seems that non-better identified events reset the round tracker so that it starts from zero at the beginning of next round."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sembra che determinati eventi non meglio identificati reimpostino il conteggio dei round da zero a partire dal round successivo."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.Bug1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Kid"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filo-tedesco"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instakill and nuke power-ups do not negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All’istante e Nuke non negano la sfida"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weapon variants do not negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le varianti delle armi non negano la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Going down doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andare a terra non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive 20 waves only using only one weapon of choice between Gewehr 43, Sten, GPMG."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi 20 round utilizzando una sola arma a scelta tra Gewehr 43, Sten, POMG."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.NEW_KID.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something New."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qualcosa di nuovo"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.PUMMELED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pummeled"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomolo del potere"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.PUMMELED.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collecting nukes doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raccogliere nuke non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.PUMMELED.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.PUMMELED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete five waves only using the pommel."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa cinque round usando solo il pomolo."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.PUMMELED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.PUMMELED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To death you say?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FIno alla morte?"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tools of the trade"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferri del mestiere"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deathraven Survivalist"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survivalista corvomorte"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.BEACH_HEADHUNTER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beach Headhunter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di teste balneare"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.BEACH_HEADHUNTER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "During wave zero, kill all the zombies with headshots."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durante il round zero, uccidi tutti gli zombie con colpi alla testa."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.BEACH_HEADHUNTER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.BEACH_HEADHUNTER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lose a head or two"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono fuori di testa, tutti quanti."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.DIG_IT.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dig it"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scava-fosse"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.DIG_IT.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using the de-spawn trick awards you with completion as long as you have killed only with the shovel."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilizzando il trucco per far despawnare gli zombie si otterrà il completamento a patto di aver ucciso solo con la pala."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.DIG_IT.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.DIG_IT.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "During wave zero, kill every zombie with the shovel. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durante il round zero, uccidi tutti gli zombie usando la pala."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.DIG_IT.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.DIG_IT.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrenched on the Beach."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trincerato in spiaggia"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.HUNCHBACK.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hunchback"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gobbo"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.HUNCHBACK.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive the entire wave zero while crouching. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa l’intero round zero da accovacciato."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.HUNCHBACK.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.HUNCHBACK.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sweeping for gold."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cercatore d’oro."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol Ace"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vero asso"
           }
         }
       }
@@ -5364,6 +6792,23 @@
         }
       }
     },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.CHA-CHING!.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cha-Ching!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono ricco!"
+          }
+        }
+      }
+    },
     "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.CHA-CHING!.Requirement1" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5394,6 +6839,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.CHA-CHING!.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrounge and scheme."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piano di accumulo."
           }
         }
       }
@@ -5853,6 +7315,380 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il montanaro di Ruskeala"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Survivalist From Hanoi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La survivalista di Hanoi"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.FACE_TO_FACE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face To Face"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faccia a faccia"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.FACE_TO_FACE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the whole easter egg without using any trap."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa l’intero easter egg senza mai usare trappole."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.FACE_TO_FACE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.FACE_TO_FACE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I shall bring death."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarò la vostra morte."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.MATADOR.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matador"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matador"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.MATADOR.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill three meuchlers with traps. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi tre meuchlers utilizzando le trappole."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.MATADOR.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.MATADOR.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing is too fast to die."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile seminare la morte."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Hunter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il Cacciatore"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trapper"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intrappolatore"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.Dont1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bomber explosions negate the challenge. To prevent this, it is recommended to activate a nuke whenever a bomber gets too close to a player."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le esplosioni dei bombardieri negano la sfida. Per evitare ciò, è consigliabile attivare una nuke ogni volta che uno si avvicina troppo ad un giocatore."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.Dont1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using nuke consumables or collecting the nuke power-up, doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usare il consumabile della nuke o raccogliere la nuke da terra non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is recommended to complete the challenge at lower rounds."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È consigliabile completare la sfida a round bassi."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To maximise points, use the despawn trick on wave zero. Furthermore, in co-op, at the beginning of wave one, one player should activate Elektromagnet (Double Jolts), and everyone else should use a nuke consumable. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per massimizzare i punti, usa il trucco del despawn al round zero. Inoltre, in cooperativa, all’inizio del round uno, un giocatore attiva Elektromagnet (Scosse Doppie), mentre tutti gli altri attivano il consumabile della nuke."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive four consecutive waves using only traps."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi quattro round consecutivi usando solo trappole."
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.TRAPPER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The train pain keeps coming"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il treno del dolore è in perfetto orario."
           }
         }
       }

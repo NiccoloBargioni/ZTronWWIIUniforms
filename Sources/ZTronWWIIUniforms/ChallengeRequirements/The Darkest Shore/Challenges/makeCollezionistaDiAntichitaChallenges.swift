@@ -5,7 +5,7 @@ internal func makeCollezionistaDiAntichitaChallenges() -> [Challenge<String>] {
     return [
         Challenge<String>(
             name: "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LOST_CHANGE.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LOST_CHANGE.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -25,7 +25,7 @@ internal func makeCollezionistaDiAntichitaChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LUNCH_MONEY.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.LUNCH_MONEY.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -45,7 +45,7 @@ internal func makeCollezionistaDiAntichitaChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.APEX_PREDATOR.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.BLOODRAVEN_HUNTER.ANTIQUE_COLLECTOR.APEX_PREDATOR.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(

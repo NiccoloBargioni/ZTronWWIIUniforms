@@ -5,7 +5,7 @@ internal func makeBarbarossaChallenges() -> [Challenge<String>] {
     return [
         Challenge<String>(
             name: "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.UNTARNISHED_PROPERTY.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.UNTARNISHED_PROPERTY.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -25,7 +25,7 @@ internal func makeBarbarossaChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.ULTIMATE_POWER.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.ULTIMATE_POWER.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -45,7 +45,7 @@ internal func makeBarbarossaChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.TOOLS_OF_THE_TRADE.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.TOOLS_OF_THE_TRADE.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -55,12 +55,7 @@ internal func makeBarbarossaChallenges() -> [Challenge<String>] {
             ],
             donts: [],
             glitches: [],
-            proTips: [
-                Challenge<String>.TaggedString(
-                    "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.TOOLS_OF_THE_TRADE.ProTip1".fromLocalized(),
-                    tag: "OUTFIT.THE_MOUNTAINEER_FROM_RUSKEALA.BARBAROSSA.TOOLS_OF_THE_TRADE.ProTip1Tag".fromLocalized()
-                ),
-            ]
+            proTips: []
         ),
         
         

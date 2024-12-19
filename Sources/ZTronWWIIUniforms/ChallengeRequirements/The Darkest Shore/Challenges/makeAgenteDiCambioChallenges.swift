@@ -5,7 +5,7 @@ internal func makeAgenteDiCambioChallenges() -> [Challenge<String>] {
     return [
         Challenge<String>(
             name: "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.CHA-CHING!.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.CHA-CHING!.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -20,7 +20,7 @@ internal func makeAgenteDiCambioChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.ROLLING_IN_IT.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.ROLLING_IN_IT.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -35,7 +35,7 @@ internal func makeAgenteDiCambioChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.SAVINGS_ACCOUNT.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.SAVINGS_ACCOUNT.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(

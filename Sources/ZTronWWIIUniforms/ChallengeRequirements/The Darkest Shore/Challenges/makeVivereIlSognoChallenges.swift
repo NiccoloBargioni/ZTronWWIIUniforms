@@ -5,7 +5,7 @@ internal func makeVivereIlSognoChallenges() -> [Challenge<String>] {
     return [
         Challenge<String>(
             name: "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -25,7 +25,7 @@ internal func makeVivereIlSognoChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.STAYING_SAFE.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.STAYING_SAFE.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -46,7 +46,7 @@ internal func makeVivereIlSognoChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.OVERWEIGHT.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.OVERWEIGHT.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(

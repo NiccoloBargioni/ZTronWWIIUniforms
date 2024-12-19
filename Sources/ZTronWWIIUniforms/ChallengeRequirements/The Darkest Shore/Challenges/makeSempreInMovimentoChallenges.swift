@@ -5,7 +5,7 @@ internal func makeSempreInMovimentoChallenges() -> [Challenge<String>] {
     return  [
         Challenge<String>(
             name: "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.BURNING_DESIRE.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.BURNING_DESIRE.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -25,7 +25,7 @@ internal func makeSempreInMovimentoChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.FRYING_PAN.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.FRYING_PAN.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -45,7 +45,7 @@ internal func makeSempreInMovimentoChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.UNDER_PRESSURE.ChallengeName".fromLocalized(),
-            map: "the final reich",
+            map: "the darkest shore",
             riddle: "OUTFIT.DEATHRAVEN_MOUNTAINEER.KEEP_MOVING.UNDER_PRESSURE.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(

@@ -42,43 +42,42 @@ func makeTheDarkestShoreQuests() -> [Quest] {
             challenges: makeBarbarossaChallenges()
         ),
         
-        // MARK: - RESTART FROM HERE
         Quest(
             map: "the darkest shore",
-            setName: "al comando",
-            characterName: "survivalista corvosangue",
+            setName: "OUTFIT.BLOODRAVEN_SURVIVALIST.IN_CHARGE.QuestName",
+            characterName: "OUTFIT.BLOODRAVEN_SURVIVALIST.OUTFIT_NAME",
             image: "survivalist",
             challenges: makeAlComandoChallenges()
         ),
         
         Quest(
             map: "the darkest shore",
-            setName: "vero asso",
-            characterName: "survivalista corvomorte",
+            setName: "OUTFIT.DEATHRAVEN_SURVIVALIST.SOL_ACE.QuestName",
+            characterName: "OUTFIT.DEATHRAVEN_SURVIVALIST.OUTFIT_NAME",
             image: "survivalist",
             challenges: makeVeroAssoChallenges()
         ),
         
         Quest(
             map: "the darkest shore",
-            setName: "il cacciatore",
-            characterName: "la survivalista di hanoi",
+            setName: "OUTFIT.THE_SURVIVALIST_FROM_HANOI.THE_HUNTER.QuestName",
+            characterName: "OUTFIT.THE_SURVIVALIST_FROM_HANOI.OUTFIT_NAME",
             image: "survivalist",
             challenges: makeIlCacciatoreChallenges()
         ),
         
         Quest(
             map: "the darkest shore",
-            setName: "V.I.B",
-            characterName: "massacratore corvosangue",
+            setName: "OUTFIT.BLOODRAVEN_SLAYER.V.I.B.QuestName",
+            characterName: "OUTFIT.BLOODRAVEN_SLAYER.OUTFIT_NAME",
             image: "slayer",
             challenges: makeVIBChallenges()
         ),
         
         Quest(
             map: "the darkest shore",
-            setName: "ferri del mestiere",
-            characterName: "massacratore corvomorte",
+            setName: "OUTFIT.DEATHRAVEN_SLAYER.TOOLS_OF_THE_TRADE.QuestName",
+            characterName: "OUTFIT.DEATHRAVEN_SLAYER.OUTFIT_NAME",
             image: "slayer",
             challenges: makeFerriDelMestiereChallenges()
         ),
