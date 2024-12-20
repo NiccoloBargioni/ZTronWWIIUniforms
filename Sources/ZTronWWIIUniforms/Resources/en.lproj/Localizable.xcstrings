@@ -1,9 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Key" : {
-      "extractionState" : "manual"
-    },
     "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3789,13 +3786,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive 20 waves only using only one weapon of choice between Gewehr 43, Sten, GPMG."
+            "value" : "Survive 25 waves only using only one weapon of choice between Gewehr 43, Sten, GPMG."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi 20 round utilizzando una sola arma a scelta tra Gewehr 43, Sten, POMG."
+            "value" : "Sopravvivi 25 round utilizzando una sola arma a scelta tra Gewehr 43, Sten, GPMG."
           }
         }
       }
@@ -5683,6 +5680,788 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dove tutto ha avuto inizio."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penny Killer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaro"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the whole duration of the challenge, using the un-upgraded ripsaw grants one hit kills on zombies. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per l’intera durata della sfida, usare la motosega non potenziata garantisce uccisioni con un colpo sugli zombie."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is recommended to purchase the door to the Electric Cherry perk and also Staminup. This way, when a Meuchler spawns, you can run in circles around the entire map waiting for it to just despawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È consigliabile acquistare le porte per i perk Scossa Elettrica e Staminup. Così facendo, quando spawna il Meuchler, puoi girare la mappa in tondo aspettando che questo despawni senza affrontarlo."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you own the M1 Garand - Frontline II weapon variant, you can equip it to get a nuke powerup every 150 kills obtained with such weapon."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se possiedi la variante dell’arma M1 Garand - Prima Linea II, puoi equipaggiarla per ottenere una nuke ogni 150 uccisioni ottenute con l'arma. "
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Going down removes 10% of the jolts you have in your inventory. Such money counts toward the 10k threshold."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andare a terra fa perdere il 10% delle scosse dall’inventario. Queste contano per la soglia dei 10k."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reach and complete wave 40 having spent no more than 10k jolts."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raggiungi e completa il round 40 avendo speso non più di 10 mila scosse."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waste and what not."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuno spreco."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penny Pincher"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taccagno"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sharing jolts doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividere le scosse non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Going down removes 10% of the jolts you have in your inventory. Such money counts toward the 9k threshold."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andare a terra fa perdere il 10% delle scosse dall’inventario. Queste contano per la soglia dei 9k."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Getting the free perk, armor, or box hit by the Trasure Zombie doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raccogliere il perk, lo scudo o il giro di cassa gratuito dallo zombie del tesoro non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To save money for the activation of pack-a-punch, sit in the cart and have a teammate call the cart to each of the tree possible destinations (Strand, U-BOAT pens, Graben)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per risparmiare i soldi per l’attivazione del pack-a-punch, mentre sei seduto sul carrello, fatti chiamare da un compagno da ciascuna delle tre possibili destinazioni (Strand, Base degli U-BOAT, Graben)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op with three or more players, two of them should use Shellshock with Defender (mod) so that everyone can replenish their armor without spending jolts. \n\nIn duo, experienced players could use Free Fire with MK.II and Marksmanship, and the Full Armor (Volle Rüstung) consumable."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In modalità cooperativa con almeno tre giocatori, due di loro dovrebbero usare Trauma Letale con Difensore (mod) in modo da riempire gli scudi senza spendere scosse. \n\nIn coppie, i giocatori esperti potrebbero usare Fuoco Libero con MK.II e Precisione, ed il consumabile Volle Rüstung (Corazze al massimo)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remember to shoot the rock for the Son of Nertus with the same activation of the Flack Guns that you use to shoot down the German planes to save jolts."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricorda di sparare alla roccia per il Figlio di Nerto con la stessa attivazione della contraerea con cui distruggi gli aerei tedeschi, così da risparmiare scosse."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ProTip6Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the easter egg without any player spending more than 9k jolts (9k is allowed)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg senza che alcun giocatore spenda più di 9 mila scosse (9 mila è consentito)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Travel light, carry a big stick."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viaggi leggero, ma con un bastone pesante."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penny Strangler"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tirchio"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeNameOUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sticks and stones."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serve solo l’essenziale"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sharing jolts doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividere le scosse non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Going down removes 10% of the jolts you have in your inventory. Such money counts toward the 10k threshold."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andare a terra fa perdere il 10% delle scosse dall’inventario. Queste contano per la soglia dei 10k."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Getting the free perk, armor, or box hit by the Trasure Zombie doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raccogliere il perk, lo scudo o il giro di cassa gratuito dallo zombie del tesoro non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To save money for the activation of pack-a-punch, sit in the cart and have a teammate call the cart to each of the tree possible destinations (Strand, U-BOAT pens, Graben)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per risparmiare i soldi per l’attivazione del pack-a-punch, mentre sei seduto sul carrello, fatti chiamare da un compagno da ciascuna delle tre possibili destinazioni (Strand, Base degli U-BOAT, Graben)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op with three or more players, two of them should use Shellshock with Defender (mod) so that everyone can replenish their armor without spending jolts. \n\nIn duo, experienced players could use Free Fire with MK.II and Marksmanship, and the Full Armor (Volle Rüstung) consumable."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In modalità cooperativa con almeno tre giocatori, due di loro dovrebbero usare Trauma Letale con Difensore (mod) in modo da riempire gli scudi senza spendere scosse. \n\nIn coppie, i giocatori esperti potrebbero usare Fuoco Libero con MK.II e Precisione, ed il consumabile Volle Rüstung (Corazze al massimo)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remember to shoot the rock for the Son of Nertus with the same activation of the Flack Guns that you use to shoot down the German planes to save jolts."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricorda di sparare alla roccia per il Figlio di Nerto con la stessa attivazione della contraerea con cui distruggi gli aerei tedeschi, così da risparmiare scosse."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip6Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain the pommel spending no more than 10k jolts as a team."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni il pomolo senza spendere più di 10 mila scosse come squadra."
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banker"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banchiere"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Slayer From Casablanca"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il massacratore di Casablanca"
           }
         }
       }

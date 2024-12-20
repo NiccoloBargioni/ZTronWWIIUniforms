@@ -84,8 +84,8 @@ func makeTheDarkestShoreQuests() -> [Quest] {
         
         Quest(
             map: "the darkest shore",
-            setName: "banchiere",
-            characterName: "il massacratore di casablanca",
+            setName: "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.QuestName",
+            characterName: "OUTFIT.SLAYER_FROM_CASABLANCA.OUTFIT_NAME",
             image: "slayer",
             challenges: makeBanchiereChallenges()
         )
