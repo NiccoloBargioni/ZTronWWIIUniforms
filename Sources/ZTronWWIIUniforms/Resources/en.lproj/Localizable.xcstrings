@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Key 1" : {
+      "extractionState" : "manual"
+    },
     "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5684,6 +5687,516 @@
         }
       }
     },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dirty Work"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lavoro sporco"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuke powerups do not negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le nuke non negano la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The round tracker for the challenge triggers whenever one round is ended with a melee weapon (ends 24 rounds after)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il contatore dei round per la sfida viene attivato appena un round finisce con una uccisione corpo a corpo (altri 24 round richiesti a partire da quel momento). "
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For a quicker completion, you can craft the pick axe; for an easier completion you can use the sword."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per finire più velocemente puoi creare ed usare l’ascia; per un ottenere la sfida più facilmente, puoi usare la spada."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete 25 waves without leaving the museum, only using melee weapons."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa 25 round senza mai lasciare il museo, utilizzando solo armi corpo a copo."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.DIRTY_WORK.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hands on experience."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperienza diretta."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missing Supplies"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scorte mancanti"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We cannot continue without my tools."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non possiamo proseguire senza i miei strumenti."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Necromedic"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Necromedico"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fieldwork"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricerca sul campo"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.REQUIRES_BATTERIES.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requires Batteries"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Richiede batterie"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.REQUIRES_BATTERIES.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.REQUIRES_BATTERIES.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.REQUIRES_BATTERIES.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part C from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte C da uno zombie del tesoro."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.REQUIRES_BATTERIES.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.REQUIRES_BATTERIES.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With this, my design will know no limit."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con questo, i miei progetti non avranno limiti."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.TECH_SAVY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tech Savy"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperto di tecnologia"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.TECH_SAVY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After wave 21, obtain 100 consecutive kills with each of the traps."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dopo il round 21, ottieni 100 uccisioni consecutive con ciascuna delle trappole."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.TECH_SAVY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.TECH_SAVY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play the field"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tastare il terreno"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.USEFUL_CONTRAPTION.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Useful Contraption"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marchingegno utile"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.USEFUL_CONTRAPTION.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Treasure Zombie spawns approximately every 75 minutes of playtime (persists across games)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.USEFUL_CONTRAPTION.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.USEFUL_CONTRAPTION.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter Part A from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte A da uno zombie del tesoro."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.USEFUL_CONTRAPTION.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.USEFUL_CONTRAPTION.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where did I leave the damned thing?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dove ho lasciato quella roba?"
+          }
+        }
+      }
+    },
     "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_KILLER.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -6177,23 +6690,6 @@
         }
       }
     },
-    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeNameOUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.Riddle" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sticks and stones."
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Serve solo l’essenziale"
-          }
-        }
-      }
-    },
     "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ProTip1" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -6427,7 +6923,24 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requirement 1"
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sticks and stones."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serve solo l’essenziale"
           }
         }
       }
@@ -6972,6 +7485,652 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Caccia grossa"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extinguisher"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estintore"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hit Gekochts (aka Sizzlers) with a chest shot with the Kar98k to stun them, and gain time to aim precisely to the head. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colpisci i Gekocht (detti anche Sizzlers) con un colpo al petto con il Kar98k per stordirli, e guadagnare tempo per mirare con precisione alla testa."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain 10 consecutive headshots using a sniper rifle against Gekochts."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni 10 colpi alla testa consecutivi usando un cecchino contro i Gekochts."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snuff the flame"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spegni le candele."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.HOLD_YOUR_GROUND.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold Your Ground"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difendi la posizione"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.HOLD_YOUR_GROUND.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This challenge can be completed along with the 25 minutes speedrun challenge for the Skullbreaker outfit."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa sfida può essere completata insieme alla speedrun dei 25 minuti per l’uniforme dello Spaccateste.ù"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.HOLD_YOUR_GROUND.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.HOLD_YOUR_GROUND.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the first 20 waves in the spawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa i primi 20 round nello spawn."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.HOLD_YOUR_GROUND.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.HOLD_YOUR_GROUND.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the shadows."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nelle ombre"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just Takes A Scratch"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo un graffio"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Getting concussed by a bomber doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venire storditi da un bombardiere non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Better done in four players."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È meglio se completata in squadra da quattro giocatori."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The most common strategy is to camp in the smugler room. All players should use Shellshock to activate as soon as a single zombie crosses the door."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La strategia più comune è comperare nella stanza del contrabbandiere. Tutti i giocatori dovrebbero usare Trauma Letale, da attivare nonappena uno zombie attraversa la porta."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Two players should use the De-Lisle, while the other two should use the .9mm SAP."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Due giocatori dovrebbero usare il De-Lisle, mentre i rimanenti dovrebbero usare le .9mm SAP."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let go the powerups that spawn outside the room unless they’re completely safe to pick up."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignora i potenziamenti che spawnano fuori dalla stanza, a meno che non siano completamente sicuri da raccogliere. "
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refill ammo during the wave change at the pack-a-punch."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fai scorta di munizioni durante il cambio round presso il pack-a-punch."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.ProTip6Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reach and complete wave 30 without getting any damage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raggiungi e completa il round 30 senza mai subire danni."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.JUST_TAKES_A_SCRATCH.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I’ll be fine."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starò bene"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.KEEP_HANDS_CLEAR.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep Hands Clear"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Via le mani"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.KEEP_HANDS_CLEAR.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the easter egg without any player going down."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg senza che alcun giocatore venga atterrato."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.KEEP_HANDS_CLEAR.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.KEEP_HANDS_CLEAR.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Go Go Go!”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Macchinari pesanti"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.MINIMALIST.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimalist"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimalista"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.MINIMALIST.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the first 30 waves without any player using special abilities, mods, consumables, pack-a-punch or perks."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa i primi 30 round senza che alcun giocatore usi abilità speciali, mods, consumabili, pack-a-punch o perk."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.MINIMALIST.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.MINIMALIST.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No shiny tools."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niente strumenti raffinati."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stalker"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inseguitore"
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vigilant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giustiziere"
           }
         }
       }

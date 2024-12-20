@@ -4,16 +4,16 @@ func makeTheShadowedThroneQuests() -> [Quest] {
     return [
         Quest(
             map: "the shadowed throne",
-            setName: "ricerca sul campo",
-            characterName: "necromedico",
+            setName: "OUTFIT.NECROMEDIC.FIELDWORK.QuestName",
+            characterName: "OUTFIT.NECROMEDIC.FIELDWORK.OUTFIT_NAME",
             image: "necromedic",
             challenges: makeRicercaSulCampoChallenges()
         ),
         
         Quest(
             map: "the shadowed throne",
-            setName: "giustiziere",
-            characterName: "inseguitore",
+            setName: "OUTFIT.STALKER.VIGILANT.QuestName",
+            characterName: "OUTFIT.STALKER.VIGILANT.OUTFIT_NAME",
             image: "chaser",
             challenges: makeGiustiziereChallenges()
         ),
