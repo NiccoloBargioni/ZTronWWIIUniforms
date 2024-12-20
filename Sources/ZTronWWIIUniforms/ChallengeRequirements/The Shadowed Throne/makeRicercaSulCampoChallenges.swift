@@ -26,6 +26,27 @@ internal func makeRicercaSulCampoChallenges() -> [Challenge<String>] {
         ),
         
         Challenge<String>(
+            name: "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.ChallengeName".fromLocalized(),
+            map: "the shadowed throne",
+            riddle: "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.Riddle".fromLocalized(),
+            requirements: [
+                Challenge<String>.TaggedString(
+                    "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.Requirement1Tag".fromLocalized()
+                )
+            ],
+            donts: [],
+            glitches: [],
+            
+            proTips: [
+                Challenge<String>.TaggedString(
+                    "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.ProTip1".fromLocalized(),
+                    tag: "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.ProTip1Tag".fromLocalized()
+                )
+            ]
+        ),
+        
+        Challenge<String>(
             name: "OUTFIT.NECROMEDIC.FIELDWORK.REQUIRES_BATTERIES.ChallengeName".fromLocalized(),
             map: "the shadowed throne",
             riddle: "OUTFIT.NECROMEDIC.FIELDWORK.REQUIRES_BATTERIES.Riddle".fromLocalized(),

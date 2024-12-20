@@ -19,8 +19,8 @@ func makeTheShadowedThroneQuests() -> [Quest] {
         ),
         Quest(
             map: "the shadowed throne",
-            setName: "la risposta",
-            characterName: "spaccateste",
+            setName: "OUTFIT.SKULLBREAKER.THE_ANSWER.QuestName",
+            characterName: "OUTFIT.SKULLBREAKER.OUTFIT_NAME",
             image: "skullbreaker",
             challenges: makeLaRispostaChallenges()
         ),

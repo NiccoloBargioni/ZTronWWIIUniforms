@@ -1,9 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Key 1" : {
-      "extractionState" : "manual"
-    },
     "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5874,6 +5871,74 @@
         }
       }
     },
+    "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treasure Zombies spawn approximately every 75 minutes (irregardless of restarts)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli zombie del tesoro spawnano approssimativamente ogni 75 minuti (anche se inizi una nuova partita)."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain Zombie Hunter part B from a Treasure Zombie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni la parte B da uno zombie del tesoro."
+          }
+        }
+      }
+    },
+    "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
     "OUTFIT.NECROMEDIC.FIELDWORK.MISSING_SUPPLIES.Riddle" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -6193,6 +6258,822 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dove ho lasciato quella roba?"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skullbreaker"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spaccateste"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.CRUSH_THEM_QUICK.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crush Them Quick"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sgominali in fretta"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.CRUSH_THEM_QUICK.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This challenge can be completed along with the 20 rounds in the spawn room “Dirty Work” challenge for the Necromedic outfit."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa sfida può essere completata insieme alla sfida dei 20 round nella stanza iniziale (Lavoro Sporco) dell’uniforme Necromedico."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.CRUSH_THEM_QUICK.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.CRUSH_THEM_QUICK.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete 20 waves within 25 minutes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa 20 ondate entro 25 minuti."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.CRUSH_THEM_QUICK.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.CRUSH_THEM_QUICK.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Go go go!”"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Dai! Dai! Dai!”"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.DOWN_THE_SIGHT.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Down The Sign"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nel mirino"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.DOWN_THE_SIGHT.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete this step at wave one, two and three."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa questa sfida ai round uno, due e tre."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.DOWN_THE_SIGHT.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.DOWN_THE_SIGHT.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For three consecutive waves, kill every zombie with a headshot."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per tre round di fila, uccidi tutti gli zombie con colpi alla testa."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.DOWN_THE_SIGHT.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.DOWN_THE_SIGHT.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Target Practice"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esercitazione di tiro."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.FIGHT_FAIR.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fight Fair"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Combattimento leale"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.FIGHT_FAIR.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the easter egg without any player using perks."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’intero easter egg senza che alcun giocatore usi perk."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.FIGHT_FAIR.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.FIGHT_FAIR.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Some ground rules first."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima le regole base."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Answer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La risposta"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.SET_THE_STAGE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set The Stage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prepara il terreno"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.SET_THE_STAGE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Going down without bleeding out doesn’t negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andare atterra senza andare nell’aldilà non nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.SET_THE_STAGE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.SET_THE_STAGE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survive 15 waves on the stage."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopravvivi 15 round sul palco."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.SET_THE_STAGE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.SET_THE_STAGE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show time."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Che lo spettacolo abbia inizio."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time Cruncher"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Macina-tempo."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As soon as wave one starts, one player should activate Elektromagnet (Double Jolts) and everyone else should use his own nuke (Vernichten)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appena inizia il round 1, un giocatore dovrebbe attivare Elektromagnet (Doppie Scosse), e tutti gli altri dovrebbero usare la propria nuke."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unless you can find the codes to activate the morse step inside the elevator or right above the door to the main square, you can bruteforce by trying each of the following options: (20; 66), (38; 82), (56; 82)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A meno che non trovi i codici per attivare il passaggio del morse nell’ascensore o appena sopra la porta per la piazza principale, puoi provare ciascuna delle seguenti combinazioni: (20; 66), (38; 82), (56; 82)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After obtaining the golden bowl in the church, have someone go to the museum and place it on the scale. Only after this step is completed, you can get a Sizzler’s head by killing one in front of an armor machine."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dopo aver ottenuto la ciotola d’oro, manda qualcuno al museo e fagliela posizionare sopra la bilancia. Solo dopo aver fatto questo è possibile ottenere una testa di Sizzler uccidendone uno davanti ad una macchinetta degli scudi."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is a good idea to do the first steps between one wave one and two, without sticking too much on wave one."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È una buona idea completare i primi passaggi tra il round 1 e il round 2,  senza restare troppo tempo al round 1."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only one player should focus on crafting the pick axe, while everyone else should focus on the dancer’s dagger. \n\nOne player gets the kills for the dagger while the others lead the zombies to him."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un solo giocatore dovrebbe occuparsi di costruire l’ascia, mentre tutti gli altri dovrebbero occuparsi del pugnale della ballerina.\n\nUn giocatore uccide gli zombie per il pugnale mentre tutti gli altri portano gli zombie da lui."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is possible to use Free Fire with the Wunderbuss to fill the pods without losing ammo. Fill the last pod on wave 5."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È possibile usare Fuoco Libero col Wunderbuss per riempire le capsule senza perdere munizioni. Riempi l’ultima capsula al round 5."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip6Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip7" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the wall step that requires to kill 10 Gekochts (Sizzlers), each one of them spawns 40 seconds apart. Shooting flares doesn’t change this spawn rate.\n\nMake sure that you are **not** saving zombies with no limbs, because such zombies won’t turn into Sizzlers."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per il passaggio del muro che richiede di ottenere 10 uccisioni su Gekocht (Sizzler), ne appare uno ogni 40 secondi. Sparare bengala non cambia il tasso di spawn. \n\nAccertati di **non** salvare zombie senza arti, perché questi non si trasformano mai in Sizzler."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip7Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip8" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "While three players are dealing with the saints statues puzzle, one player should complete the hats easter egg, to make sure that everyone has max ammo after this is finished. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mentre tre giocatori si occupano del puzzle delle statue dei santi, l’altro giocatore dovrebbe completare l’easter egg dei cappelli, in modo da garantire che tutti abbiano munizioni al massimo dopo la fine del passaggio."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip8Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip9" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is important to also complete the hangman for the free jack-in-the-box. You can weaponize repeated failures of this easter egg to force the word “THEJACKBOX”. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È importante completare anche l’impiccato per il pupazzo a molla gratuito. Fallire ripetutamente questo easter egg consente di forzare la parola “THEJACKBOX”."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip9Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip10" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is suggested that you bring the dancer’s dagger to the bossfight instead of the sword, as the latter doesn’t allow to recover ammo through the melee heavy attack."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si consiglia fortemente di portare in battaglia boss il pugnale della ballerina invece della spada, in quanto quest’ultima non consente di recuperare munizioni tramite l’attacco corpo a corpo pesante."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.ProTip10Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the easter egg in under 33 minutes (cutscene included in this threshold)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg prima di 33 minuti (la scena finale dev’essere compresa in questa soglia)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SKULLBREAKER.THE_ANSWER.TIME_CRUNCHER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hard shutdown."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disattivazione forzata."
           }
         }
       }
@@ -7540,6 +8421,40 @@
         }
       }
     },
+    "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using the special pack-a-punch ability of the De-Lisle sniper doesn’t count towards the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usare l’abilità speciale pack-a-punch del De-Lisle non conta per la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
     "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.Requirement1" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -7620,7 +8535,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Questa sfida può essere completata insieme alla speedrun dei 25 minuti per l’uniforme dello Spaccateste.ù"
+            "value" : "Questa sfida può essere completata insieme alla speedrun dei 25 minuti per l’uniforme dello Spaccateste."
           }
         }
       }
@@ -7920,13 +8835,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reach and complete wave 30 without getting any damage"
+            "value" : "Reach and complete wave 30 without any player getting damage."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Raggiungi e completa il round 30 senza mai subire danni."
+            "value" : "Raggiungi e completa il round 30 senza che alcun giocatore subisca danni."
           }
         }
       }

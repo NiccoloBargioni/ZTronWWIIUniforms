@@ -21,7 +21,6 @@ public struct UniformsChallenges: View {
     public init(_ quest: Quest, fromMap: String) {
         self._quest = StateObject(wrappedValue: quest)
         self.fromMap = fromMap
-        print(fromMap)
     }
     
     public var body: some View {
@@ -125,7 +124,6 @@ public struct UniformsChallenges: View {
                         updateCoalescingTableView.layoutIfNeeded()
                         
                         self.listContentHeight = updateCoalescingTableView.contentSize.height
-                        print("list height: \(self.listContentHeight)")
                     }
                 }
                 .frame(

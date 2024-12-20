@@ -114,6 +114,11 @@ internal func makeGiustiziereChallenges() -> [Challenge<String>] {
                 Challenge<String>.TaggedString(
                     "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.ProTip1".fromLocalized(),
                     tag: "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.ProTip1Tag".fromLocalized()
+                ),
+                
+                Challenge<String>.TaggedString(
+                    "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.ProTip2".fromLocalized(),
+                    tag: "OUTFIT.STALKER.VIGILANT.EXTINGUISHER.ProTip1Tag".fromLocalized()
                 )
             ]
         ),
