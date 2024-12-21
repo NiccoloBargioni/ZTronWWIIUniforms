@@ -49,7 +49,7 @@ struct RequirementCard: View {
                                 Button {
                                     self.onRequirementsChipTapped?()
                                 } label: {
-                                    Chip(text: "REQUIREMENTS", isActive: false)
+                                    Chip(text: "Requirements".fromLocalized().uppercased(), isActive: false)
                                         .highlightColor(self.colorMapper(0))
                                         .softColor(self.colorMapper(0).opacity(0.2))
                                         .fontWeight(.bold)
@@ -61,7 +61,7 @@ struct RequirementCard: View {
                                 Button {
                                     self.onDontsChipTapped?()
                                 } label: {
-                                    Chip(text: "DONT\'S", isActive: false)
+                                    Chip(text: "Donts".fromLocalized().uppercased(), isActive: false)
                                         .highlightColor(self.colorMapper(1))
                                         .softColor(self.colorMapper(1).opacity(0.2))
                                         .fontWeight(.bold)
@@ -73,7 +73,7 @@ struct RequirementCard: View {
                                 Button {
                                     self.onBugsChipTapped?()
                                 } label: {
-                                    Chip(text: "BUGS", isActive: false)
+                                    Chip(text: "Bugs".fromLocalized().uppercased(), isActive: false)
                                         .highlightColor(self.colorMapper(2))
                                         .softColor(self.colorMapper(2).opacity(0.2))
                                         .fontWeight(.bold)
@@ -85,7 +85,7 @@ struct RequirementCard: View {
                                 Button {
                                     self.onProTipsChipTapped?()
                                 } label: {
-                                    Chip(text: "PRO TIPS", isActive: false)
+                                    Chip(text: "Pro tips".fromLocalized().uppercased(), isActive: false)
                                         .highlightColor(self.colorMapper(3))
                                         .softColor(self.colorMapper(3).opacity(0.2))
                                         .fontWeight(.bold)

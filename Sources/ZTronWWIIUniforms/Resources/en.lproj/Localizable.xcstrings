@@ -1,6 +1,43 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Bugs" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugs"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugs"
+          }
+        }
+      }
+    },
+    "Donts" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dont's"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Da non fare"
+          }
+        }
+      }
+    },
+    "Key 1" : {
+      "extractionState" : "manual"
+    },
     "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5845,6 +5882,12 @@
             "state" : "translated",
             "value" : "Requirement 1"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
         }
       }
     },
@@ -5911,7 +5954,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lo passo, grazie."
+            "value" : "Io passo, grazie."
           }
         }
       }
@@ -5997,23 +6040,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sicurezza Navale"
-          }
-        }
-      }
-    },
-    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.BOAT_SAFETY.QuestName" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Crew Captain"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Capitano di vascello"
           }
         }
       }
@@ -6133,6 +6159,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Permesso di salire a bordo"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crew Captain"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capitano di vascello"
           }
         }
       }
@@ -7714,6 +7757,635 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dove ho lasciato quella roba?"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadowguard"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardia ombra"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.ANCIENT_BANQUET.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "During the Deathraven’s trial for the Schyte update, kill all the red glowing Corpse Eaters with the Fang of An’Heist (upgraded Schyte)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durante la prova del Corvomorte per il potenziamento della falce, uccidi tutti i Mangiatori di cadaveri con la Zanna di An’Heist (falce potenziata)."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.ANCIENT_BANQUET.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.ANCIENT_BANQUET.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elder Blood"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sangue Antico"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.CORPSE_DANCER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corpse Dancer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ammaliatore di cadaveri"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.CORPSE_DANCER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Schyte doesn’t need to be upgraded."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non è richiesto che la falce sia potenziata."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.CORPSE_DANCER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.CORPSE_DANCER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using the Schyte, kill 10 zombies while they are being absorbed by a Corpse Eater. When done correctly, after each kill, the Corpse Eater will shortly flinch."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa la falce, uccidi 10 zombie mentre vengono assorbiti da un mangiatore di cadaveri. Quando eseguito correttamente, il miniboss rimarrà brevemente paralizzato dopo ciascuna uccisione."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.CORPSE_DANCER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.CORPSE_DANCER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waltz of Starvation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valzer della fame"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Death’s Sorrow"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afflizione della morte"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The progression is individual and only one player per game can achieve it."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il progresso della sfida è individuale e solo un giocatore a partita può sbloccarla."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the God King’s bossfight, “cheat the death” against two different little attacks by the God King in the same game."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nella battaglia boss del Re Dio, “inganna la morte” due volte contro due diversi attacchi letali del boss nella stessa partita."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.Requirement2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In order to cheat the death, wield the upgraded Schyte with the yellow glowing gem (obtained by killing a red Corpse Eater), and during phase two, survive the red mist attack without hiding behind the ice pillars."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per “ingannare la morte”, impugna la Falce potenziata con la gemma gialla luccicante al centro dell’arma (ottenuta uccidendo un Mangiatore di corpi rosso), e durante la fase due, sopravvivi all’attacco della nebbia rossa senza nasconderti dietro ad un pilastro."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.Requirement2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.Requirement3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "During phase four, kill a red glowing Corpse Eater with the Schyte, and then let the God King hit you with the firewall attack while holding the Schyte."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durante la fase quattro, uccidi un Mangiatore di corpi rosso con la Falce, e fatti colpire dall’attacco del Re Dio del muro di fuoco mentre impugni la Falce."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.Requirement3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.DEATH'S_SORROW.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wreathed in Death"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbraccio mortale"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.FORGOTTEN_BY_DEATH.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forgotten By Death"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dimenticato dalla morte"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.FORGOTTEN_BY_DEATH.Dont1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using Camouflage will negate the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usare mimetica fa fallire la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.FORGOTTEN_BY_DEATH.Dont1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.FORGOTTEN_BY_DEATH.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the Schyte ritual in the phylactery room without taking any damage."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa il rituale della falce nel filatterio senza subire alcun danno."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.FORGOTTEN_BY_DEATH.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.FORGOTTEN_BY_DEATH.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark Wings, Dark Path"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La morte incombe"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "King’s Lament"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lamento del re"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the Hammer upgrade, lit up the rune in the Egyptian room (melee perk), then head to the phylactery, train a group of zombies and then head back to the rune and complete the step.\n\nThis way, a group of zombies will be waiting for you in front of the door to the phylactery."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per il potenziamento del martello, accendi la runa nella stanza egiziana (perk del corpo a corpo), poi dirigiti al filatterio, racimola un gruppo di zombie, poi torna alla runa e completa il passaggio.\n\nIn questo modo, troverai un gruppo di zombie fermo ad aspettarti davanti alla porta del filatterio. "
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For a free perk and 10k jolts, complete the side quest where you have to control a pest with the upgraded Flail and get killed by a corpse eater."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per un perk gratuito e 10k scosse, completa l’easter egg secondario che richiede di controllare un pest col Flagello potenziato e farti uccidere da un Mangiatore di cadaveri."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For a free perkaholic, complete the side quest where you have to fill three stones around the map with zombie souls and then access a secret room to find four nails and place them in the middle of the room."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per ottenere un perkaholic gratis, completa l’easter egg secondario che richiede di riempire tre pietre in giro per la mappa con anime di zombie, e poi accedi alla stanza segreta per trovare quattro chiodi e posizionarli al centro della suddetta stanza."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the easter egg in solo."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg in solo."
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.KING'S_LAMENT.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crow’s Solace"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sollievo della corona"
+          }
+        }
+      }
+    },
+    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.QUEST_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadow Hunter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di ombre"
           }
         }
       }
@@ -11998,6 +12670,499 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il treno del dolore è in perfetto orario."
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.CHAMPION_OF_LOST_ARTIFACTS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Champion of Lost Artifacts"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campione dei cimeli perduti"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.CHAMPION_OF_LOST_ARTIFACTS.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Before the player enters the Deathraven’s trial for the Flail, leave only one zombie alive. If the player dies during the first firewall attack, change the round to revive him. The player will complete the challenge whether or not he survives the second firewall attack."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima di entrare nella prova del Corvomorte del Flagello, lascia solo uno zombie vivo. Se il giocatore muore dal primo attacco del muro di fuoco, cambia round per rianimarlo automaticamente. Taluno completerà la sfida sia che sopravviva oppure no al secondo attacco del muro di fuoco."
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.CHAMPION_OF_LOST_ARTIFACTS.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.CHAMPION_OF_LOST_ARTIFACTS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The player that wants to unlock this challenge needs to complete all the four wonder weapon trails. The steps that lead to each final trial can be completed as a team."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il giocatore che vuole sbloccare la sfida dece completare tutti le quattro prove delle wonder weapon. I passaggi che portano a ciascuna prova finale possono essere completati di squadra."
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.CHAMPION_OF_LOST_ARTIFACTS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.CHAMPION_OF_LOST_ARTIFACTS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bureau’s Pride"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vanto dell'agenzia"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.DARK_PASSENGER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark Passenger"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passeggero oscuro"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.DARK_PASSENGER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the side quest for a free perk and 10k jolts"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa l’easter egg secondario per un perk gratuito e 10k scosse."
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.DARK_PASSENGER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.DARK_PASSENGER.Requirement2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In order to complete such side quest, upgrade the Flail, lead a pest zombie inside one of the teleports, perform the control attack with the Flail, and activate immediately after the teleporter. Then, let a Corpse Eater absorb your soul."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per completare questo easter egg secondario, potenzia il Flagello, porta un pest dentro ad uno dei teletrasporti, esegui l’attacco “controlla” del Flagello, ed attiva subito dopo il teletrasporto. Poi, lascia che un Mangiatore di corpi assorba la tua anima."
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.DARK_PASSENGER.Requirement2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.DARK_PASSENGER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Like Sightless Eyes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Come occhi ciechi"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORGOTTEN_HIGHWAY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forgotten Highway"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strada dimenticata"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORGOTTEN_HIGHWAY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting from spawn, reach the blood altar within two minutes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A partire dallo spawn, raggiungi l’Altare di sangue entro due minuti. "
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORGOTTEN_HIGHWAY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORGOTTEN_HIGHWAY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leaps and Bounds"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salti e sbalzi"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORSAKEN_GUNSLINGER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forsaken Gunslinger"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pistolero Derelitto"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORSAKEN_GUNSLINGER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is mandatory to interact with a gold raven statue that is located by the blood pool in the observatory area to activate the side quest."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È obbligatorio interagire con una statua dorata di un corvo posizionata presso la pozza di sangue nella zona dell’osservatorio per attivare l’easter egg secondario."
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORSAKEN_GUNSLINGER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORSAKEN_GUNSLINGER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locate and shoot with your pistol four ravens around the map (Ravenclaw Pistol side quest)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Individua e spara con la pistola a quattro corvi in giro per la mappa (easter egg secondario della Pistola Artiglio del corvo)."
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORSAKEN_GUNSLINGER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.FORSAKEN_GUNSLINGER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark Wings, Dark Path"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ali oscure, via oscura"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.GUIDED_BY_THE_STARS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guided By The Stars"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guidato dalle stelle"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.GUIDED_BY_THE_STARS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting from the first kill for the first rune for the Flail upgrade, observe all three constellations within five minutes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A partire dalla prima uccisione per la prima runa del potenziamento del Flagello, osserva tutte e tre le costellazioni entro cinque minuti."
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.GUIDED_BY_THE_STARS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.GUIDED_BY_THE_STARS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Darkest Sky"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sotto il cielo più nero"
+          }
+        }
+      }
+    },
+    "Pro tips" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro tips"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consigli"
+          }
+        }
+      }
+    },
+    "R" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancient Banquet"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banchetto Antico"
+          }
+        }
+      }
+    },
+    "Requirements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirements"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisiti"
           }
         }
       }

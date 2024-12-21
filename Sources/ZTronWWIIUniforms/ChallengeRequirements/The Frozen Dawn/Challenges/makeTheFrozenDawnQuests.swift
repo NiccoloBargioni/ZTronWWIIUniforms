@@ -4,16 +4,16 @@ func makeTheFrozenDawnQuests() -> [Quest] {
     return [
         Quest(
             map: "the frozen dawn",
-            setName: "cacciatore di ombre",
-            characterName: "guardia ombra",
+            setName: "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.QUEST_NAME",
+            characterName: "OUTFIT.SHADOWGUARD.OUTFIT_NAME",
             image: "shadow guard",
             challenges: makeCacciatoreDiOmbreChallenges()
         ),
         
         Quest(
             map: "the frozen dawn",
-            setName: "esploratore ribelle",
-            characterName: "viandante",
+            setName: "OUTFIT.WAYFARER.WAYWARD_RIDER.QuestName",
+            characterName: "OUTFIT.WAYFARER.OUTFIT_NAME",
             image: "wanderer",
             challenges: makeEsploratoreRibelleChallenges()
         ),

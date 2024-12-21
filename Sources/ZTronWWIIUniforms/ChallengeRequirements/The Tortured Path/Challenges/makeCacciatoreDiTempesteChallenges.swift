@@ -92,12 +92,7 @@ internal func makeCacciatoreDiTempesteChallenges() -> [Challenge<String>] {
             ],
             donts: [],
             glitches: [],
-            proTips: [
-                Challenge<String>.TaggedString(
-                    "OUTFIT.CAVALIER.STORM_CHASER.BUBBLE_BUSTER.ProTip1".fromLocalized(),
-                    tag: "OUTFIT.CAVALIER.STORM_CHASER.BUBBLE_BUSTER.ProTip1Tag".fromLocalized()
-                ),
-            ]
+            proTips: []
         ),
         
         
