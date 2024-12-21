@@ -4,8 +4,8 @@ func makeBeneathTheIceQuests() -> [Quest] {
     return [
         Quest(
             map: "beneath the ice",
-            setName: "scavo archeologico",
-            characterName: "tigre di ferro",
+            setName: "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.QuestName",
+            characterName: "OUTFIT.IRON_RIGER.OUTFIT_NAME",
             image: "iron tiger",
             challenges: makeScavoArcheologicoChallenges()
         )

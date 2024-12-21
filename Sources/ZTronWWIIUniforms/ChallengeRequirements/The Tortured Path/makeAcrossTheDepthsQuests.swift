@@ -4,8 +4,8 @@ func makeAcrossTheDepthsQuests() -> [Quest] {
     return [
         Quest(
             map: "across the depths",
-            setName: "capitano di vascello",
-            characterName: "la morte",
+            setName: "OUTFIT.LADY_DEATH.CREW_CAPTAIN.QuestName",
+            characterName: "OUTFIT.LADY_DEATH.OUTFIT_NAME",
             image: "death",
             challenges: makeCapitanoDiVascelloChallenges()
         ),

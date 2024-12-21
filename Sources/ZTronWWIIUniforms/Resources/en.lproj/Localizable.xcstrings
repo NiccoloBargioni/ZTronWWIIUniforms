@@ -2738,6 +2738,482 @@
         }
       }
     },
+    "OUTFIT.CAVALIER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cavalier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cavaliere"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.BUBBLE_BUSTER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bubble Buster"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolle scoppiate"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.BUBBLE_BUSTER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Defeat the Raketenbrenner in under 60 seconds."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sconfiggi il Raketenbrenner in meno di 60 secondi."
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.BUBBLE_BUSTER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.BUBBLE_BUSTER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resource Efficient"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestione efficiente"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.PAINFUL_SILENCE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Painful Silence"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenzio doloroso"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.PAINFUL_SILENCE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jack-in-the-box and lethal equipment allowed."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il pupazzo a molla ed equipaggiamenti letali sono entrambi consentiti."
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.PAINFUL_SILENCE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.PAINFUL_SILENCE.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is recommended to use Frontline and lead all the zombies far away from the objective."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È consigliato utilizzare Prima Linea e portare gli zombie lontano dall’obiettivo."
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.PAINFUL_SILENCE.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.PAINFUL_SILENCE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete a defense objective without any player shooting their weapon."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa una difesa senza che alcun giocatore spari con la propria arma."
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.PAINFUL_SILENCE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.PAINFUL_SILENCE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silent Protector"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protettore silenzioso"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Storm Chaser"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacciatore di tempeste"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNASSISTED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unassisted"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna assistenza"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNASSISTED.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is recommended to use a Max Ammo (Taschen Voll) and a Full Meter (Überladen) consumable."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È consigliato usare Munizioni al massimo (Taschen Voll) ed Indicatore al massimo (Überladen) come consumabili."
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNASSISTED.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNASSISTED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the easter egg of Chapter 1 without opening any supply drop."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni l’elsa della spada battendo l’easter egg del capitolo 1 senza aprire nessun lancio di approvvigionamenti."
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNASSISTED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNASSISTED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Charity"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna carità"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNTAPPED_POTENTIAL.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Untapped Potential"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potenziale inespresso"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNTAPPED_POTENTIAL.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain the hilt by completing the easter egg of Chapter 1 without any player ever using perks. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuggi dal capitolo 1 senza che alcun giocatore usi mai alcun perk."
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNTAPPED_POTENTIAL.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.UNTAPPED_POTENTIAL.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grounded"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A terra"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.VULNERABLE_VICTOR.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vulnerable Victor"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vincitore vulnerabile"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.VULNERABLE_VICTOR.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete Chapter 1 without opening any supply drop."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa il capitolo 1 senza che i giocatori aprano alcun lancio di approvvigionamenti."
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.VULNERABLE_VICTOR.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.CAVALIER.STORM_CHASER.VULNERABLE_VICTOR.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Track Suit"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuta sportiva"
+          }
+        }
+      }
+    },
     "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -4932,6 +5408,986 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cacciatore"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_RIGER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iron Tiger"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tigre di ferro"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.ASSEMBLER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Focused Craftism"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Artigiano concentrato"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.ASSEMBLER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wait til you complete the flares step of the easter egg before you look for a jack-in-the-box."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aspetta di completare il passaggio dei bengala dell’Ester egg prima di cercare un pupazzo a molla."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.ASSEMBLER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.ASSEMBLER.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runes combinations can only be seen during even rounds. During odd rounds, you can try each of the 16 combinations to progress with the easter egg."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le combinazioni delle rune si possono vedere solamente durante i round pari. Durante i round dispari, conviene provare tutte le 16 combinazioni per progredire con l’easter egg."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.ASSEMBLER.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.ASSEMBLER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Build the sword by beating the easter egg of Chapter 3 without any player opening supply drops."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Costruisci la spada completando l’easter egg del Capitolo 3 senza che alcun giocatore apra lanci di approvvigionamento."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.ASSEMBLER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.ASSEMBLER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assembler"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assemblatore"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.CAREFUL_RESEARCHER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Careful Researcher"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricercatore attento"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.CAREFUL_RESEARCHER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To deal as much damage as possible before Goliath heals, lead him to Double Tap before starting to shoot him."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per danneggiare il più possibile il Goliath prima che questo recuperi salute, portalo al Double Tap (Fuoco Rapido) prima di iniziare a sparargli."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.CAREFUL_RESEARCHER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.CAREFUL_RESEARCHER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete Chapter 3 and exfil without any player going down. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti il Capitolo 3 ed estraiti senza che alcun giocatore vada a terra."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.CAREFUL_RESEARCHER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.CAREFUL_RESEARCHER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Precautionary Explorer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esploratore prudente"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.EQUIPMENT_MENACE.Bug1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With an high likelihood, using a jack-in-the-box or a lethal equipment negates the challenge."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con probabilità elevata, usare un pupazzo a molla o un equipaggiamento letale nega la sfida."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.EQUIPMENT_MENACE.Bug1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.EQUIPMENT_MENACE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equipment Menace"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attrezzatura Minacciata"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.EQUIPMENT_MENACE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete a defense objective without any player shooting their weapon in Chapter 3."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa la difesa di un obiettivo senza che alcun giocatore spari un colpo con la propria arma nel Capitolo 3."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.EQUIPMENT_MENACE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.EQUIPMENT_MENACE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tactical Protector"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protettore tattico"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.FAST_HANDS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast Hands"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mani veloci"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.FAST_HANDS.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wait til you complete the flares step of the easter egg before you look for a jack-in-the-box."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aspetta di completare il passaggio dei bengala dell’Ester egg prima di cercare un pupazzo a molla."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.FAST_HANDS.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.FAST_HANDS.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runes combinations can only be seen during even rounds. During odd rounds, you can try each of the 16 combinations to progress with the easter egg."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le combinazioni delle rune si possono vedere solamente durante i round pari. Durante i round dispari, conviene provare tutte le 16 combinazioni per progredire con l’easter egg."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.FAST_HANDS.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.FAST_HANDS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Build the sword by beating the easter egg of Chapter 3 in under 15 minutes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Costruisci la spada battendo l’easter egg del Capitolo 3 in meno di 15 minuti."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.FAST_HANDS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.FAST_HANDS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blacksmith"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fabbro"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.NO_HANDOUTS.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None for me, thanks"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo passo, grazie."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.NO_HANDOUTS.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete Chapter 3 without any player opening supply drops."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa il capitolo 3 senza che alcun giocatore apra lanci di approvvigionamento."
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.NO_HANDOUTS.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.NO_HANDOUTS.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Handouts"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niente elemosina"
+          }
+        }
+      }
+    },
+    "OUTFIT.IRON_TIGER.ARCHAEOLOGICAL_DIG.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archaeological Dig"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scavo archeologico"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.BOAT_SAFETY.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boat Safety"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sicurezza Navale"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.BOAT_SAFETY.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crew Captain"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capitano di vascello"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.BOAT_SAFETY.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete Chapter 2 without any player opening supply drops."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa il capitolo 2 senza che alcun giocatore apra lanci di approvvigionamento."
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.BOAT_SAFETY.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.BOAT_SAFETY.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Life Jacket"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giubbotto di salvataggio"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.OVERBOARD.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overboard"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuori bordo"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.OVERBOARD.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reach wave 10 and defeat the Städtjager, all within 15 minutes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raggiungi il round 10 e batti lo Städtjager, tutto entro 15 minuti."
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.OVERBOARD.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.OVERBOARD.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permission to come aboard."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permesso di salire a bordo"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.SECURED_THE_PACKAGE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Secured The Package"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carico da acquisire"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.SECURED_THE_PACKAGE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To unlock The Darkened Path, complete rank 50 in The Tortured Path and optionally activate it at wave zero each time a new game is started."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per sbloccare Cammina nelle tenebre, completa il livello 50 in Via del tormento. Questa modalità può essere attivata all’inizio di ogni  partita."
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.SECURED_THE_PACKAGE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.SECURED_THE_PACKAGE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete a defense objective in The Darkened Path in Chapter 2."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa una difesa di un obiettivo in modalità Cammina nelle tenebre nel Capitolo 2."
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.SECURED_THE_PACKAGE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.SECURED_THE_PACKAGE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Experienced Protector."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protettore esperto"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.THE_POWER_WITHIN.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Power Within"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il potere interiore"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.THE_POWER_WITHIN.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete Chapter 2 without any players using perks. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa il capitolo 2 senza che alcun giocatore usi perk."
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.THE_POWER_WITHIN.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.THE_POWER_WITHIN.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sea Rations"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Razioni marittime"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.WELL_TRAVELED.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Well Traveled"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigato"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.WELL_TRAVELED.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtain the Pommel by completing the easter egg of Chapter 2 without any player opening supply drops."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni il pomolo battendo l’easter egg del Capitolo 2 senza che alcun giocatore apra lanci di approvvigionamento."
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.WELL_TRAVELED.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.CREW_CAPTAIN.WELL_TRAVELED.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pack Light"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viaggiare leggeri"
+          }
+        }
+      }
+    },
+    "OUTFIT.LADY_DEATH.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lady Death"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La morte"
           }
         }
       }

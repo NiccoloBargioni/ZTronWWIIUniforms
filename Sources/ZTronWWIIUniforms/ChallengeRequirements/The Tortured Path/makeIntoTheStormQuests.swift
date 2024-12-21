@@ -4,8 +4,8 @@ func makeIntoTheStormQuests() -> [Quest] {
     return [
         Quest(
             map: "into the storm",
-            setName: "cacciatore di tempeste",
-            characterName: "cavaliere",
+            setName: "OUTFIT.CAVALIER.STORM_CHASER.QuestName",
+            characterName: "OUTFIT.CAVALIER.OUTFIT_NAME",
             image: "knight",
             challenges: makeCacciatoreDiTempesteChallenges()
         )
