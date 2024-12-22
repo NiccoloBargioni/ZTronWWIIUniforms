@@ -54,12 +54,7 @@ internal func makeCacciatoreDiOmbreChallenges() -> [Challenge<String>] {
             ],
             donts: [],
             glitches: [],
-            proTips: [
-                Challenge<String>.TaggedString(
-                    "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.ANCIENT_BANQUET.ProTip1".fromLocalized(),
-                    tag: "OUTFIT.SHADOWGUARD.SHADOW_HUNTER.ANCIENT_BANQUET.ProTip1Tag".fromLocalized()
-                )
-            ]
+            proTips: []
         ),
         
         Challenge<String>(

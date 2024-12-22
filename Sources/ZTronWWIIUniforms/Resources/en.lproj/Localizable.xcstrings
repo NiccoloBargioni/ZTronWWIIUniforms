@@ -730,7 +730,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A round 10, accertati che il pack-a-punch sia pronto ad essere aperto ma non ancora aperto. Prima dell’inizio del round, interagisci coi pulsanti in fondo ai tubi, per un’opportunità di spawnare ulteriori pests (probabilità alta). \n\nPorta tutti i pests nell’obitorio, poi attiva la trappola e subito riunisciti ai tuoi compagni (se ci sono) al centro della stanza."
+            "value" : "A round 10, accertati che il pack-a-punch sia pronto ad essere aperto ma non ancora aperto. Prima dell’inizio del round, interagisci coi pulsanti in fondo ai tubi, per un’opportunità di spawnare ulteriori Appestati (probabilità alta). \n\nPorta tutti i pests nell’obitorio, poi attiva la trappola e subito riunisciti ai tuoi compagni (se ci sono) al centro della stanza."
           }
         }
       }
@@ -1002,7 +1002,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Carica il grammofono durante un round Pest. Ce n’è uno ogni 5 round."
+            "value" : "Carica il grammofono durante un round di Appestati. Ce n’è uno ogni 5 round."
           }
         }
       }
@@ -1104,7 +1104,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quando il pack-a-punch viene attivato, c’è la possibilità che spawnino dei Pest extra. Attivalo solamente una volta raggiunto il round 10, così da garantire che vengano uccisi abbastanza Pests con una singola attivazione della trappola dell’obitorio. "
+            "value" : "Quando il pack-a-punch viene attivato, c’è la possibilità che spawnino degli Appestati extra. Attivalo solamente una volta raggiunto il round 10, così da garantire che vengano uccisi abbastanza Appestati con una singola attivazione della trappola dell’obitorio. "
           }
         }
       }
@@ -3404,6 +3404,23 @@
         }
       }
     },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOODIED_SACRIFICE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarded Sacrifice"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sacrificio protetto"
+          }
+        }
+      }
+    },
     "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.QuestName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5190,23 +5207,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vero asso"
-          }
-        }
-      }
-    },
-    "OUTFIT.DESERT_ASSASSIN.DEATHBRINGER.BLOODIED_SACRIFICE.Riddle" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Guarded Sacrifice"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sacrificio protetto"
           }
         }
       }
@@ -8742,7 +8742,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Per un perk gratuito e 10k scosse, completa l’easter egg secondario che richiede di controllare un pest col Flagello potenziato e farti uccidere da un Mangiatore di cadaveri."
+            "value" : "Per un perk gratuito e 10k scosse, completa l’easter egg secondario che richiede di controllare un Appestato col Flagello potenziato e farti uccidere da un Mangiatore di cadaveri."
           }
         }
       }
@@ -12720,7 +12720,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Non perdere scudi durante nessuno dei rituali per ottenere il pomolo (pest, meuchler, wustling, testa del monaco). Il completamento è di squadra."
+            "value" : "Non perdere scudi durante nessuno dei rituali per ottenere il pomolo (Appestati, Meuchler, Wustling, testa del monaco). Il completamento è di squadra."
           }
         }
       }
@@ -13315,7 +13315,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Per completare questo easter egg secondario, potenzia il Flagello, porta un pest dentro ad uno dei teletrasporti, esegui l’attacco “controlla” del Flagello, ed attiva subito dopo il teletrasporto. Poi, lascia che un Mangiatore di corpi assorba la tua anima."
+            "value" : "Per completare questo easter egg secondario, potenzia il Flagello, porta un Appestato dentro ad uno dei teletrasporti, esegui l’attacco “controlla” del Flagello, ed attiva subito dopo il teletrasporto. Poi, lascia che un Mangiatore di corpi assorba la tua anima."
           }
         }
       }
@@ -13592,6 +13592,23 @@
         }
       }
     },
+    "OUTFIT.WAYFARER.WAYWARD_RIDER.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wayward Rider"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esploratore ribelle"
+          }
+        }
+      }
+    },
     "Pro tips" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -13605,23 +13622,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Consigli"
-          }
-        }
-      }
-    },
-    "R" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ancient Banquet"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Banchetto Antico"
           }
         }
       }

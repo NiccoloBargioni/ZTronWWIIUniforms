@@ -87,7 +87,7 @@ internal func makeAssassinoDeserticoChallenges() -> [Challenge<String>] {
             glitches: [],
             proTips: [
                 Challenge<String>.TaggedString(
-                    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.ProTip1".fromLocalized(),
+                    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.ProTip1OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.ProTip1".fromLocalized(),
                     tag: "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.ProTip1Tag".fromLocalized()
                 )
             ]
