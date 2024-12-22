@@ -3251,6 +3251,465 @@
         }
       }
     },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blood is power"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potere del sangue"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For a free perkaholic, complete the side quest where you have to fill three stones around the map with zombie souls and then access a secret room to find four nails and place them in the middle of the room."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per ottenere un perkaholic gratis, completa l’easter egg secondario che richiede di riempire tre pietre in giro per la mappa con anime di zombie, e poi accedi alla stanza segreta per trovare quattro chiodi e posizionarli al centro della suddetta stanza."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the Perkaholic side quest."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa l’easter egg secondario del Perkaholic."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOOD_IS_POWER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light in Darkness"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luce nell’oscurità"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOODIED_SACRIFICE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloodied Sacrifice"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sacrificio di sangue"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOODIED_SACRIFICE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kill <redacted> zombies with the charge attack of the upgraded shield in the blood alter."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uccidi <classificato> zombie con l’attacco carica dello scudo potenziato nell’altare di sangue."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.BLOODIED_SACRIFICE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desert Assassin"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assassino desertico"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.SOME_THINGS_ARE_BEST.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Some Things Are Best..."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Certe cose è meglio"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.SOME_THINGS_ARE_BEST.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reach wave 15 without opening any door."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raggiungi l’ondata 15 senza aprire alcuna porta."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.SOME_THINGS_ARE_BEST.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.SOME_THINGS_ARE_BEST.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Left Forgotten"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nell’oblio"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.STALWART_SOLDIER.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stalward Soldier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soldato risoluto"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.STALWART_SOLDIER.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wustling allows you to unlock the challenge faster than any other zombie type."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il Wustling è il tipo di zombie che ti fa sbloccare la sfida più velocemente di tutti."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.STALWART_SOLDIER.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.STALWART_SOLDIER.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crafting the Schyte causes the shield to take twice as much damage, saving you half of the time normally required."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aver costruito la Falce fa subire allo scudo il doppio dei danni, facendo dimezzare il tempo normalmente richiesto. "
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.STALWART_SOLDIER.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.STALWART_SOLDIER.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Absorb an unidentified amount of damage with the shield (base or upgraded irregardless), without it breaking."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assorbi un imprecisato numero di danni con lo scudo (base o potenziato), senza che questo si rompa."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.STALWART_SOLDIER.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.STALWART_SOLDIER.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relentless"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instancabile"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.ZOMBIE_TORERO.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zombie Torero"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Torero Zombi"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.ZOMBIE_TORERO.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lead a Wustling inside one of the teleports around the map, activate it and leave."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta un Wustling in uno dei teletrasporti in giro per la mappa, attivalo ed esci."
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.ZOMBIE_TORERO.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.ZOMBIE_TORERO.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Needless Effort"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sforzo inutile"
+          }
+        }
+      }
+    },
+    "OUTFIT.DEATHBRINGER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deathbringer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Messaggero della morte"
+          }
+        }
+      }
+    },
     "OUTFIT.DEATHRAVEN_HUNTER.LIVING_THE_DREAM.BRONZING.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -4731,6 +5190,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vero asso"
+          }
+        }
+      }
+    },
+    "OUTFIT.DESERT_ASSASSIN.DEATHBRINGER.BLOODIED_SACRIFICE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarded Sacrifice"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sacrificio protetto"
           }
         }
       }

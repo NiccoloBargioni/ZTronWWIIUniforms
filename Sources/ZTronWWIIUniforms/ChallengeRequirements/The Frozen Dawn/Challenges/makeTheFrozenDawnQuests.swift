@@ -19,8 +19,8 @@ func makeTheFrozenDawnQuests() -> [Quest] {
         ),
         Quest(
             map: "the frozen dawn",
-            setName: "assassino desertico",
-            characterName: "messaggero della morte",
+            setName: "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.QuestName",
+            characterName: "OUTFIT.DESERT_ASSASSIN.OUTFIT_NAME",
             image: "death messenger",
             challenges: makeAssassinoDeserticoChallenges()
         ),
