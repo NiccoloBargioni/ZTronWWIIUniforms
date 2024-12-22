@@ -17,6 +17,7 @@ func makeTheFrozenDawnQuests() -> [Quest] {
             image: "wanderer",
             challenges: makeEsploratoreRibelleChallenges()
         ),
+        
         Quest(
             map: "the frozen dawn",
             setName: "OUTFIT.DEATHBRINGER.DESERT_ASSASSIN.QuestName",
@@ -27,8 +28,8 @@ func makeTheFrozenDawnQuests() -> [Quest] {
         
         Quest(
             map: "the frozen dawn",
-            setName: "sangue freddo",
-            characterName: "sentinella wicht",
+            setName: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.QuestName",
+            characterName: "OUTFIT.WICHT_WARDEN.OUTFIT_NAME",
             image: "wicht warden",
             challenges: makeSangueFreddoChallenges()
         ),

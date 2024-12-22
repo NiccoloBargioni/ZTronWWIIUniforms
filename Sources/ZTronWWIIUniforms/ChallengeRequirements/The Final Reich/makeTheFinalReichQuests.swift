@@ -23,7 +23,7 @@ func makeTheFinalReichQuests() -> [Quest] {
             setName: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.QuestName".fromLocalized(),
             characterName: "OUTFIT.SURVIVALIST.OUTFIT_NAME".fromLocalized(),
             image: "survivalist",
-            challenges: makeGuidaAllaSopravvivenzaChallenges()
+            challenges: makeGuidaAllasurvivalChallenges()
         ),
         
         Quest(
@@ -48,6 +48,14 @@ func makeTheFinalReichQuests() -> [Quest] {
             characterName: "OUTFIT.SLAYER.BIG_GAME.OUTFIT_NAME".fromLocalized(),
             image: "slayer",
             challenges: makeCacciaGrossaChallenges()
-        )
+        ),
+        
+        Quest(
+            map: "the final reich",
+            setName: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.QuestName",
+            characterName: "OUTFIT.WICHT_WARDEN.OUTFIT_NAME",
+            image: "wicht warden",
+            challenges: makeSangueFreddoChallenges()
+        ),
     ]
 }

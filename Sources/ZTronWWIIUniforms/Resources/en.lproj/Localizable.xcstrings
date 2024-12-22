@@ -9501,13 +9501,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "For the wall step that requires to kill 10 Gekochts (Sizzlers), each one of them spawns 40 seconds apart. Shooting flares doesn’t change this spawn rate.\n\nMake sure that you are **not** saving zombies with no limbs, because such zombies won’t turn into Sizzlers."
+            "value" : "For the wall step that requires to kill 10 Gekochts (Sizzlers), each one of them spawns 40 seconds apart. Shooting flares doesn’t change this spawn rate.\n\nMake sure that you are not saving zombies with no limbs, because such zombies won’t turn into Sizzlers."
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Per il passaggio del muro che richiede di ottenere 10 uccisioni su Gekocht (Sizzler), ne appare uno ogni 40 secondi. Sparare bengala non cambia il tasso di spawn. \n\nAccertati di **non** salvare zombie senza arti, perché questi non si trasformano mai in Sizzler."
+            "state" : "needs_review",
+            "value" : "Per il passaggio del muro che richiede di ottenere 10 uccisioni su Gekocht (Sizzler), ne appare uno ogni 40 secondi. Sparare bengala non cambia il tasso di spawn. \n\nAccertati di non salvare zombie senza arti, perché questi non si trasformano mai in Sizzler."
           }
         }
       }
@@ -13150,6 +13150,23 @@
         }
       }
     },
+    "OUTFIT.WAYFARER.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wayfarer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viandante"
+          }
+        }
+      }
+    },
     "OUTFIT.WAYFARER.WAYWARD_RIDER.CHAMPION_OF_LOST_ARTIFACTS.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -13605,6 +13622,414 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esploratore ribelle"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.QuestName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cold Blooded"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sangue freddo"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Hilt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’elsa"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For this map, it is recommended to use Frontline with Determination and 1911s. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per questa mappa, è consigliabile di utilizzare Prima Linea con Determinazione e le 1911."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the first five waves to maximise your jolts and turn on the power. In co-op, don’t open the salt mines door until the beginning of wave 6."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa i primi cinque round per massimizzare le tue scosse ed attivare la corrente. In cooperativa, non aprire la porta delle miniere di sale fino all’inizio del round 6."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op, at wave change between wave 5 and wave 6, one player opens the salt mines door and shoots the rear head of each of the four bombers. Then, he goes to train such bombers in the courtyard."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In modalità cooperativa, al cambio round tra l’ondata 5 e l’ondata 6, un giocatore apre la porta delle miniere di sale e spara alla testa anteriore di ciascuno dei quattro bombardieri. Poi, va a girare i bombardieri nel cortile."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In solo, still open the salt mines door at wave change between wave 5 and wave 6, kill three bombers, and use the last one to blow open the Überschnalle socket inside the lab."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In solo, apri comunque la porta delle miniere di sale al cambio round tra l’ondata 5 e l’ondata 6,"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Whether you’re playing solo or co-op, on wave 6, start the quest to craft the Tesla Gun. During the first phase, one Wustling will spawn. You need to save such Wustling and use him to release the Überschnalle in the sewers (pack-a-punch room)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sia che giochi in solo che in cooperativa, al round 6, avvia il procedimento per costruire l’arma Tesla. Durante la prima fase spawnerà un Wustling: questo dovrà essere salvato ed utilizzato per ottenere l’Überschnalle nelle fogne (stanza del pack-a-punch)."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op only, on wave 6, the player that is training the bombers in the courtyard, at the end of the wave, brings all four bombers to the sewers (pack-a-punch room), passing through riverside (watermill). The player who got the Überschnalle opens the riverside door, shares 1k jolts, and leaves passing through the morgue. The player with four bombers activates the trap in the sewers killing all four bombers."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soltanto in modalità cooperativa, il giocatore che sta girando i bombardieri nel cortile, alla fine del round 6, porta tutti i quattro bombardieri nelle fogne (stanza pack-a-punch)  passando lato fiume (mulino ad acqua). Il giocatore che ha sbloccato l’Überschnalle apre la porta lato fiume, condivide mille scosse, e se ne va passando dall’obitorio. Il giocatore con quattro bombardieri attiva la trappola nelle fogne uccidendo tutti e quattro i bombardieri."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip6Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip7" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In solo, two bombers spawn on wave 8, and two more spawn on wave 9. You can use these bombers to unlock the aforementioned Überschnalle. If you shoot the bomb off the bomber, make sure you stick close to them, or they will respawn with the bomb."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In solo, due bombardieri spawnano al round 8 ed altri due al round 9. Puoi usare questi per sbloccare il sopracitato Überschnalle. Se fai cadere la bomba dalla schiena dei bombardieri non allontanarti troppo o questi respawneranno con la bomba."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip7Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip8" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Whether you’re in solo or co-op, on wave 7, complete both defenses of the lightning rod using Frontline to draw the zombies to you. In the meantime, you can unlock the morgue Überschnalle by doing the street lights step."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sia in solo che in cooperativa, al round 7, completa entrambe le difese del parafulmini usando Prima Linea per attirare a te gli zombie. Nel frattempo, ottieni l’Überschnalle dell’obitorio facendo il passaggio dei lampioni."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip8Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip9" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Whether you’re in solo or co-op, for the Zeppelin step, there are only a few drop points for the Überschnalle, and it will drop to the closest point to where the Zeppelin was last damaged. Damage the Zeppelin while it is above the Courtyard, and then use the trap to fill the battery for the Tesla upgrade as well as the Überschnalle."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sia in solo che in cooperativa, per il passaggio dello Zeppelin, ci sono solo poche possibili zone dove può atterrate l’Überschnalle, e cadrà sempre in quella più vicina al punto dove si trovava lo Zeppelin quando è stato danneggiato l’ultima volta. Danneggia lo Zeppelin mentre si trova sopra al Cortile, poi usa la trappola per riempire insieme sia la batteria per il potenziamento della Tesla che l’Überschnalle."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip9Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete the hardcore easter egg for The Final Reich"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg hardcore di The Final Reich."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search and Rescue"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salvataggio"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.OUTFIT_NAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wicht Warden"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sentinella Wicht"
           }
         }
       }

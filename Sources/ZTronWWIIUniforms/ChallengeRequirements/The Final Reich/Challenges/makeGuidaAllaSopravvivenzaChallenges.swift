@@ -1,7 +1,7 @@
 import Foundation
 import LoremIpsum
 
-internal func makeGuidaAllaSopravvivenzaChallenges() -> [Challenge<String>] {
+internal func makeGuidaAllasurvivalChallenges() -> [Challenge<String>] {
     return [
         Challenge<String>(
             name: "OUTFIT.SURVIVALIST.SURVIVAL_GUIDE.NO_TOUCHING.ChallengeName".fromLocalized(),

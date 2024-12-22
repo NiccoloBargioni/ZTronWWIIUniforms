@@ -24,5 +24,13 @@ func makeTheShadowedThroneQuests() -> [Quest] {
             image: "skullbreaker",
             challenges: makeLaRispostaChallenges()
         ),
+        
+        Quest(
+            map: "the shadowed throne",
+            setName: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.QuestName",
+            characterName: "OUTFIT.WICHT_WARDEN.OUTFIT_NAME",
+            image: "wicht warden",
+            challenges: makeSangueFreddoChallenges()
+        ),
     ]
 }

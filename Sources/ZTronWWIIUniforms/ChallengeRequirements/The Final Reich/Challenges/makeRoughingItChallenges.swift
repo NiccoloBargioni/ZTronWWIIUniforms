@@ -48,7 +48,7 @@ internal func makeRoughingItChallenges() -> [Challenge<String>] {
         // MARK: - WELCOME HOME
         Challenge<String>(
             name: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.ChallengeName".fromLocalized(),
-            map: "prologo",
+            map: "prologue",
             riddle: "OUTFIT.MOUNTAINEER.ROUGHING_IT.WELCOME_HOME.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -79,7 +79,7 @@ internal func makeRoughingItChallenges() -> [Challenge<String>] {
         // MARK: - HOME ADVANTAGE
         Challenge<String>(
             name: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.ChallengeName".fromLocalized(),
-            map: "prologo",
+            map: "prologue",
             riddle: "OUTFIT.MOUNTAINEER.ROUGHING_IT.HOME_ADVANTAGE.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -110,7 +110,7 @@ internal func makeRoughingItChallenges() -> [Challenge<String>] {
         // MARK: - NO CHEATING
         Challenge<String>(
             name: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.ChallengeName".fromLocalized(),
-            map: "prologo",
+            map: "prologue",
             riddle: "OUTFIT.MOUNTAINEER.ROUGHING_IT.NO_CHEATING.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(

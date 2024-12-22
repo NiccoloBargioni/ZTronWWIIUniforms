@@ -88,6 +88,14 @@ func makeTheDarkestShoreQuests() -> [Quest] {
             characterName: "OUTFIT.SLAYER_FROM_CASABLANCA.OUTFIT_NAME",
             image: "slayer",
             challenges: makeBanchiereChallenges()
-        )
+        ),
+        
+        Quest(
+            map: "the darkest shore",
+            setName: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.QuestName",
+            characterName: "OUTFIT.WICHT_WARDEN.OUTFIT_NAME",
+            image: "wicht warden",
+            challenges: makeSangueFreddoChallenges()
+        ),
     ]
 }

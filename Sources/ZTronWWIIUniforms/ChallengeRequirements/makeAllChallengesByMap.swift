@@ -17,7 +17,7 @@ public func makeAllChallengesByMap() -> ZTronRouter<Empty, QuestsPositionMapper,
             quests: makeGroestenHausSurvivalQuests(),
             position: 0
         ),
-        at: ["groesten haus", "sopravvivenza"]
+        at: ["groesten haus", "survival"]
     )
     
     router.register(
@@ -25,7 +25,7 @@ public func makeAllChallengesByMap() -> ZTronRouter<Empty, QuestsPositionMapper,
             quests: makeGroestenHausPrologueQuests(),
             position: 0
         ),
-        at: ["groesten haus", "prologo"]
+        at: ["groesten haus", "prologue"]
     )
     
     router.register(
@@ -93,16 +93,5 @@ public func makeAllChallengesByMap() -> ZTronRouter<Empty, QuestsPositionMapper,
         at: ["the tortured path", "beneath the ice"]
     )
 
-    /*
-    let DOT = router.toDOT { absolutePath, output in
-        if let output = output {
-            return output.first?.getMap() ?? absolutePath.last!
-        } else {
-            return absolutePath.last!
-        }
-    }
-
-    print(DOT)
-    */
     return router
 }

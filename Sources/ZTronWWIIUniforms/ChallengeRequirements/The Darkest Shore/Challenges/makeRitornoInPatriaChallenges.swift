@@ -5,7 +5,7 @@ internal func makeRitornoInPatriaChallenges() -> [Challenge<String>] {
     return [
         Challenge<String>(
             name: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.ChallengeName".fromLocalized(),
-            map: "sopravvivenza",
+            map: "survival",
             riddle: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.THIS_IS_MY_HAUS.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -25,7 +25,7 @@ internal func makeRitornoInPatriaChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.ChallengeName".fromLocalized(),
-            map: "sopravvivenza",
+            map: "survival",
             riddle: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.MINT_CONDITION.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
@@ -65,7 +65,7 @@ internal func makeRitornoInPatriaChallenges() -> [Challenge<String>] {
         
         Challenge<String>(
             name: String(localized: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.ChallengeName"),
-            map: "sopravvivenza",
+            map: "survival",
             riddle: "OUTFIT.BLOODRAVEN_MOUNTAINEER.HOME_WARD.KING_OF_THE_CASTLE.Riddle".fromLocalized(),
             requirements: [
                 Challenge<String>.TaggedString(
