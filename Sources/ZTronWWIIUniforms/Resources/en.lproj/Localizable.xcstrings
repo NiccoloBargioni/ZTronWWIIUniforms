@@ -13640,6 +13640,221 @@
         }
       }
     },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Ancient Evil"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il male antico"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave four, for the shield upgrade, shoot three different ravens around the map with a pistol (one at a time), and kill the red glowing Corpse Eaters that spawn by each of the three blood pools (using the base shield)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round 4, per il potenziamento dello scudo, spara a tre diversi corvi in giro per la mappa con una pistola (uno per volta), ed uccidi i Mangiatori di cadaveri rossi che spawnano presso ciascuna delle tre pozze di sangue (usando lo scudo base). "
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At the end of wave four, start the lockdown for the Scythe. This way you minimise the amount of jolts lost."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla fine del round quattro, inizia l’isolamento per la Falce. In questo modo puoi minimizzare i punti persi."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In solo, for the Hammer upgrade, lit up the rune in the Egyptian room (melee perk), then head to the phylactery, train a group of zombies and then head back to the rune and complete the step.\n\nThis way, a group of zombies will be waiting for you in front of the door to the phylactery."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In solo, per il potenziamento del martello, accendi la runa nella stanza egiziana (perk del corpo a corpo), poi dirigiti al filatterio, racimola un gruppo di zombie, poi torna alla runa e completa il passaggio.\n\nIn questo modo, troverai un gruppo di zombie fermo ad aspettarti davanti alla porta del filatterio. "
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op, before the player enters the Deathraven’s trial for the Flail, leave only one zombie alive. If the player dies during the first firewall attack, change the round to revive him. The player will complete the challenge whether or not he survives the second firewall attack."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In cooperativa, prima di entrare nella prova del Corvomorte del Flagello, lascia solo uno zombie vivo. Se il giocatore muore dal primo attacco del muro di fuoco, cambia round per rianimarlo automaticamente. Taluno completerà la sfida sia che sopravviva oppure no al secondo attacco del muro di fuoco."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the final step of the shield upgrade, save only five zombies at the end of the round during which you want to complete it.\n\nThen, let a regular zombie kill you inside the blood pool (contrary to common belief, you don’t need to get killed by a red glowing Corpse Eater)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per l’ultimo passaggio del potenziamento dello scudo, salva solo cinque zombie alla fine del round in cui lo vuoi completare.\n\nPoi, fatti uccidere da uno zombie normale nella pozza di sangue (contrariamente a quanto si crede, non è richiesto di essere uccisi da un Mangiatore di Cadaveri rosso)."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the easter egg from The Frozen Dawn."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg di The Frozen Dawn."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_ANCIENT_EVIL.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descend"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scendi…"
+          }
+        }
+      }
+    },
     "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -14553,7 +14768,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Per questa mappa, è consigliabile di utilizzare Prima Linea con Determinazione e le 1911."
+            "value" : "Per questa mappa, è consigliabile utilizzare Prima Linea con Determinazione e le 1911."
           }
         }
       }
