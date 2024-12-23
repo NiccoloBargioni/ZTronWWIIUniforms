@@ -29,14 +29,11 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Da non fare"
           }
         }
       }
-    },
-    "Key 1" : {
-      "extractionState" : "manual"
     },
     "OUTFIT.B.A.T._AGENT.ON_ASSIGNMENT.COOKING_WITH_GAS.ChallengeName" : {
       "extractionState" : "manual",
@@ -305,7 +302,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Assembla l’arma Tesla entro l’ondata 6, in L’Ultimo Reich."
+            "value" : "Assembla l’arma Tesla entro il round 6, in L’Ultimo Reich."
           }
         }
       }
@@ -367,13 +364,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 25 in The Final Reich."
+            "value" : "Reach and survive wave 25 in The Final Reich."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all’ondata 25 in L’Ultimo Reich."
+            "value" : "Raggiungi e sopravvivi al round 25 in L’Ultimo Reich."
           }
         }
       }
@@ -611,7 +608,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requirement 1"
+            "value" : "Requisito 1"
           }
         }
       }
@@ -656,12 +653,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "On wave 7, after the second defense, damage the Zeppelin while it is hovering the courtyard area: the battery (Uberschnalle) should drop in the courtyard. \n\nGather enough zombies in the courtyard area and activate the trap to fill the Uberschnalle and unlock the Tesla Gun battery at the same time."
+            "value" : "On wave 7, after the second defense, damage the Zeppelin while it is hovering the courtyard area: the battery (Überschnalle) should drop in the courtyard. \n\nGather enough zombies in the courtyard area and activate the trap to fill the Uberschnalle and unlock the Tesla Gun battery at the same time."
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Al round 7, dopo la seconda difesa, danneggia lo Zeppelin mentre sorvola l’area del cortile: la batteria (Uberschnalle) dovrebbe cadere nel cortile. \n\nRaduna un numero sufficiente di zombie nel cortile ed attiva la trappola per riempire l’Uberschnalle e sbloccare la batteria dell’arma Tesla in un solo colpo."
           }
         }
@@ -764,7 +761,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "All’inizio del round 10, avvia la difesa per il potenziamento della batteria dell’arma Tesla che hai sbloccato al round 10.\n\nCon l’artiglio rosso (spada), recati al pub e carica il grammofono.\n\nTutti i Wustling devono essere salvati durante questa ondata."
+            "value" : "All’inizio del round 10, avvia la difesa per il potenziamento della batteria dell’arma Tesla che hai sbloccato al round 10.\n\nCon l’artiglio rosso (spada), recati al pub e carica il grammofono.\n\nTutti i Wustling devono essere salvati durante questo round."
           }
         }
       }
@@ -798,7 +795,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batti l’easter egg hardcore entro l’ondata 16 (compresa)."
+            "value" : "Batti l’easter egg hardcore entro il round 16 (compresa)."
           }
         }
       }
@@ -985,7 +982,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requirement 1"
+            "value" : "Requisito 1"
           }
         }
       }
@@ -996,13 +993,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Charge the Gramophone during a Pest round. There is one every 5 rounds."
+            "value" : "Charge the Gramophone during a Pest wave. There is one every 5 rounds."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Carica il grammofono durante un round di Appestati. Ce n’è uno ogni 5 round."
+            "value" : "Carica il grammofono durante un round di Appestati. Ce n’è uno ogni 5 round. "
           }
         }
       }
@@ -1019,7 +1016,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requirement 1"
+            "value" : "Requisito 1"
           }
         }
       }
@@ -1098,13 +1095,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "When you activate pack-a-punch there’s a chance to spawn extra Pests. Only activate it on round 10 to ensure that you kill enough pests with a single activation of the morgue trap."
+            "value" : "When you activate pack-a-punch there’s a chance to spawn extra Pests. Only activate it on wave 10 to ensure that you kill enough pests with a single activation of the morgue trap."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quando il pack-a-punch viene attivato, c’è la possibilità che spawnino degli Appestati extra. Attivalo solamente una volta raggiunto il round 10, così da garantire che vengano uccisi abbastanza Appestati con una singola attivazione della trappola dell’obitorio. "
+            "value" : "Quando il pack-a-punch viene attivato, c’è la possibilità che spawnino degli Appestati extra. Attivalo solamente una volta raggiunto il round 10, così da garantire che vengano uccisi abbastanza Appestati con una singola attivazione della trappola dell’obitorio."
           }
         }
       }
@@ -1744,13 +1741,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kill the Brenner that spawns on round 50. "
+            "value" : "Kill the Brenner that spawns on wave 50. "
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uccidi il Brenner che compare al round 50."
+            "value" : "Uccidi il Brenner che compare al round 50. "
           }
         }
       }
@@ -1812,13 +1809,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The challenge cannot start from any round other than Round 1."
+            "value" : "The challenge cannot start from any round other than wave 1."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "La sfida non può essere avviata da nessun round successivo al primo."
+            "value" : "La sfida non può essere avviata da nessun round successivo al primo. "
           }
         }
       }
@@ -1982,13 +1979,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beat the first 20 rounds without getting damaged. "
+            "value" : "Beat the first 20 waves without getting damaged. "
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Soprattivi i primi 20 round senza subire danni."
+            "value" : "Soprattivi i primi 20 round senza subire danni. "
           }
         }
       }
@@ -2101,13 +2098,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beat the first 30 rounds without anyone going down.*"
+            "value" : "Beat the first 30 waves without anyone going down.*"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batti i primi 30 round senza che nessuno vada a terra.*"
+            "value" : "Batti i primi trenta round senza che alcun giocatore vada a terra.*"
           }
         }
       }
@@ -3467,7 +3464,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Raggiungi l’ondata 15 senza aprire alcuna porta."
+            "value" : "Raggiungi il round 15 senza aprire alcuna porta."
           }
         }
       }
@@ -4418,13 +4415,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "It seems that non-better identified events reset the round tracker so that it starts from zero at the beginning of next round."
+            "value" : "It seems that non-better identified events reset the round tracker so that it starts from zero at the beginning of next wave."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sembra che determinati eventi non meglio identificati reimpostino il conteggio dei round da zero a partire dal round successivo."
+            "value" : "Sembra che determinati eventi non meglio identificati reimpostino il conteggio dei round da zero a partire dal round successivo. "
           }
         }
       }
@@ -4622,13 +4619,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "It seems that non-better identified events reset the round tracker so that it starts from zero at the beginning of next round."
+            "value" : "It seems that non-better identified events reset the round tracker so that it starts from zero at the beginning of next wave."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sembra che determinati eventi non meglio identificati reimpostino il conteggio dei round da zero a partire dal round successivo."
+            "value" : "Sembra che determinati eventi non meglio identificati reimpostino il conteggio dei round da zero a partire dal round successivo. "
           }
         }
       }
@@ -5999,13 +5996,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Runes combinations can only be seen during even rounds. During odd rounds, you can try each of the 16 combinations to progress with the easter egg."
+            "value" : "Runes combinations can only be seen during even waves. During odd rounds, you can try each of the 16 combinations to progress with the easter egg."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Le combinazioni delle rune si possono vedere solamente durante i round pari. Durante i round dispari, conviene provare tutte le 16 combinazioni per progredire con l’easter egg."
+            "value" : "Le combinazioni delle rune si possono vedere solamente durante i round pari. Durante i round dispari, conviene provare tutte le 16 combinazioni per progredire con l’easter egg. "
           }
         }
       }
@@ -6339,7 +6336,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Runes combinations can only be seen during even rounds. During odd rounds, you can try each of the 16 combinations to progress with the easter egg."
+            "value" : "Runes combinations can only be seen during even waves. During odd rounds, you can try each of the 16 combinations to progress with the easter egg."
           }
         },
         "it" : {
@@ -7053,13 +7050,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 25 without going down in the Prologue."
+            "value" : "Reach and survive wave 25 without going down in the Prologue."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all'ondata 25 senza farti atterrare nel Prologo."
+            "value" : "Raggiungi e sopravvivi al round 25 senza farti atterrare nel Prologo."
           }
         }
       }
@@ -7155,13 +7152,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 20 with no open doors and with no downed players in The Final Reich."
+            "value" : "Reach and survive wave 20 with no open doors and with no downed players in The Final Reich."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all'ondata 20 senza aprire porte e senza giocatori atterrati in L'Ultimo Reich"
+            "value" : "Raggiungi e sopravvivi al round 20 senza aprire porte e senza giocatori atterrati in L'Ultimo Reich"
           }
         }
       }
@@ -7257,13 +7254,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 20 with no open doors in The Final Reich."
+            "value" : "Reach and survive wave 20 with no open doors in The Final Reich."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all'ondata 20 senza aprire porte in L'Ultimo Reich"
+            "value" : "Raggiungi e sopravvivi al round 20 senza aprire porte in L'Ultimo Reich"
           }
         }
       }
@@ -7427,13 +7424,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 25 without unlocking the secret room in the Prologue."
+            "value" : "Reach and survive wave 25 without unlocking the secret room in the Prologue."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all'ondata 25 senza sbloccare la stanza segreta nel Prologo."
+            "value" : "Raggiungi e sopravvivi al round 25 senza sbloccare la stanza segreta nel Prologo."
           }
         }
       }
@@ -7614,13 +7611,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 25 in the Prologue"
+            "value" : "Reach and survive wave 25 in the Prologue"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all'ondata 25 nel Prologo."
+            "value" : "Raggiungi e sopravvivi al round 25 nel Prologo."
           }
         }
       }
@@ -7716,13 +7713,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The round tracker for the challenge triggers whenever one round is ended with a melee weapon (ends 24 rounds after)."
+            "value" : "The round tracker for the challenge triggers whenever one wave is ended with a melee weapon (ends 24 rounds after)."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Il contatore dei round per la sfida viene attivato appena un round finisce con una uccisione corpo a corpo (altri 24 round richiesti a partire da quel momento). "
+            "value" : "Il contatore dei round per la sfida viene attivato appena un round finisce con una uccisione corpo a corpo (altri 24 round richiesti a partire da quel momento).  "
           }
         }
       }
@@ -7739,7 +7736,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requirement 1"
+            "value" : "Requisito 1"
           }
         }
       }
@@ -8906,13 +8903,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This challenge can be completed along with the 20 rounds in the spawn room “Dirty Work” challenge for the Necromedic outfit."
+            "value" : "This challenge can be completed along with the 20 waves in the spawn room “Dirty Work” challenge for the Necromedic outfit."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Questa sfida può essere completata insieme alla sfida dei 20 round nella stanza iniziale (Lavoro Sporco) dell’uniforme Necromedico."
+            "value" : "Questa sfida può essere completata insieme alla sfida dei 20 round nella stanza iniziale (Lavoro Sporco) dell’uniforme Necromedico. "
           }
         }
       }
@@ -8963,7 +8960,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requirement 1"
+            "value" : "Requisito 1"
           }
         }
       }
@@ -9506,7 +9503,7 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Per il passaggio del muro che richiede di ottenere 10 uccisioni su Gekocht (Sizzler), ne appare uno ogni 40 secondi. Sparare bengala non cambia il tasso di spawn. \n\nAccertati di non salvare zombie senza arti, perché questi non si trasformano mai in Sizzler."
           }
         }
@@ -10844,13 +10841,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "To maximize the points, with 1911, on wave 1, shoot three times to the legs, and then use the shovel. \n\nEvery round, the number of shots you can take increases by 2. \n\nTo speed up the shovel melee animation, make sure you are crouching while performing the attack."
+            "value" : "To maximize the points, with 1911, on wave 1, shoot three times to the legs, and then use the shovel. \n\nEvery wave, the number of shots you can take increases by 2. \n\nTo speed up the shovel melee animation, make sure you are crouching while performing the attack."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Per massimizzare i punti, con le 1911, a round 1, spara tre volte alle gambe, e poi usa la pala.\n\nOgni round, il numero di colpi che puoi infierire aumenta di 2.\n\nPer velocizzare l’animazione della palata, accertati di essere accovacciato mentre esegui l’attacco."
+            "value" : "Per massimizzare i punti, con le 1911, a round 1, spara tre volte alle gambe, e poi usa la pala.\n\nOgni round, il numero di colpi che puoi infierire aumenta di 2.\n\nPer velocizzare l’animazione della palata, accertati di essere accovacciato mentre esegui l’attacco. "
           }
         }
       }
@@ -11762,13 +11759,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 30 with only each players’ starting weapon"
+            "value" : "Reach and survive wave 30 with only each players’ starting weapon"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all’ondata 30 usando solo le armi di partenza di ogni giocatore, in L’Ultimo Reich."
+            "value" : "Raggiungi e sopravvivi al round 30 usando solo le armi di partenza di ogni giocatore, in L’Ultimo Reich."
           }
         }
       }
@@ -11864,13 +11861,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 30 without generator power in The Final Reich."
+            "value" : "Reach and survive wave 30 without generator power in The Final Reich."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all’ondata 30 senza ripristinare l’energia in L’Ultimo Reich."
+            "value" : "Raggiungi e sopravvivi al round 30 senza ripristinare l’energia in L’Ultimo Reich."
           }
         }
       }
@@ -11932,13 +11929,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 30 without any players using blitzes in The Final Reich."
+            "value" : "Reach and survive wave 30 without any players using blitzes in The Final Reich."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all’ondata 30 senza che i giocatori usino blitz in L’Ultimo Reich."
+            "value" : "Raggiungi e sopravvivi al round 30 senza che i giocatori usino blitz in L’Ultimo Reich."
           }
         }
       }
@@ -12000,13 +11997,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 30 with no downed players"
+            "value" : "Reach and survive wave 30 with no downed players"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all’ondata 30 senza giocatori atterrati, in L’Ultimo Reich."
+            "value" : "Raggiungi e sopravvivi al round 30 senza giocatori atterrati, in L’Ultimo Reich."
           }
         }
       }
@@ -12153,13 +12150,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Survive wave 30 with only weapons from two mystery box uses per player. Starting weapons are allowed, but cannot be upgraded."
+            "value" : "Reach and survive wave 30 with only weapons from two mystery box uses per player. Starting weapons are allowed, but cannot be upgraded."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopravvivi all’ondata 30 usando solo le armi della scatola misteriosa in L’Ultimo Reich. Limite di due utilizzi della scatola misteriosa per giocatore. Armi di partenza ammesse, ma non potenziabili."
+            "value" : "Raggiungi e sopravvivi al round 30 usando solo le armi della scatola misteriosa in L’Ultimo Reich. Limite di due utilizzi della scatola misteriosa per giocatore. Armi di partenza ammesse, ma non potenziabili."
           }
         }
       }
@@ -12992,7 +12989,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requirement 1"
+            "value" : "Requisito 1"
           }
         }
       }
@@ -13094,7 +13091,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requirement 1"
+            "value" : "Requisito 1"
           }
         }
       }
@@ -13643,6 +13640,890 @@
         }
       }
     },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Blade"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La Lama"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can activate the morse code step by bruteforcing the following combinations: (20; 66), (38; 82), (56; 82)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi attivare il passaggio del codice morse provando tutte le seguenti combinazioni: (20; 66), (38; 82), (56; 82)."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the wall challenge number two, ten Gekochs (Sizzlers) are required, and they always spawn at a rate of one each 40 seconds no matter what. \n\nKeep in mind that zombies without limbs do not turn into Gekochs. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per la seconda sfida del muro, sono richiesti 10 Gekochs (Sizzler), che spawnano a distanza di 40 secondi l’uno dall’altro (a prescindere da tutto). \n\nRicorda che gli zombie senza arti non si trasformano in Gekochs."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For this bossfight, it is recommended to use Shellshock with Sustain Zone and Pack Mule. \n\nBring the MP-40 to this bossfight as there is a wallbuy for it in the bossfight arena."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per questa battaglia boss, è consigliato l’utilizzo di Trauma Letale con Zona Mantenuta e Mulo da Soma. \n\nPorta l’MP-40 in battaglia boss, dato che è disponibile a muro all’interno dello Zeppelin."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For this bossfight, bring the Dancer’s Dagger with you, since its heavy attack allows to replenish ammo as well as shields.\n\nShields are only replenished if a heavy attack is performed on a zombie while the yellow ring around your character’s icon is full. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per questa battaglia boss, porta con te il Pugnale della Ballerina, poiché il suo attacco pesante ti permette di riempire munizioni e scudi.\n\nGli scudi vengono riempiti solo se l’attacco pesante viene eseguito su uno zombie quando l’anello giallo intorno all’icona del personaggio è pieno."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat The Shadowed Throne’s easter egg."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg di The Shadowed Throne."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mechanized Abomination"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abominio Meccanizzato"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Forge"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La Forgia"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is now possible to beat this easter egg in solo or co-op in a private game."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È adesso possibile battere questo easter egg in solo o cooperativa in partita privata."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On the first wave, find all the body parts and shoot the rope next to the first pack-a-punch battery. Then, use all your money to find the jack-in-the-box in the starting weapon wallbuy, by Quick Revive."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round uno, trova tutte le parti del corpo e spara alla corda vicino alla prima batteria del pack-a-punch. Poi, spendi tutto il necessario per cercare il pupazzo a molla nell’acquisto a muro per le armi iniziali, nei pressi di Rianimazione Rapida."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you are playing solo and you are a low rank in The Tortured Path, wait until wave four to collect the rope from the fallen tree. \n\nThis is the only way to make two Wustlings spawn on wave five and make the easter egg possible."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se giochi in solo e sei di livello basso in Via Del Tormento, aspetta fino al round quattro per raccogliere la corda dall’albero caduto.\n\nQuesto è l’unico modo per far spawnare due Wustling al round cinque e rendere l’easter egg completabile."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave five, if possible, save a Wustling as the last zombie for the round. Then, go by the ammo box next to the SMG wallbuy in front of the windmill and wait for the only fully intact blade to touch the top of the tree on the left before you head inside the windmill."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round cinque, se possibile, salva un Wustling come ultimo zombie del round. Poi recati alla cassa di munizioni vicino alle mitragliette a muro davanti al mulino a vento, ed aspetta che l’unica pala del tutto intatta tocchi la punta dell’albero sulla sinistra, prima di dirigerti verso l’interno del mulino."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave five, repeat the same step with the diametrically opposed blade to the one from the previous step. \n\nThen, before switching wave, make sure that the blade closer to the ground is perfectly vertical (parallel to the windows). "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round cinque, ripeti lo stesso passaggio con la pala diametralmente opposta a quella del passaggio precedente.\n\nPoi, prima di cambiare round, accertati che la pala più vicina al suolo sia perfettamente verticale (ossia parallela alle finestre)."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave seven, as soon as the first zombie gets close enough to the friendly one, activate Frontline. Then, make sure to kill every Wustling and Bomber that gets close to him, while the friendly zombie goes through the windmill. \n\nThen, in solo, lead all the zombies by Quick Revive. If you don’t kill any zombie (bombers can’t blow up), all of them will chase you rather than the friendly zombie. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round sette, appena il primo zombie si avvicina abbastanza a quello alleato, attiva Prima Linea. Poi accertati di uccidere tutti i Wustling e Bombardieri che gli si avvicinano, mentre lo zombie alleato passa per il mulino a vento. \n\nPoi, in solo, porta tutti gli zombie a Rianimazione Rapida. Se non uccidi nessuno zombie (i bombardieri non devono esplodere), questi inseguiranno te anziché lo zombie alleato."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip6Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip7" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op, on wave seven, one player activates Frontline and makes sure that the friendly zombie doesn’t get hit by bombers or Wustlings while passing through the windmill. Once the zombie has passed the windmill, the other player activates Frontline while one player goes to defend the friendly zombie."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In cooperativa, al round sette, un giocatore attiva Prima Linea e si accerta che lo zombie alleato non venga colpito da bombardieri o Wustling mentre attraversa il mulino. Una volta che lo zombie alleato è uscito dal mulino, l’altro giocatore attiva Prima Linea mentre il primo difende lo zombie alleato."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip7Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip8" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave eight, as soon as the first zombie spawns, throw a jack-in-the-box by the door of the house. Then, before it blows up, throw the next one right outside of the door. Finally, use your third jack throwing it slightly ahead of the friendly zombie. \n\nWhile the jack-in-the-box are active, focus on wiping every Wustling and Bomber. \n\nWhen the battery is fully charged (green), the friendly zombie can die, unless he is on the stairs to the basement where Speedcola is located, or it will glitch out, making the battery unreachable. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round otto, appena spawna il primo zombie, lancia un pupazzo a molla vicino alla porta della casa (lato interno). Poi, prima che questo esploda, lanciane un altro appena fuori dalla casa. Infine, usa il terzo lanciandolo appena davanti allo zombie alleato. \n\nMentre i pupazzi a molla sono attivi, concentrati sull’eliminare tutti i Wustling e Bombardieri.\n\nQuando la batteria è completamente carica (verde), puoi lasciar morire lo zombie alleato, purché non si trovi sulle scale della cantina dove si trova lo Speedcola, altrimenti si verificherà un bug che renderà la batteria irraggiungibile."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip8Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip9" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave one of Across The Depths, in co-op, make sure that every player is standing next to the Überschnalle while knifing it, or you won’t be able to shoot the fish on wave two. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al primo round di Across The Depths, in modalità cooperativa, assicurati che tutti i giocatori siano vicini all’Überschnalle mentre lo accoltelli, altrimenti non potrai sparare ai pesci al round due."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip9Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip10" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At wave change between wave two and wave three, escort the big fish.\n\nOn wave three, spot the first Überschnalle wallbuy in the spawn area."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al cambio round tra il round due ed il round tre, scorta il pesce più grande. \n\nAl round tre, individua l’Überschnalle a muro nella zona dello spawn."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip10Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip11" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At wave change between wave three and wave four, buy the Überschnalle for 3k jolts and place it next to the second pack-a-punch battery. Then, fill it using Free Fire, or an Instakill consumable.\n\nSave one zombie at the end of the round and buy and place the second Überschnalle."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al cambio round tra il round tre ed il round quattro, acquista l'Überschnalle per 3k scosse e posizionalo nei pressi della seconda batteria per il pack-a-punch. Poi riempilo usando Fuoco Libero oppure un consumabile All’Istante. \n\nSalva uno zombie a fine round, acquista e posiziona il secondo Überschnalle."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip11Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip12" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the Buckets game, throw a Semtex or Satchel (C4) to the bucket with the fish inside. This way the bucket will show burn signs and is easily recognisable. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per il gioco dei secchi, lancia una Semtex o un Satchel (C4) nel secchio col pesce dentro. Così facendo, tale secchio mostrerà segni di bruciatura, che lo renderanno facilmente riconoscibile."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip12Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip13" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave one of Beneath The Ice, bruteforce the first runes combination. \n\nRemember to avoid looking for a jack-in-the-box as this would be replaced by the Flares in the next step of the easter egg. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round 1 di Beneath The Ice, prova tutte le combinazioni delle rune.\n\nRicorda di evitare di cercare il pupazzo a molla, giacché questo verrebbe sostituito dai Bengala nel prossimo passaggio dell’easter egg."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip13Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip14" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave two, bruteforce again the runes combinations. Keep in mind that during even waves, you can find one of the combinations in one of 14 locations around the map."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round due, tenta di nuovo tutte le possibili combinazioni delle rune. Ricorda che durante i round pari, è possibile vedere una delle combinazioni in uno tra 14 possibili punti in giro per la mappa."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip14Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip15" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the pressure plates step, everyone should use Free Fire with MK.II and 1911s. \n\nPlayers should take turns to use their Überladen (Full Meter) consumable."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per il passaggio delle pietre a pressione, ciascuno dovrebbe usare Fuoco Libero con MK.II e le 1911.\n\nI giocatori dovrebbero attivare a turno il proprio consumabile Überladen (Indicatore al massimo)."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip15Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip16" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the best chance at beating the boss, lead him to the Double Tap perk (runes wall) before you damage it. This way it will need to take the longest way possible to reach the healing spot. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per massimizzare la probabilità di battere il boss, conducilo verso il perk Double Tap (muro delle rune) prima di danneggiarlo. Così facendo dovrà percorrere la strada più lunga possibile per raggiungere il punto di recupero della salute."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip16Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the easter egg for Into The Storm."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg di Into The Storm."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the easter egg of Across The Depths back to back with respect to Into The Storm, in the same game session."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg di Across The Depth subito dopo quello di Into The Storm, nella stessa sessione di gioco."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 2"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 2"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the easter egg of Beneath The Ice back to back with respect to Across The Depths and Into The Storm, in the same game session."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg di Beneath The ice subito dopo quelli di Across The Depths e Into The Storm, nella stessa sessione di gioco."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 3"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Road Ahead"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La strada di fronte"
+          }
+        }
+      }
+    },
     "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -13740,7 +14621,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In modalità cooperativa, al cambio round tra l’ondata 5 e l’ondata 6, un giocatore apre la porta delle miniere di sale e spara alla testa anteriore di ciascuno dei quattro bombardieri. Poi, va a girare i bombardieri nel cortile."
+            "value" : "In modalità cooperativa, al cambio round tra il round 5 e il round 6, un giocatore apre la porta delle miniere di sale e spara alla testa anteriore di ciascuno dei quattro bombardieri. Poi, va a girare i bombardieri nel cortile."
           }
         }
       }
@@ -13757,7 +14638,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requirement 1"
+            "value" : "Requisito 1"
           }
         }
       }
@@ -13774,7 +14655,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In solo, apri comunque la porta delle miniere di sale al cambio round tra l’ondata 5 e l’ondata 6,"
+            "value" : "In solo, apri comunque la porta delle miniere di sale al cambio round tra il round 5 e il round 6,"
           }
         }
       }
@@ -13966,6 +14847,108 @@
         }
       }
     },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip10" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Whether you’re in solo or co-op, by wave 8, you should be able to start the first defense for the Tesla Gun upgrades. Use Frontline like you did for the Lightning Rod in order to save rounds."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sia in solo che in cooperativa, entro round 8 dovresti essere in grado di iniziare la prima difesa per il potenziamento dell’arma Tesla. Usa Prima Linea come per il Parafulmini per risparmiare round."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip10Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip11" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Whether you’re in solo or co-op, save one zombie at the end of wave 9, then pass through the pipes for the pack-a-punch quest without interacting with any button. Then, kill the last zombie and complete the pack-a-punch quest to have a random chance of spawning extra pests to kill on wave 10 with the morgue trap."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sia in solo che in cooperativa, salva uno zombie alla fine del round 9, poi passa attraverso i tubi per il pack-a-punch senza interagire con alcun pulsante. Uccidi l’ultimo zombie e poi completa l’apertura del pack-a-punch per avere una possibilità di avere degli Appestati in più da uccidere nel round 10 con la trappola dell'obitorio."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip11Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip12" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Whether you’re in solo or co-op, on wave 11, start the defense for the upgrade of the Tesla Gun and use Frontline. Then, go to the pub and charge the gramophone, paying attention to saving all the Wustlings."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sia in solo che in cooperativa, al round 11 inizia la difesa per il potenziamento dell’arma Tesla usando Prima Linea. Dopodiché recati al pub e carica il grammofono, facendo attenzione a salvare tutti i Wustling. "
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip12Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
     "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.Requirement1" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -14013,6 +14996,346 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salvataggio"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ChallengeName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Pommel"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il Pomolo"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave zero, use the despawn trick to maximise your points. \n\nIn order to make zombies despawn, with the Shovel, kill all the Super Sprinter zombies, then lead the remaining zombies to Quick Revive. When all the zombies are close to you, go to the first door and ADS inside of it. If you wait long enough, most of the zombies will have despawned and will respawn on wave 1. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round zero, usa il trucco per despawnare lo zombie per massimizzare le scosse.\n\nPer far despawnare gli zombie, con la Pala, uccidi tutti gli zombie rapidi, poi conduci i rimanenti alla Rianimazione Rapida. Quando tutti gli zombie sono abbastanza vicini a te, raggiungi la prima porta e mira nella sua direzione. Se lo fai abbastanza a lungo, la maggior parte degli zombie sarà despawnata e ritornerà il round successivo."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As soon as possible, before the lockdown in the U-BOAT pens, pass through the mines system, enter the Ancient Door room, and collect the monk’s head. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appena possibile, prima del passaggio dell’isolamento nella base degli U-BOAT, attraversa il sistema minerario, entra nella stanza della Porta Antica, e raccogli la Testa del monaco."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip2Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave 5, if you have managed to upgrade the Ripsaw, save a pest and check the nine rocks around the map for the Son of Nertus."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round 5, se sei riuscito a potenziare la Motosega, salva un Appestato e controlla le nove rocce in giro per la mappa per il Figlio di Nerto."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip3Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On wave 6, only if you’re in co-op, obtain a jack-in-the-box, which is basically guaranteed within the first box, while if in solo, just pack-a-punch your weapon. "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al round 6, solo se sei in cooperativa, trova un pupazzo a molla, che è praticamente garantito nella prima cassa, altrimenti se da solo, limitati a potenziare la tua arma."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip4Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In co-op, after filling the gate in the U-BOAT pens, a dialogue will start. When finished, you can immediately turn off the gas valve on the right side of the stairs, before fire appears. \n\nOnce the first valve is turned off, throw a jack-in-the-box in front of the gate. At this point, both players take a different valve and turn it off even if it is protected by fire. If done in a timely manner, you will be left with one shield spare."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In cooperativa, dopo aver riempito il cancello nella base degli U-BOAT, partirà un dialogo. Una volta finito, puoi immediatamente chiudere la valvola del gas alla destra delle scale, prima che arrivi il fuoco. \n\nUna volta che la prima valvola è stata chiusa, lancia un pupazzo a molla nei pressi del cancello. A questo punto entrambi i giocatori si occupano ognuno della propria valvola, chiudendola anche se protetta dal fuoco. Se eseguito col tempismo corretto, ti resterà uno scudo."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip5Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When the U-BOAT lockdown is finished, kill the Brenner but save the max ammo for the bossfight. \n\nPlace the Monk’s Head and try to harvest a lit spine from a regular zombie for the Son of Nertus. The friendly zombie doesn’t need to be escorted."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando è finito l’isolamento nella base degli U-BOAT, uccidi il Brenner senza raccogliere Munizioni al massimo.\n\nPosiziona la Testa del Monaco e cerca di raccogliere una Spina Illuminata da uno zombie per il Figlio di Nerto. Lo zombie alleato non ha bisogno di essere scortato."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip6Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip7" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To harvest a Meuchler spine, when you open the Ancient Door, kill two of the three Meuchlers and damage the last one until it flinches. Then, charge him with the Ripsaw until you get its spine. \n\nIf you fail, or the spine isn’t lit up, go to the ritual room and wait until a Meuchler spawns. Then, damage it until it flinches once, if below wave 10, or twice otherwise; then, leave to the beach and it will spawn by the entrance to the mines system, and it will try to run away passing through Quick Revive. When he does so, you can charge him repeatedly and it will drop to the ground briefly. Repeat until you obtain its spine.\n\nIn co-op, this only works if all your teammates are on the beach."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per raccogliere la spina del Meuchler, quando apri la Porta Antica, uccidi due dei tre Meuchler e danneggia l’ultimo finché non barcolla. Dopodiché, caricalo con la Motosega finché non ottieni la sua spina.\n\nSe fallisci o la spina non è illuminata, vai nella stanza dei rituali ed aspetta che il Meuchler spawni. Poi, danneggialo finché non barcolla una volta se prima del round 10, due altrimenti; dopodiché, lascia la stanza recandoti in spiaggia. Il Meuchler arriverà dall’entrata per il sistema minerario, e cercherà di scappare passando per Rianimazione Rapida. A questo punto, puoi caricarlo ripetutamente e cadrà a terra per un breve periodo di tempo. Ripeti questo processo finché non ottieni la sua spina.\n\nIn cooperativa, è richiesto che tutti i giocatori si trovino sulla spiaggia."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip7Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip8" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the Meuchler step, pack-a-punch area and beach are very likely spawns for the friendly Meuchler. \n\nIf you get far from the zombies, you will see them heading towards the direction where the friendly Meuchler has spawned."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per il passaggio del Meuchler, la zona del pack-a-punch e la spiaggia sono due punti di spawn molto frequenti.\n\nSe ti allontani dagli zombie, li vedrai recarsi verso la direzione in cui è spawnato il Meuchler alleato."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip8Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.Requirement1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beat the easter egg of The Darkest Shore."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batti l’easter egg di The Darkest Shore."
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.Requirement1Tag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requirement 1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requisito 1"
+          }
+        }
+      }
+    },
+    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.Riddle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "They Can Swim Now."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sanno anche nuotare?"
           }
         }
       }

@@ -15,52 +15,76 @@ internal func makeSangueFreddoChallenges() -> [Challenge<String>] {
             ],
             donts: [],
             glitches: [],
-            proTips: [
+            proTips:
+                (1...12).map { i in
+                    return Challenge<String>.TaggedString(
+                        "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip\(i)".fromLocalized(),
+                        tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip\(i)Tag".fromLocalized()
+                    )
+                }
+        ),
+        
+        Challenge<String>(
+            name: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ChallengeName".fromLocalized(),
+            map: "the darkest shore",
+            riddle: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.Riddle".fromLocalized(),
+            requirements: [
                 Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip1".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip1Tag".fromLocalized()
-                ),
-                
+                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.Requirement1Tag".fromLocalized()
+                )
+            ],
+            donts: [],
+            glitches: [],
+            proTips:
+                (1...8).map { i in
+                    return Challenge<String>.TaggedString(
+                        "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip\(i)".fromLocalized(),
+                        tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_POMMEL.ProTip\(i)Tag".fromLocalized()
+                    )
+                }
+        ),
+        
+        Challenge<String>(
+            name: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ChallengeName".fromLocalized(),
+            map: "the shadowed throne",
+            riddle: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.Riddle".fromLocalized(),
+            requirements: [
                 Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip2".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip2Tag".fromLocalized()
-                ),
-                
-                Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip3".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip3Tag".fromLocalized()
-                ),
-                
-                Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip4".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip4Tag".fromLocalized()
-                ),
-                
-                Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip5".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip5Tag".fromLocalized()
-                ),
-                
-                Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip6".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip6Tag".fromLocalized()
-                ),
-                
-                Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip7".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip7Tag".fromLocalized()
-                ),
-                
-                Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip8".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip8Tag".fromLocalized()
-                ),
-                
-                Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip9".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_HILT.ProTip9Tag".fromLocalized()
-                ),
-            ]
+                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.Requirement1Tag".fromLocalized()
+                )
+            ],
+            donts: [],
+            glitches: [],
+            proTips:
+                (1...4).map { i in
+                    return Challenge<String>.TaggedString(
+                        "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip\(i)".fromLocalized(),
+                        tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_BLADE.ProTip\(i)Tag".fromLocalized()
+                    )
+                }
+        ),
+        
+        Challenge<String>(
+            name: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ChallengeName".fromLocalized(),
+            map: "the tortured path",
+            riddle: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Riddle".fromLocalized(),
+            requirements: (1...3).map { i in
+                return Challenge<String>.TaggedString(
+                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement\(i)".fromLocalized(),
+                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement\(i)Tag".fromLocalized()
+                )
+            },
+            donts: [],
+            glitches: [],
+            proTips:
+                (1...15).map { i in
+                    return Challenge<String>.TaggedString(
+                        "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip\(i)".fromLocalized(),
+                        tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ProTip\(i)Tag".fromLocalized()
+                    )
+                }
         ),
     ]
 }
