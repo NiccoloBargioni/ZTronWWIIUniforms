@@ -123,6 +123,7 @@ internal struct ARequirementTab: View {
                     }
                     .onValueChange(of: geo.size) {
                         self.heightChangedPublished.send(geo.size.height)
+                        print(geo.size)
                     }
                 }
             }
