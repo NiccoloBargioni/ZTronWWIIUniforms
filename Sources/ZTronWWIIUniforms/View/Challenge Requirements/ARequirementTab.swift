@@ -11,10 +11,7 @@ internal struct ARequirementTab: View {
     private let colorMapping: (Int) -> SwiftUI.Color
     
     private let activeTabIndex: Int
-    
-    @State private var minY: CGFloat = .zero
-    @State private var maxY: CGFloat = .zero
-    
+        
     @Binding private var sectionHeight: CGFloat
     
     @State private var heightChangedPublished: PassthroughSubject<CGFloat, Never> = .init()
@@ -110,7 +107,7 @@ internal struct ARequirementTab: View {
             }
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .task {
+            .onAppear {
                 self.heightChangedPublished.receive(on: RunLoop.main).throttle(for: 0.25, scheduler: RunLoop.main, latest: true).sink { height in
                     self.sectionHeight = height
                 }
