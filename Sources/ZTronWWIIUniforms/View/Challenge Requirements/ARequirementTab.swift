@@ -50,126 +50,86 @@ internal struct ARequirementTab: View {
     
     internal var body: some View {
         LazyView(
-            VStack(alignment: .leading, spacing: 0) {
-                Color.clear
-                    .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
-                    .background {
-                        GeometryReader { geoProxy in
-                            Color.clear.onAppear {
-                                Task {
-                                    await MainActor.run {
-                                        self.minY = geoProxy.frame(in: .global).maxY
-                                    }
-                                }
-                            }.onValueChange(of: geoProxy.frame(in: .global)) {
-                                Task {
-                                    await MainActor.run {
-                                        self.minY = geoProxy.frame(in: .global).maxY
-                                    }
-                                }
+            VStack(alignment: .leading, spacing: 20) {
+                if let searchToken = self.activeToken {
+                    Button {
+                        self.activeChipTapped?()
+                    } label: {
+                        Chip(text: searchToken.capitalized, isActive: true)
+                            .softColor(self.colorMapping(0).opacity(0.2))
+                            .highlightColor(self.colorMapping(0).opacity(0.7))
+                            .fontWeight(.heavy)
+                            .rightComponent {
+                                Image(systemName: "xmark.circle.fill")
+                                    .font(.system(size: 14, design: .rounded))
+                                    .foregroundStyle(.black)
+                                    .erasedToAnyView()
                             }
-                        }
                     }
+                    .tint(Color(UIColor.label))
+                }
                 
-                VStack(alignment: .leading, spacing: 20) {
-                    
-                    if let searchToken = self.activeToken {
-                        Button {
-                            self.activeChipTapped?()
-                        } label: {
-                            Chip(text: searchToken.capitalized, isActive: true)
-                                .softColor(self.colorMapping(0).opacity(0.2))
-                                .highlightColor(self.colorMapping(0).opacity(0.7))
-                                .fontWeight(.heavy)
-                                .rightComponent {
-                                    Image(systemName: "xmark.circle.fill")
-                                        .font(.system(size: 14, design: .rounded))
-                                        .foregroundStyle(.black)
-                                        .erasedToAnyView()
-                                }
-                        }
-                        .tint(Color(UIColor.label))
+                ForEach(cardsInThisSection, id: \.self) { card in
+                    RequirementCard(
+                        accentColor: colorMapping(self.activeTabIndex),
+                        text: card.wrappedValue()
+                    ) { tab in
+                        return self.colorMapping(tab)
                     }
-                    
-                    ForEach(cardsInThisSection, id: \.self) { card in
-                        RequirementCard(
-                            accentColor: colorMapping(self.activeTabIndex),
-                            text: card.wrappedValue()
-                        ) { tab in
-                            return self.colorMapping(tab)
-                        }
-                        .includeRequirementsChip(includeRequirementsChip?(card) ?? false) { @Sendable in
-                            Task {
-                                await MainActor.run {
-                                    self.onRequirementsChipTapped?(card)
-                                }
-                            }
-                        }
-                        .includeDontsChip(includeDontsChip?(card) ?? false) { @Sendable in
-                            Task {
-                                await MainActor.run {
-                                    self.onDontsChipTapped?(card)
-                                }
-                            }
-                        }
-                        .includeBugsChip(includeBugsChip?(card) ?? false) { @Sendable in
-                            Task {
-                                await MainActor.run {
-                                    self.onBugsChipTapped?(card)
-                                }
-                            }
-                        }
-                        .includeProTipsChip(includeProTipsChip?(card) ?? false) { @Sendable in
-                            Task {
-                                await MainActor.run {
-                                    self.onProTipsChipTapped?(card)
-                                }
+                    .includeRequirementsChip(includeRequirementsChip?(card) ?? false) { @Sendable in
+                        Task {
+                            await MainActor.run {
+                                self.onRequirementsChipTapped?(card)
                             }
                         }
                     }
-                    
-                    Spacer()
+                    .includeDontsChip(includeDontsChip?(card) ?? false) { @Sendable in
+                        Task {
+                            await MainActor.run {
+                                self.onDontsChipTapped?(card)
+                            }
+                        }
+                    }
+                    .includeBugsChip(includeBugsChip?(card) ?? false) { @Sendable in
+                        Task {
+                            await MainActor.run {
+                                self.onBugsChipTapped?(card)
+                            }
+                        }
+                    }
+                    .includeProTipsChip(includeProTipsChip?(card) ?? false) { @Sendable in
+                        Task {
+                            await MainActor.run {
+                                self.onProTipsChipTapped?(card)
+                            }
+                        }
+                    }
                 }
-                .padding()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 
-                Color.clear
-                    .frame(maxWidth: .infinity, minHeight: 1, maxHeight: 1)
-                    .background {
-                        GeometryReader { geoProxy in
-                            Color.clear.onAppear {
-                                self.heightChangedPublished.send(geoProxy.frame(in: .global).maxY - geoProxy.frame(in: .global).minY)
-                            }.onValueChange(of: geoProxy.frame(in: .global).minY) {
-                                self.heightChangedPublished.send(geoProxy.frame(in: .global).maxY - geoProxy.frame(in: .global).minY)
-                            }
-                        }
+                Spacer()
+            }
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .task {
+                self.heightChangedPublished.receive(on: RunLoop.main).throttle(for: 0.25, scheduler: RunLoop.main, latest: true).sink { height in
+                    self.sectionHeight = height
+                }
+                .store(in: &subscriptions)
+            }
+            .onDisappear {
+                self.subscriptions.forEach { $0.cancel() }
+            }
+            .background {
+                GeometryReader { geo in
+                    Color.clear.onAppear {
+                        self.heightChangedPublished.send(geo.size.height)
+                    }
+                    .onValueChange(of: geo.size) {
+                        self.heightChangedPublished.send(geo.size.height)
                     }
                 }
-                /*
-                .onValueChange(of: self.minY) {
-                    Task {
-                        if self.maxY > self.minY && abs((self.maxY - self.minY) - self.sectionHeight) > sqrt(1.ulp) {
-                            self.heightChangedPublished.send(self.maxY - self.minY)
-                        }
-                    }
-                }
-                .onValueChange(of: self.maxY) {
-                    Task {
-                        if self.maxY > self.minY && abs((self.maxY - self.minY) - self.sectionHeight) > sqrt(1.ulp) {
-                            self.heightChangedPublished.send(self.maxY - self.minY)
-                        }
-                    }
-                }*/
-                .task {
-                    self.heightChangedPublished.receive(on: RunLoop.main).throttle(for: 0.25, scheduler: RunLoop.main, latest: true).sink { height in
-                        self.sectionHeight = height
-                    }
-                    .store(in: &subscriptions)
-                }
-                .onDisappear {
-                    self.subscriptions.forEach { $0.cancel() }
-                }
-            )
+            }
+        )
     }
 }
 

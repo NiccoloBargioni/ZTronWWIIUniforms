@@ -12249,7 +12249,7 @@
         }
       }
     },
-    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.CHA-CHING!.QuestName" : {
+    "OUTFIT.THE_HUNTER_FROM_SEVILLE.STOCK_BROKER.CHA-CHING!.ChallengeName" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
