@@ -3,12 +3,14 @@ import AxisTabView
 import Combine
 import LazyViewSwiftUI
 import ZTronRouter
+import ZTronSpendingSheet
 
 public struct ChallengeRequirementsTabsSection: View {
     @StateObject private var requirementsModel: ConcreteChallengeRequirementsModel
     @State private var tabContentHeight: [CGFloat] = .init(repeating: .zero, count: 4)
     @State private var selection: Int = 0
     @State private var origin: Int = 0
+    @State private var isShowingExtraSection: Bool = false
     
     @StateObject private var history: ZTronNavigator = .init(initialPath: [">"])
 
@@ -26,9 +28,13 @@ public struct ChallengeRequirementsTabsSection: View {
         self._requirementsModel = StateObject(
             wrappedValue: ConcreteChallengeRequirementsModel(quest: quest, challenge: peers[challenge])
         )
+        
+        if let additionalSection = self.mapChallengeToAdditionalSections(peers[challenge].getName()) {
+            Self.SECTION_ICONS.append(additionalSection)
+        }
     }
     
-    public static let SECTION_ICONS: [String] = [
+    public static var SECTION_ICONS: [String] = [
         "checkmark.seal",
         "hand.thumbsdown",
         "ladybug",
@@ -46,27 +52,33 @@ public struct ChallengeRequirementsTabsSection: View {
                 )
             } content: {
                 ForEach(Array(Self.SECTION_ICONS.enumerated()), id: \.element) { index, icon in
-                    ARequirementTab(
-                        cardsInThisSection: self.cardsForTab(withIndex: index),
-                        activeTab: self.selection,
-                        activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
-                        sectionHeight: self.$tabContentHeight[index],
-                        colorMapping: self.makeColorFor(tag:)
-                    )
-                    .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
-                    .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
-                    .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
-                    .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
-                    .onActiveChipTapped(self.onActiveChipTapped)
-                    .tabItem(tag: index, normal: {
-                        Image(systemName: icon)
-                            .font(.system(size: 16, design: .rounded))
-                    }, select: {
-                        Image(systemName: icon + ".fill")
-                            .font(.system(size: 16, design: .rounded))
-                            .foregroundStyle(makeColorFor(tag: index))
-                            .padding(.bottom, 10)
-                    })
+                    if index <= 3 {
+                        ARequirementTab(
+                            cardsInThisSection: self.cardsForTab(withIndex: index),
+                            activeTab: self.selection,
+                            activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
+                            sectionHeight: self.$tabContentHeight[index],
+                            colorMapping: self.makeColorFor(tag:)
+                        )
+                        .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
+                        .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
+                        .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
+                        .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
+                        .onActiveChipTapped(self.onActiveChipTapped)
+                        .tabItem(tag: index, normal: {
+                            Image(systemName: icon)
+                                .font(.system(size: 16, design: .rounded))
+                        }, select: {
+                            Image(systemName: icon != "checklist" ? icon + ".fill" : "checklist.checked")
+                                .font(.system(size: 16, design: .rounded))
+                                .foregroundStyle(makeColorFor(tag: index))
+                                .padding(.bottom, 10)
+                        })
+                    } else {
+                        NavigationLink(destination: SpendingHome(quest: self.mapChallengeToQuest(self.challenge.getName())!), isActive: self.$isShowingExtraSection) {
+                            Text("Spending sheet")
+                        }
+                    }
                 }
             }
         }
@@ -75,10 +87,16 @@ public struct ChallengeRequirementsTabsSection: View {
             Color(UIColor.systemGroupedBackground)
         }
         .onValueChange(of: self.selection) { @MainActor in
-            self.history.navigate([">", self.selection.toString()])
+            if self.selection == 4 {
+                self.isShowingExtraSection = true
+            } else {
+                self.history.navigate([">", self.selection.toString()])
+            }
         }
         .onAppear {
             self.history.navigate([">", self.selection.toString()])
+            self.isShowingExtraSection = false
+            self.selection = 0
         }
     }
     
@@ -98,7 +116,7 @@ public struct ChallengeRequirementsTabsSection: View {
                 return Color(UIColor.systemBlue)
                 
             default:
-                return Color(UIColor.systemMint)
+                return Color(UIColor.systemGreen)
         }
     }
     
@@ -190,6 +208,29 @@ public struct ChallengeRequirementsTabsSection: View {
             
             // self.selection onChange would cause duplicate origin. Just remove the current one, that will be replaced by the same path for effect of onValueChange(of: self.selection)
             self.history.goBack()
+        }
+    }
+    
+    
+    private func mapChallengeToAdditionalSections(_ challengeName: String) -> String? {
+        switch challengeName {
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeName".fromLocalized():
+            return "checklist"
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ChallengeName".fromLocalized():
+            return "checklist"
+        default:
+            return nil
+        }
+    }
+    
+    private func mapChallengeToQuest(_ challengeName: String) -> SpendingQuest? {
+        switch challengeName {
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeName".fromLocalized():
+            return .pommel
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ChallengeName".fromLocalized():
+            return .easterEgg
+        default:
+            return nil
         }
     }
 }

@@ -112,12 +112,6 @@ public struct ChallengeRequirementsPage: View {
                     .frame(width: 35)
                     .clipShape(Circle())
             }
-            
-            ToolbarItem(placement: .topBarTrailing) {
-                if let topbarItem = self.topbarItem {
-                    topbarItem
-                }
-            }
         }
         .navigationTitle(self.peerChallenges[self.swipeManager.getCurrentVisibleChallenge()].getName().capitalized)
     }
