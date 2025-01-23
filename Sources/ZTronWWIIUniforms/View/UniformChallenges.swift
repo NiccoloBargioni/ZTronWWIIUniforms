@@ -150,14 +150,14 @@ public struct UniformsChallenges: View {
     
     private func mapChallengeToTopbarItem(_ challengeName: String) -> AnyView? {
         switch challengeName {
-        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeName":
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeName".fromLocalized():
             return NavigationLink(destination: SpendingHome(quest: .pommel)) {
                 Image("checklist", bundle: .module)
                     .resizable()
                     .font(.system(size: 16))
             }.erasedToAnyView()
             
-        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ChallengeName":
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ChallengeName".fromLocalized():
             return NavigationLink(destination: SpendingHome(quest: .easterEgg)) {
                 Image("checklist", bundle: .module)
                     .resizable()
