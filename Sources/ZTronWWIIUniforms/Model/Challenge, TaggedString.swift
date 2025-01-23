@@ -34,6 +34,10 @@ public final class Challenge<Tag>: Hashable, Identifiable, Sendable where Tag: H
         return String(localized: String.LocalizationValue(stringLiteral: self.name), bundle: .module).capitalized
     }
     
+    public func getUnlocalizedName() -> String {
+        return self.name
+    }
+    
     public func getMap() -> String {
         return self.map
     }

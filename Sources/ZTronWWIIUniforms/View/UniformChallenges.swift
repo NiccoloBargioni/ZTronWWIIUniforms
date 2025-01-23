@@ -1,6 +1,7 @@
 import SwiftUI
 import ScalingHeaderScrollView
 import SwiftUIIntrospect
+import ZTronSpendingSheet
 
 public struct UniformsChallenges: View {
     @Environment(\.colorScheme) private var colorScheme
@@ -75,8 +76,9 @@ public struct UniformsChallenges: View {
                                 quest: self.quest,
                                 challenge: offset,
                                 peers: self.quest.getChallenges()
-                                )
                             ) {
+                                self.mapChallengeToTopbarItem(challenge.getUnlocalizedName())
+                            }) {
                                 HStack {
                                     ZStack {
                                         Image("Challenge Banner", bundle: .module)
@@ -144,5 +146,26 @@ public struct UniformsChallenges: View {
             .offset(y: 1)
         }
         .navigationTitle(self.quest.getCharacterName().capitalized)
+    }
+    
+    private func mapChallengeToTopbarItem(_ challengeName: String) -> AnyView? {
+        switch challengeName {
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeName":
+            return NavigationLink(destination: SpendingHome(quest: .pommel)) {
+                Image("checklist", bundle: .module)
+                    .resizable()
+                    .font(.system(size: 16))
+            }.erasedToAnyView()
+            
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ChallengeName":
+            return NavigationLink(destination: SpendingHome(quest: .easterEgg)) {
+                Image("checklist", bundle: .module)
+                    .resizable()
+                    .font(.system(size: 16))
+            }.erasedToAnyView()
+
+        default:
+            return nil
+        }
     }
 }

@@ -70,12 +70,12 @@ internal func makeSangueFreddoChallenges() -> [Challenge<String>] {
             name: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.ChallengeName".fromLocalized(),
             map: "the tortured path",
             riddle: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Riddle".fromLocalized(),
-            requirements: (1...3).map { i in
-                return Challenge<String>.TaggedString(
-                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement\(i)".fromLocalized(),
-                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement\(i)Tag".fromLocalized()
+            requirements: [
+                Challenge<String>.TaggedString(
+                    "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement1".fromLocalized(),
+                    tag: "OUTFIT.WICHT_WARDEN.COLD_BLOODED.THE_FORGE.Requirement1Tag".fromLocalized()
                 )
-            },
+            ],
             donts: [],
             glitches: [],
             proTips:

@@ -8,18 +8,20 @@ public struct ChallengeRequirementsPage: View {
     private var challenge: Challenge<String>
     private var peerChallenges: [Challenge<String>]
     private var challengeOffset: Int
+    private var topbarItem: AnyView? = nil
     
     @State private var offset: CGFloat = .zero
     @State private var swipeAngle: CGFloat = .zero
     
     @StateObject private var swipeManager: ChallengeRequirementsSwipeManager
 
-    public init(quest: Quest, challenge: Int, peers: [Challenge<String>]) {
+    public init(quest: Quest, challenge: Int, peers: [Challenge<String>], topbarItem: (() -> AnyView?)? = nil) {
         self.challenge = peers[challenge]
         self.quest = quest
         self.peerChallenges = peers
         
         self.challengeOffset = challenge
+        self.topbarItem = topbarItem?()
         
         self._swipeManager = StateObject(
             wrappedValue: ChallengeRequirementsSwipeManager(challengesCount: peers.count, initialChallenge: challenge)
@@ -109,6 +111,12 @@ public struct ChallengeRequirementsPage: View {
                     .aspectRatio(1.0, contentMode: .fit)
                     .frame(width: 35)
                     .clipShape(Circle())
+            }
+            
+            ToolbarItem(placement: .topBarTrailing) {
+                if let topbarItem = self.topbarItem {
+                    topbarItem
+                }
             }
         }
         .navigationTitle(self.peerChallenges[self.swipeManager.getCurrentVisibleChallenge()].getName().capitalized)

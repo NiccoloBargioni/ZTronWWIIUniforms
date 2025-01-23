@@ -1,6 +1,15 @@
 {
-  "originHash" : "4d4f47fc20f17cb010ce7f8c07abe141fd6d4b5e894c0ecdcc64ac1f14bda4ff",
+  "originHash" : "5be26a78e2c446a02603058c8cc9d93ba3cb7d20524387b509eca85ce2c3ae73",
   "pins" : [
+    {
+      "identity" : "alerttoast",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/elai950/AlertToast",
+      "state" : {
+        "branch" : "master",
+        "revision" : "76a1c1793cd3443001c20c6033beb84453b25d9f"
+      }
+    },
     {
       "identity" : "axistabview",
       "kind" : "remoteSourceControl",
@@ -56,6 +65,24 @@
       }
     },
     {
+      "identity" : "swiftui-side-menu",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/globulus/swiftui-side-menu",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7a4dc9412bd8c2abf8b6d58bae620ba892f2133b"
+      }
+    },
+    {
+      "identity" : "swiftuimasonry",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ciaranrobrien/SwiftUIMasonry",
+      "state" : {
+        "branch" : "main",
+        "revision" : "651f84e32edd11919874fbd9167b50ecb60a72db"
+      }
+    },
+    {
       "identity" : "ztron-routing-kit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/NickTheFreak97/ztron-routing-kit.git",
@@ -71,6 +98,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "99c3dee492c5619e86ea3d846b05d2f16f0b916c"
+      }
+    },
+    {
+      "identity" : "ztronspendingsheet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NiccoloBargioni/ZTronSpendingSheet",
+      "state" : {
+        "branch" : "main",
+        "revision" : "63a2358867529ece4e5408fcffb25bb2f25576f5"
       }
     }
   ],

@@ -36,6 +36,10 @@ let package = Package(
         
         .package(
             url: "https://github.com/joehinkle11/Lazy-View-SwiftUI", branch: "master"
+        ),
+        
+        .package(
+            url: "https://github.com/NiccoloBargioni/ZTronSpendingSheet", branch: "main"
         )
     ],
     targets: [
@@ -49,7 +53,8 @@ let package = Package(
                 .product(name: "SwiftUIIntrospect", package: "swiftui-introspect"),
                 .product(name: "ZTronRouter", package: "ZTronRouter"),
                 .product(name: "AxisTabView", package: "AxisTabView"),
-                .product(name: "LazyViewSwiftUI", package: "Lazy-View-SwiftUI")
+                .product(name: "LazyViewSwiftUI", package: "Lazy-View-SwiftUI"),
+                .product(name: "ZTronSpendingSheet", package: "ZTronSpendingSheet")
             ]
         ),
         .testTarget(
