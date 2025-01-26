@@ -2,6 +2,7 @@ import SwiftUI
 import AxisTabView
 import ScalingHeaderScrollView
 import ZTronRouter
+import ZTronSpendingSheet
 
 public struct ChallengeRequirementsPage: View {
     private var quest: Quest
@@ -113,6 +114,17 @@ public struct ChallengeRequirementsPage: View {
                     .clipShape(Circle())
             }
         }
+        .if(self.mapChallengeToQuest(self.challenge.getName()) != nil) {
+            $0
+                .toolbar {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        NavigationLink(destination: SpendingHome(quest: self.mapChallengeToQuest(self.challenge.getName())!)) {
+                            Image(systemName: "checklist")
+                                .font(.system(size: 16))
+                        }
+                    }
+                }
+        }
         .navigationTitle(self.peerChallenges[self.swipeManager.getCurrentVisibleChallenge()].getName().capitalized)
     }
     
@@ -141,4 +153,16 @@ public struct ChallengeRequirementsPage: View {
         case left
         case right
     }
+    
+    private func mapChallengeToQuest(_ challengeName: String) -> SpendingQuest? {
+        switch challengeName {
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeName".fromLocalized():
+            return .pommel
+        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ChallengeName".fromLocalized():
+            return .easterEgg
+        default:
+            return nil
+        }
+    }
+
 }

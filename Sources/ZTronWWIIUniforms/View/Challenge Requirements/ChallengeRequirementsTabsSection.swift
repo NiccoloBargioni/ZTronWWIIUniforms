@@ -3,7 +3,6 @@ import AxisTabView
 import Combine
 import LazyViewSwiftUI
 import ZTronRouter
-import ZTronSpendingSheet
 
 public struct ChallengeRequirementsTabsSection: View {
     @StateObject private var requirementsModel: ConcreteChallengeRequirementsModel
@@ -28,13 +27,9 @@ public struct ChallengeRequirementsTabsSection: View {
         self._requirementsModel = StateObject(
             wrappedValue: ConcreteChallengeRequirementsModel(quest: quest, challenge: peers[challenge])
         )
-        
-        if let additionalSection = self.mapChallengeToAdditionalSections(peers[challenge].getName()) {
-            Self.SECTION_ICONS.append(additionalSection)
-        }
     }
     
-    public static var SECTION_ICONS: [String] = [
+    public static let SECTION_ICONS: [String] = [
         "checkmark.seal",
         "hand.thumbsdown",
         "ladybug",
@@ -52,33 +47,27 @@ public struct ChallengeRequirementsTabsSection: View {
                 )
             } content: {
                 ForEach(Array(Self.SECTION_ICONS.enumerated()), id: \.element) { index, icon in
-                    if index <= 3 {
-                        ARequirementTab(
-                            cardsInThisSection: self.cardsForTab(withIndex: index),
-                            activeTab: self.selection,
-                            activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
-                            sectionHeight: self.$tabContentHeight[index],
-                            colorMapping: self.makeColorFor(tag:)
-                        )
-                        .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
-                        .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
-                        .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
-                        .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
-                        .onActiveChipTapped(self.onActiveChipTapped)
-                        .tabItem(tag: index, normal: {
-                            Image(systemName: icon)
-                                .font(.system(size: 16, design: .rounded))
-                        }, select: {
-                            Image(systemName: icon != "checklist" ? icon + ".fill" : "checklist.checked")
-                                .font(.system(size: 16, design: .rounded))
-                                .foregroundStyle(makeColorFor(tag: index))
-                                .padding(.bottom, 10)
-                        })
-                    } else {
-                        NavigationLink(destination: SpendingHome(quest: self.mapChallengeToQuest(self.challenge.getName())!), isActive: self.$isShowingExtraSection) {
-                            Text("Spending sheet")
-                        }
-                    }
+                    ARequirementTab(
+                        cardsInThisSection: self.cardsForTab(withIndex: index),
+                        activeTab: self.selection,
+                        activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
+                        sectionHeight: self.$tabContentHeight[index],
+                        colorMapping: self.makeColorFor(tag:)
+                    )
+                    .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
+                    .includeDontsChip(self.includeDontsChip(for:), self.onDontsChipTap(from:))
+                    .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
+                    .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
+                    .onActiveChipTapped(self.onActiveChipTapped)
+                    .tabItem(tag: index, normal: {
+                        Image(systemName: icon)
+                            .font(.system(size: 16, design: .rounded))
+                    }, select: {
+                        Image(systemName: icon != "checklist" ? icon + ".fill" : "checklist.checked")
+                            .font(.system(size: 16, design: .rounded))
+                            .foregroundStyle(makeColorFor(tag: index))
+                            .padding(.bottom, 10)
+                    })
                 }
             }
         }
@@ -163,8 +152,6 @@ public struct ChallengeRequirementsTabsSection: View {
         return self.selection != 3 && self.requirementsModel.getProTips(tag).count > 0
     }
     
-    
-    
     private func onRequirementChipTap(from card: Challenge<String>.TaggedString) {
         self.selection = 0
         let tag = String(localized: String.LocalizationValue(stringLiteral: card.getTag()), bundle: StringsBundle.bundle)
@@ -208,29 +195,6 @@ public struct ChallengeRequirementsTabsSection: View {
             
             // self.selection onChange would cause duplicate origin. Just remove the current one, that will be replaced by the same path for effect of onValueChange(of: self.selection)
             self.history.goBack()
-        }
-    }
-    
-    
-    private func mapChallengeToAdditionalSections(_ challengeName: String) -> String? {
-        switch challengeName {
-        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeName".fromLocalized():
-            return "checklist"
-        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ChallengeName".fromLocalized():
-            return "checklist"
-        default:
-            return nil
-        }
-    }
-    
-    private func mapChallengeToQuest(_ challengeName: String) -> SpendingQuest? {
-        switch challengeName {
-        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_STRANGLER.ChallengeName".fromLocalized():
-            return .pommel
-        case "OUTFIT.SLAYER_FROM_CASABLANCA.BANKER.PENNY_PINCHER.ChallengeName".fromLocalized():
-            return .easterEgg
-        default:
-            return nil
         }
     }
 }
