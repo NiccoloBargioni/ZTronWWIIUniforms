@@ -1,5 +1,5 @@
 {
-  "originHash" : "5be26a78e2c446a02603058c8cc9d93ba3cb7d20524387b509eca85ce2c3ae73",
+  "originHash" : "a3e0332982da941beb1190929d147f2060c875c04d7fcbf26b2bd7434bca470e",
   "pins" : [
     {
       "identity" : "alerttoast",
@@ -17,6 +17,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "a96f3ad288a733f1c774ea57bad8be87b45aa56e"
+      }
+    },
+    {
+      "identity" : "ifrit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ukushu/Ifrit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5cb8badc28c7a4b7f59a05b8f0da37c363d25b6a"
       }
     },
     {
@@ -106,7 +115,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronSpendingSheet",
       "state" : {
         "branch" : "main",
-        "revision" : "63a2358867529ece4e5408fcffb25bb2f25576f5"
+        "revision" : "bad59e90150abd29084b52f0ba2164b29f36b6a0"
       }
     }
   ],

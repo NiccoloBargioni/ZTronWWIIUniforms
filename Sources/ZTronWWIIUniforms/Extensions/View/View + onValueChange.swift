@@ -39,7 +39,7 @@ internal extension View {
     ///     appears.
     ///   - action: A closure to run when the value changes.
     ///
-    /// - Returns: A view that fires an action when the specified value changes.
+    /// - Returns: A view that fires an action when the specified value changes
     nonisolated func onValueChange<V>(of value: V, initial: Bool = false, _ action: @escaping () -> Void) -> some View where V : Equatable {
         if #available(iOS 17.0, *) {
             return self.onChange(of: value, action)
