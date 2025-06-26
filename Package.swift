@@ -54,7 +54,8 @@ let package = Package(
                 .product(name: "AxisTabView", package: "AxisTabView"),
                 .product(name: "LazyViewSwiftUI", package: "Lazy-View-SwiftUI"),
                 .product(name: "ZTronSpendingSheet", package: "ZTronSpendingSheet")
-            ]
+            ],
+            resources: [.process("Localizable.xcstrings")] 
         ),
         .testTarget(
             name: "ZTronWWIIUniformsTests",
