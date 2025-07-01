@@ -208,6 +208,8 @@ public final class ChallengeRequirementsModelProxy: ChallengeRequirementsModel, 
             #if DEBUG
             self.logger.debug("Attempted to instantiate concrete ChallengeRequirementsModel before adding a quest or challenge. Aborting.")
             return
+            #else
+            return
             #endif
         }
         
