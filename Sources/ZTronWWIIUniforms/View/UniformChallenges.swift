@@ -121,6 +121,7 @@ public struct UniformsChallenges: View {
             .allowsHeaderCollapse()
             .headerSnappingPositions(snapPositions: [0, 1])
             .offset(y: 1)
+            .frame(width: geo.size.width, height: geo.size.height)
         }
         .navigationTitle(self.quest.getCharacterName().capitalized)
     }

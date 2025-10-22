@@ -90,6 +90,7 @@ public struct ChallengeRequirementsPage: View {
                                 peers: self.peerChallenges,
                                 frame: geo.frame(in: .global)
                             )
+                            .frame(minWidth: geo.size.width, minHeight: geo.size.height + 150.0)
                         }
                         .setHeaderSnapMode(.afterFinishAccelerating)
                         .height(min: 0, max: 150)
@@ -99,6 +100,7 @@ public struct ChallengeRequirementsPage: View {
                         .rotationEffect(challengeBuffer.getPosition() <= 0 ? .init(degrees: 0) : .init(degrees: self.swipeAngle))
                     }
                 }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
         .toolbar {

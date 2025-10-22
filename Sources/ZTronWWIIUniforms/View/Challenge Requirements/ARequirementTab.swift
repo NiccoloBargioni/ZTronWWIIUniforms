@@ -1,6 +1,5 @@
 import SwiftUI
 import Combine
-import LazyViewSwiftUI
 
 internal struct ARequirementTab: View {
     
@@ -24,41 +23,44 @@ internal struct ARequirementTab: View {
     private var onProTipsChipTapped: (@MainActor @Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
     
     
+    private let frame: CGRect
     
     internal init(
         cardsInThisSection: [Challenge<String>.TaggedString],
         activeTab: Int,
         activeToken: String? = nil,
+        frame: CGRect,
         colorMapping: @escaping @MainActor @Sendable (Int) -> SwiftUI.Color
     ) {
         self.cardsInThisSection = Array(cardsInThisSection) // shallow copy is enough, tagged strings are immutable anyway
         self.activeTabIndex = activeTab
         self.activeToken = activeToken
         self.colorMapping = colorMapping
+        self.frame = frame
     }
     
     
     internal var body: some View {
-        LazyView(
-            VStack(alignment: .leading, spacing: 20) {
-                if let searchToken = self.activeToken {
-                    Button {
-                        self.activeChipTapped?()
-                    } label: {
-                        Chip(text: searchToken.capitalized, isActive: true)
-                            .softColor(self.colorMapping(0).opacity(0.2))
-                            .highlightColor(self.colorMapping(0).opacity(0.7))
-                            .fontWeight(.heavy)
-                            .rightComponent {
-                                Image(systemName: "xmark.circle.fill")
-                                    .font(.system(size: 14, design: .rounded))
-                                    .foregroundStyle(.black)
-                                    .erasedToAnyView()
-                            }
-                    }
-                    .tint(Color(UIColor.label))
+        VStack(alignment: .leading, spacing: 20) {
+            if let searchToken = self.activeToken {
+                Button {
+                    self.activeChipTapped?()
+                } label: {
+                    Chip(text: searchToken.capitalized, isActive: true)
+                        .softColor(self.colorMapping(0).opacity(0.2))
+                        .highlightColor(self.colorMapping(0).opacity(0.7))
+                        .fontWeight(.heavy)
+                        .rightComponent {
+                            Image(systemName: "xmark.circle.fill")
+                                .font(.system(size: 14, design: .rounded))
+                                .foregroundStyle(.black)
+                                .erasedToAnyView()
+                        }
                 }
-                
+                .tint(Color(UIColor.label))
+            }
+            
+            List {
                 ForEach(cardsInThisSection, id: \.self) { card in
                     RequirementCard(
                         accentColor: colorMapping(self.activeTabIndex),
@@ -94,13 +96,16 @@ internal struct ARequirementTab: View {
                             }
                         }
                     }
+                    .listRowBackground(Color.clear)
+                    .listRowSeparator(.hidden)
+                    .listRowInsets(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
                 }
-                
-                Spacer()
             }
-            .padding()
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-        )
+            .listStyle(.plain)
+            .frame(width: frame.size.width, height: frame.size.height + 200.0)
+        }
+        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
     }
 }
 

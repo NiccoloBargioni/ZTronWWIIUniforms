@@ -51,6 +51,7 @@ public struct ChallengeRequirementsTabsSection: View {
                         cardsInThisSection: self.cardsForTab(withIndex: index),
                         activeTab: self.selection,
                         activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
+                        frame: self.frame,
                         colorMapping: self.makeColorFor(tag:)
                     )
                     .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
@@ -67,11 +68,11 @@ public struct ChallengeRequirementsTabsSection: View {
                             .foregroundStyle(makeColorFor(tag: index))
                             .padding(.bottom, 10)
                     })
+                    .frame(minWidth: max(0, frame.size.width), minHeight: max(0, frame.size.height))
                 }
             }
         }
-        .frame(width: frame.size.width)
-        .frame(maxHeight: .infinity)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {
             Color(UIColor.systemGroupedBackground)
         }
