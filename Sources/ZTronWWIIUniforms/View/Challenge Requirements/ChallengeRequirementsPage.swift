@@ -90,7 +90,6 @@ public struct ChallengeRequirementsPage: View {
                                 peers: self.peerChallenges,
                                 frame: geo.frame(in: .global)
                             )
-                            .id(challenge.getName())
                         }
                         .setHeaderSnapMode(.afterFinishAccelerating)
                         .height(min: 0, max: 150)

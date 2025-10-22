@@ -12,11 +12,6 @@ internal struct ARequirementTab: View {
     
     private let activeTabIndex: Int
         
-    @Binding private var sectionHeight: CGFloat
-    
-    @State private var heightChangedPublished: PassthroughSubject<CGFloat, Never> = .init()
-    @State private var subscriptions: Set<AnyCancellable> = .init()
-    
     // Forwarding
     private var includeRequirementsChip: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool)? = nil
     private var includeDontsChip: (@MainActor @Sendable (_: Challenge<String>.TaggedString) -> Bool)? = nil
@@ -34,13 +29,11 @@ internal struct ARequirementTab: View {
         cardsInThisSection: [Challenge<String>.TaggedString],
         activeTab: Int,
         activeToken: String? = nil,
-        sectionHeight: Binding<CGFloat> = .constant(.zero),
         colorMapping: @escaping @MainActor @Sendable (Int) -> SwiftUI.Color
     ) {
         self.cardsInThisSection = Array(cardsInThisSection) // shallow copy is enough, tagged strings are immutable anyway
         self.activeTabIndex = activeTab
         self.activeToken = activeToken
-        self._sectionHeight = sectionHeight
         self.colorMapping = colorMapping
     }
     
@@ -107,26 +100,6 @@ internal struct ARequirementTab: View {
             }
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .onAppear {
-                self.heightChangedPublished.receive(on: RunLoop.main).throttle(for: 0.25, scheduler: RunLoop.main, latest: true).sink { height in
-                    self.sectionHeight = height
-                }
-                .store(in: &subscriptions)
-            }
-            .onDisappear {
-                self.subscriptions.forEach { $0.cancel() }
-            }
-            .background {
-                GeometryReader { geo in
-                    Color.clear.onAppear {
-                        self.heightChangedPublished.send(geo.size.height)
-                    }
-                    .onValueChange(of: geo.size) {
-                        self.heightChangedPublished.send(geo.size.height)
-                        print(geo.size)
-                    }
-                }
-            }
         )
     }
 }

@@ -5,8 +5,8 @@ import LazyViewSwiftUI
 import ZTronRouter
 
 public struct ChallengeRequirementsTabsSection: View {
+    
     @StateObject private var requirementsModel: ConcreteChallengeRequirementsModel
-    @State private var tabContentHeight: [CGFloat] = .init(repeating: .zero, count: 4)
     @State private var selection: Int = 0
     @State private var origin: Int = 0
     @State private var isShowingExtraSection: Bool = false
@@ -51,7 +51,6 @@ public struct ChallengeRequirementsTabsSection: View {
                         cardsInThisSection: self.cardsForTab(withIndex: index),
                         activeTab: self.selection,
                         activeToken: self.requirementsModel.getActiveToken(for: .init(rawValue: self.selection)!),
-                        sectionHeight: self.$tabContentHeight[index],
                         colorMapping: self.makeColorFor(tag:)
                     )
                     .includeRequirementsChip(self.includeRequirementChip(for:), self.onRequirementChipTap(from:))
