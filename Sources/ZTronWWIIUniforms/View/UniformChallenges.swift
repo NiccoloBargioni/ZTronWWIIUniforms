@@ -76,9 +76,7 @@ public struct UniformsChallenges: View {
                                         quest: self.quest,
                                         challenge: offset,
                                         peers: self.quest.getChallenges()
-                                    ) {
-                                        self.mapChallengeToTopbarItem(challenge.getUnlocalizedName())
-                                    }) {
+                                    )) {
                                         HStack {
                                             ZStack {
                                                 Image("Challenge Banner", bundle: .module)

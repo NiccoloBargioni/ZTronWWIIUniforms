@@ -8,20 +8,18 @@ public struct ChallengeRequirementsPage: View {
     private var challenge: Challenge<String>
     private var peerChallenges: [Challenge<String>]
     private var challengeOffset: Int
-    private var topbarItem: AnyView? = nil
     
     @State private var offset: CGFloat = .zero
     @State private var swipeAngle: CGFloat = .zero
     
     @StateObject private var swipeManager: ChallengeRequirementsSwipeManager
 
-    public init(quest: Quest, challenge: Int, peers: [Challenge<String>], topbarItem: (() -> AnyView?)? = nil) {
+    public init(quest: Quest, challenge: Int, peers: [Challenge<String>]) {
         self.challenge = peers[challenge]
         self.quest = quest
         self.peerChallenges = peers
         
         self.challengeOffset = challenge
-        self.topbarItem = topbarItem?()
         
         self._swipeManager = StateObject(
             wrappedValue: ChallengeRequirementsSwipeManager(challengesCount: peers.count, initialChallenge: challenge)
