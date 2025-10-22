@@ -67,54 +67,50 @@ public struct UniformsChallenges: View {
                 }
                 .ignoresSafeArea(.all, edges: .horizontal)
             } content: {
-                GeometryReader { geo in
-                    ScrollView(.vertical, showsIndicators: false) {
-                        List {
-                            Section {
-                                ForEach(Array(self.quest.getChallenges().enumerated()), id: \.element) { offset, challenge in
-                                    NavigationLink(destination: ChallengeRequirementsPage(
-                                        quest: self.quest,
-                                        challenge: offset,
-                                        peers: self.quest.getChallenges()
-                                    )) {
-                                        HStack {
-                                            ZStack {
-                                                Image("Challenge Banner", bundle: .module)
-                                                    .resizable()
-                                                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                                
-                                                if challenge.getMap() == self.fromMap {
-                                                    ChallengeBannerOutlineShape()
-                                                        .stroke(self.glowColor, lineWidth: colorScheme == .light ? 1 : 1)
-                                                        .blendMode(.multiply)
-                                                        .shadow(color: self.glowColor, radius: colorScheme == .light ? 2 : 2)
-                                                        .shadow(color: self.glowColor, radius: 2)
-                                                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                                }
-                                            }
-                                            .frame(width: 50, height: 50)
-                                            
-                                            VStack(alignment: .leading) {
-                                                Text(challenge.getName())
-                                                    .font(.headline)
-                                                    .foregroundStyle(.primary)
-                                                    .lineLimit(1)
-                                                
-                                                Text(challenge.getRiddle())
-                                                    .font(.subheadline)
-                                                    .foregroundStyle(.secondary)
-                                                    .lineLimit(2)
-                                            }
-                                            .frame(maxHeight: .infinity, alignment: .center)
+                List {
+                    Section {
+                        ForEach(Array(self.quest.getChallenges().enumerated()), id: \.element) { offset, challenge in
+                            NavigationLink(destination: ChallengeRequirementsPage(
+                                quest: self.quest,
+                                challenge: offset,
+                                peers: self.quest.getChallenges()
+                            )) {
+                                HStack {
+                                    ZStack {
+                                        Image("Challenge Banner", bundle: .module)
+                                            .resizable()
+                                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                                        
+                                        if challenge.getMap() == self.fromMap {
+                                            ChallengeBannerOutlineShape()
+                                                .stroke(self.glowColor, lineWidth: colorScheme == .light ? 1 : 1)
+                                                .blendMode(.multiply)
+                                                .shadow(color: self.glowColor, radius: colorScheme == .light ? 2 : 2)
+                                                .shadow(color: self.glowColor, radius: 2)
+                                                .frame(maxWidth: .infinity, maxHeight: .infinity)
                                         }
                                     }
-                                    .tint(Color(UIColor.label))
+                                    .frame(width: 50, height: 50)
+                                    
+                                    VStack(alignment: .leading) {
+                                        Text(challenge.getName())
+                                            .font(.headline)
+                                            .foregroundStyle(.primary)
+                                            .lineLimit(1)
+                                        
+                                        Text(challenge.getRiddle())
+                                            .font(.subheadline)
+                                            .foregroundStyle(.secondary)
+                                            .lineLimit(2)
+                                    }
+                                    .frame(maxHeight: .infinity, alignment: .center)
                                 }
                             }
+                            .tint(Color(UIColor.label))
                         }
-                        .frame(width: geo.size.width, height: geo.size.height)
                     }
                 }
+                .frame(width: geo.size.width, height: geo.size.height)
             }
             .setHeaderSnapMode(.afterFinishAccelerating)
             .height(min: 0, max: 150)
