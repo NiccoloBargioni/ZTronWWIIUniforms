@@ -103,9 +103,9 @@ internal struct ARequirementTab: View {
                             .listRowInsets(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
                         }
                     }
+                    .listStyle(.plain)
+                    .frame(width: geo.size.width, height: geo.size.height + 200.0)
                 }
-                .listStyle(.plain)
-                .frame(width: geo.size.width, height: geo.size.height + 200.0)
             }
         }
         .padding()
