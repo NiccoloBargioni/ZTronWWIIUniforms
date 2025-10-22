@@ -14,9 +14,6 @@ let package = Package(
             targets: ["ZTronWWIIUniforms"]),
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/lukaskubanek/LoremIpsum", branch: "master"
-        ),
         
         .package(
             url: "https://github.com/exyte/ScalingHeaderScrollView", branch: "main"
@@ -48,7 +45,6 @@ let package = Package(
         .target(
             name: "ZTronWWIIUniforms",
             dependencies: [
-                .product(name: "LoremIpsum", package: "LoremIpsum"),
                 .product(name: "ScalingHeaderScrollView", package: "ScalingHeaderScrollView"),
                 .product(name: "SwiftUIIntrospect", package: "swiftui-introspect"),
                 .product(name: "ZTronRouter", package: "ZTronRouter"),

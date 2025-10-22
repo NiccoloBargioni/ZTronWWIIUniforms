@@ -1,5 +1,6 @@
 import Foundation
-import LoremIpsum
+
+
 
 internal func makeCacciaGrossaChallenges() -> [Challenge<String>] {
     return [

@@ -1,5 +1,6 @@
 import SwiftUI
-import LoremIpsum
+
+
 
 internal func makeRoughingItChallenges() -> [Challenge<String>] {
     return [

@@ -1,5 +1,6 @@
 import Foundation
-import LoremIpsum
+
+
 
 internal func makeGuidaAllasurvivalChallenges() -> [Challenge<String>] {
     return [

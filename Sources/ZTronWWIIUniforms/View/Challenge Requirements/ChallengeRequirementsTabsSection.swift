@@ -71,7 +71,8 @@ public struct ChallengeRequirementsTabsSection: View {
                 }
             }
         }
-        .frame(width: frame.size.width, height: max(frame.size.height, (self.tabContentHeight[self.selection])))
+        .frame(width: frame.size.width)
+        .frame(maxHeight: .infinity)
         .background {
             Color(UIColor.systemGroupedBackground)
         }

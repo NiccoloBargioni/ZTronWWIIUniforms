@@ -1,5 +1,6 @@
 import Foundation
-import LoremIpsum
+
+
 
 public final class Challenge<Tag>: Hashable, Identifiable, Sendable where Tag: Hashable & Sendable {
     private let name: String

@@ -1,5 +1,5 @@
 {
-  "originHash" : "a3e0332982da941beb1190929d147f2060c875c04d7fcbf26b2bd7434bca470e",
+  "originHash" : "7874f93e85b0216fa61a13fdbead82563609ef63134d226239206d803389eacd",
   "pins" : [
     {
       "identity" : "alerttoast",
@@ -25,7 +25,7 @@
       "location" : "https://github.com/ukushu/Ifrit",
       "state" : {
         "branch" : "main",
-        "revision" : "5cb8badc28c7a4b7f59a05b8f0da37c363d25b6a"
+        "revision" : "eb43c0690c969f080dacc0478eeecc1482ee6e0c"
       }
     },
     {
@@ -38,21 +38,12 @@
       }
     },
     {
-      "identity" : "loremipsum",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/lukaskubanek/LoremIpsum",
-      "state" : {
-        "branch" : "master",
-        "revision" : "3c739014fd11bcf0a3b2263b95b89d12f1257579"
-      }
-    },
-    {
       "identity" : "scalingheaderscrollview",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/exyte/ScalingHeaderScrollView",
       "state" : {
-        "branch" : "master",
-        "revision" : "87cc269444490be1ba231038718267aceca1f895"
+        "branch" : "main",
+        "revision" : "e2a8d470fb70d46d782cf9d48eafe7d2d67be29e"
       }
     },
     {
@@ -60,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-log.git",
       "state" : {
-        "revision" : "9cb486020ebf03bfa5b5df985387a14a98744537",
-        "version" : "1.6.1"
+        "revision" : "ce592ae52f982c847a4efc0dd881cc9eb32d29f2",
+        "version" : "1.6.4"
       }
     },
     {
@@ -70,7 +61,7 @@
       "location" : "https://github.com/siteline/swiftui-introspect",
       "state" : {
         "branch" : "main",
-        "revision" : "807f73ce09a9b9723f12385e592b4e0aaebd3336"
+        "revision" : "745ca4767e315ad5e52f2facb5f776fdefe808a2"
       }
     },
     {
@@ -97,7 +88,7 @@
       "location" : "https://github.com/NickTheFreak97/ztron-routing-kit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "b2806b68f199c6a5f51572da90c6357f5a09dd3f"
+        "revision" : "a9fb1a82261ed77c8fe0dd2512da677047ab370d"
       }
     },
     {
@@ -106,7 +97,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronRouter",
       "state" : {
         "branch" : "main",
-        "revision" : "99c3dee492c5619e86ea3d846b05d2f16f0b916c"
+        "revision" : "01145e0ee3240299957e1252bc176a064981d85b"
       }
     },
     {
@@ -115,7 +106,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronSpendingSheet",
       "state" : {
         "branch" : "main",
-        "revision" : "bad59e90150abd29084b52f0ba2164b29f36b6a0"
+        "revision" : "cc5ea4b86e6eb959bbf08becf9866be2dfc444c1"
       }
     }
   ],

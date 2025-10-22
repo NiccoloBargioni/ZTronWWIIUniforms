@@ -1,5 +1,6 @@
 import Foundation
-import LoremIpsum
+
+
 
 internal func makeVivereIlSognoChallenges() -> [Challenge<String>] {
     return [

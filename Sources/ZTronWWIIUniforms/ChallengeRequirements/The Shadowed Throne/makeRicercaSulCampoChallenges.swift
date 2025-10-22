@@ -1,5 +1,6 @@
 import Foundation
-import LoremIpsum
+
+
 // OUTFIT.NECROMEDIC.FIELDWORK.QuestName
 
 internal func makeRicercaSulCampoChallenges() -> [Challenge<String>] {
