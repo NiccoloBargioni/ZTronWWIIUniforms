@@ -1,15 +1,6 @@
 {
-  "originHash" : "7874f93e85b0216fa61a13fdbead82563609ef63134d226239206d803389eacd",
+  "originHash" : "845382f053953449e4f1cf0c96280ff18a1945e779341fc48156f286bbc5e4d3",
   "pins" : [
-    {
-      "identity" : "alerttoast",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/elai950/AlertToast",
-      "state" : {
-        "branch" : "master",
-        "revision" : "76a1c1793cd3443001c20c6033beb84453b25d9f"
-      }
-    },
     {
       "identity" : "axistabview",
       "kind" : "remoteSourceControl",
@@ -17,15 +8,6 @@
       "state" : {
         "branch" : "main",
         "revision" : "a96f3ad288a733f1c774ea57bad8be87b45aa56e"
-      }
-    },
-    {
-      "identity" : "ifrit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ukushu/Ifrit",
-      "state" : {
-        "branch" : "main",
-        "revision" : "eb43c0690c969f080dacc0478eeecc1482ee6e0c"
       }
     },
     {
@@ -65,24 +47,6 @@
       }
     },
     {
-      "identity" : "swiftui-side-menu",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/globulus/swiftui-side-menu",
-      "state" : {
-        "branch" : "main",
-        "revision" : "7a4dc9412bd8c2abf8b6d58bae620ba892f2133b"
-      }
-    },
-    {
-      "identity" : "swiftuimasonry",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ciaranrobrien/SwiftUIMasonry",
-      "state" : {
-        "branch" : "main",
-        "revision" : "651f84e32edd11919874fbd9167b50ecb60a72db"
-      }
-    },
-    {
       "identity" : "ztron-routing-kit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/NickTheFreak97/ztron-routing-kit.git",
@@ -98,15 +62,6 @@
       "state" : {
         "branch" : "main",
         "revision" : "01145e0ee3240299957e1252bc176a064981d85b"
-      }
-    },
-    {
-      "identity" : "ztronspendingsheet",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/NiccoloBargioni/ZTronSpendingSheet",
-      "state" : {
-        "branch" : "main",
-        "revision" : "cc5ea4b86e6eb959bbf08becf9866be2dfc444c1"
       }
     }
   ],

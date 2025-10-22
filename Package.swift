@@ -35,9 +35,6 @@ let package = Package(
             url: "https://github.com/joehinkle11/Lazy-View-SwiftUI", branch: "master"
         ),
         
-        .package(
-            url: "https://github.com/NiccoloBargioni/ZTronSpendingSheet", branch: "main"
-        )
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -50,7 +47,6 @@ let package = Package(
                 .product(name: "ZTronRouter", package: "ZTronRouter"),
                 .product(name: "AxisTabView", package: "AxisTabView"),
                 .product(name: "LazyViewSwiftUI", package: "Lazy-View-SwiftUI"),
-                .product(name: "ZTronSpendingSheet", package: "ZTronSpendingSheet")
             ],
             resources: [.process("Localizable.xcstrings")]
         ),
