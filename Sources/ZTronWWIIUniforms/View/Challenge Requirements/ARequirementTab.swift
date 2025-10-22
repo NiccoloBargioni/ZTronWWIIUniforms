@@ -109,7 +109,7 @@ internal struct ARequirementTab: View {
             }
         }
         .padding()
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .frame(minWidth: frame.size.width, minHeight: frame.size.height, alignment: .topLeading)
     }
 }
 
