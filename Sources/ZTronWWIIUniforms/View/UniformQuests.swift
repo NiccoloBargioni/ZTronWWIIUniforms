@@ -19,6 +19,8 @@ public struct UniformQuests: View {
             return nil
         }
         
+       UITableView.appearance().backgroundColor = .none
+        
         self.theme = theme
         self._questsModel = StateObject(wrappedValue: model)
     }
@@ -133,6 +135,7 @@ public struct UniformQuests: View {
                         }
                     }
                 }
+                
                 .contentShape(Rectangle())
             } else {
                 GeometryReader { geoProxy in
@@ -149,9 +152,6 @@ public struct UniformQuests: View {
                             .foregroundStyle(.primary)
                     }
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-                }
-                .background {
-                    Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial)
                 }
                 .ignoresSafeArea(.all, edges: .all)
                 

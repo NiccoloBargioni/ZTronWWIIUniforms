@@ -24,6 +24,8 @@ public struct UniformsChallenges: View {
         self._quest = StateObject(wrappedValue: quest)
         self.fromMap = fromMap
         self.theme = theme
+        
+        UITableView.appearance().backgroundColor = .none
     }
     
     public var body: some View {

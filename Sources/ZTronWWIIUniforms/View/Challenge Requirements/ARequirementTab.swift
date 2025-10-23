@@ -37,6 +37,8 @@ internal struct ARequirementTab: View {
         self.activeToken = activeToken
         self.colorMapping = colorMapping
         self.frame = frame
+        
+        UITableView.appearance().backgroundColor = .none
     }
     
     
