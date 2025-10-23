@@ -1,9 +1,15 @@
 import SwiftUI
+import ZTronTheme
 
 public struct UniformQuests: View {
     @StateObject private var questsModel: QuestModel
+    private var theme: any ZTronTheme
     
-    public init?(map: String) {
+    
+    public init?(
+        map: String,
+        theme: any ZTronTheme = ZTronThemeProvider.default()
+    ) {
         guard let model = QuestModel(
             routes: makeAllChallengesByMap(),
             withInitialChips: [
@@ -13,6 +19,7 @@ public struct UniformQuests: View {
             return nil
         }
         
+        self.theme = theme
         self._questsModel = StateObject(wrappedValue: model)
     }
     
@@ -91,15 +98,17 @@ public struct UniformQuests: View {
                                 ForEach(questsSet.getQuestsMapper().getQuests(), id: \.self) { quest in
                                     NavigationLink(destination: UniformsChallenges(
                                         quest,
-                                        fromMap: questsSet.getParentPath().last!
+                                        fromMap: questsSet.getParentPath().last!,
+                                        theme: self.theme
                                     )) {
                                         ChallengesListItem(
                                             image: quest.getImage(),
                                             charcterName: quest.getCharacterName(),
                                             setName: quest.getSetName()
                                         )
+                                        .listRowBackground(Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial))
                                     }
-                                    .tint(Color(UIColor.label))
+                                    .tint(Color(self.theme.erasedToAnyTheme().colorSet, value: \.label))
                                 }
                             }
                         }
@@ -110,14 +119,15 @@ public struct UniformQuests: View {
                         if let chipQuests = self.questsModel.getQuestsMapperFor(chip: chip) {
                             Section(chip.last!.capitalized) {
                                 ForEach(chipQuests.getQuests(), id: \.id) { quest in
-                                    NavigationLink(destination: UniformsChallenges(quest, fromMap: chip.last!)) {
+                                    NavigationLink(destination: UniformsChallenges(quest, fromMap: chip.last!, theme: self.theme)) {
                                         ChallengesListItem(
                                             image: quest.getImage(),
                                             charcterName: quest.getCharacterName(),
                                             setName: quest.getSetName()
                                         )
+                                        .listRowBackground(Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial))
                                     }
-                                    .tint(Color(UIColor.label))
+                                    .tint(Color(self.theme.erasedToAnyTheme().colorSet, value: \.label))
                                 }
                             }
                         }
@@ -141,7 +151,7 @@ public struct UniformQuests: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                 }
                 .background {
-                    Color(UIColor.label).opacity(0.2)
+                    Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial)
                 }
                 .ignoresSafeArea(.all, edges: .all)
                 
@@ -149,7 +159,7 @@ public struct UniformQuests: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle(self.questsModel.getSelectedChips().first?.first?.last?.capitalized ?? "Outfits")
-        
+        .gradientAppBackground()
     }
     
 }

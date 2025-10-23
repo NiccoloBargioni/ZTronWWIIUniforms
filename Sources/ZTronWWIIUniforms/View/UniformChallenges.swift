@@ -1,6 +1,7 @@
 import SwiftUI
 import ScalingHeaderScrollView
 import SwiftUIIntrospect
+import ZTronTheme
 
 public struct UniformsChallenges: View {
     @Environment(\.colorScheme) private var colorScheme
@@ -9,6 +10,7 @@ public struct UniformsChallenges: View {
     @State private var listContentHeight: CGFloat = .zero
     
     private var fromMap: String
+    private var theme: any ZTronTheme
     
     private var glowColor: Color {
         if colorScheme == .light {
@@ -18,9 +20,10 @@ public struct UniformsChallenges: View {
         }
     }
     
-    public init(_ quest: Quest, fromMap: String) {
+    public init(_ quest: Quest, fromMap: String, theme: any ZTronTheme = ZTronThemeProvider.default()) {
         self._quest = StateObject(wrappedValue: quest)
         self.fromMap = fromMap
+        self.theme = theme
     }
     
     public var body: some View {
@@ -49,6 +52,9 @@ public struct UniformsChallenges: View {
                         }
                         .frame(maxWidth: .infinity, alignment: .center)
                     }
+                    .background(
+                        Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial)
+                    )
                 }
                 .padding(.bottom)
                 .background {
@@ -57,10 +63,10 @@ public struct UniformsChallenges: View {
                                 radius: 1, x: 0, y: 1)
                         .overlay {
                             Rectangle()
-                                .fill(Color(UIColor.systemBackground))
+                                .fill(Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial))
                                 .overlay(alignment: .topLeading) {
                                     Rectangle()
-                                        .fill(Color(UIColor.systemBackground))
+                                        .fill(Color(self.theme.erasedToAnyTheme().colorSet, value: \.appBackground))
                                         .frame(height: 1.0)
                                 }
                         }
@@ -106,7 +112,7 @@ public struct UniformsChallenges: View {
                                     .frame(maxHeight: .infinity, alignment: .center)
                                 }
                             }
-                            .tint(Color(UIColor.label))
+                            .tint(Color(self.theme.erasedToAnyTheme().colorSet, value: \.label))
                         }
                     }
                 }

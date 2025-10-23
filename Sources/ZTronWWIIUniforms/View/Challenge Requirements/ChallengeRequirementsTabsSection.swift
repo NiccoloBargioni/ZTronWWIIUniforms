@@ -69,6 +69,7 @@ public struct ChallengeRequirementsTabsSection: View {
                             .padding(.bottom, 10)
                     })
                     .frame(minWidth: max(0, frame.size.width), minHeight: max(0, frame.size.height))
+                    .padding(.top)
                 }
             }
         }

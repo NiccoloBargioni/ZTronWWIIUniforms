@@ -28,6 +28,10 @@ let package = Package(
         ),
         
         .package(
+            url: "https://github.com/NiccoloBargioni/ZTronTheme", branch: "main"
+        ),
+        
+        .package(
             url: "https://github.com/jasudev/AxisTabView", branch: "main"
         ),
         
@@ -45,6 +49,7 @@ let package = Package(
                 .product(name: "ScalingHeaderScrollView", package: "ScalingHeaderScrollView"),
                 .product(name: "SwiftUIIntrospect", package: "swiftui-introspect"),
                 .product(name: "ZTronRouter", package: "ZTronRouter"),
+                .product(name: "ZTronTheme", package: "ZTronTheme"),
                 .product(name: "AxisTabView", package: "AxisTabView"),
                 .product(name: "LazyViewSwiftUI", package: "Lazy-View-SwiftUI"),
             ],

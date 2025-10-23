@@ -1,5 +1,5 @@
 {
-  "originHash" : "845382f053953449e4f1cf0c96280ff18a1945e779341fc48156f286bbc5e4d3",
+  "originHash" : "28c04935eb76a937166732c285711c50887708374a6131033b89c4a74d41672e",
   "pins" : [
     {
       "identity" : "axistabview",
@@ -62,6 +62,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "01145e0ee3240299957e1252bc176a064981d85b"
+      }
+    },
+    {
+      "identity" : "ztrontheme",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NiccoloBargioni/ZTronTheme",
+      "state" : {
+        "branch" : "main",
+        "revision" : "784ccaad6f7f52060129855664bde94599468ea1"
       }
     }
   ],
