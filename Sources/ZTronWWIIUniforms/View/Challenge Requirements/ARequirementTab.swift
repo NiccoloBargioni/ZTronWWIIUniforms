@@ -109,7 +109,7 @@ internal struct ARequirementTab: View {
                         .listStyle(.plain)
                         .frame(width: geo.size.width, height: geo.size.height + 200.0)
                     }
-                    .frame(width: geo.size.width, height: geo.size.height + 200.0)
+                    .frame(width: geo.size.width, height: geo.size.height + 250.0)
                 }
             }
         }
