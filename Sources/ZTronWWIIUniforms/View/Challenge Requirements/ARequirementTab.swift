@@ -45,67 +45,70 @@ internal struct ARequirementTab: View {
     internal var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             GeometryReader { geo in
-                if let searchToken = self.activeToken {
-                    Button {
-                        self.activeChipTapped?()
-                    } label: {
-                        Chip(text: searchToken.capitalized, isActive: true)
-                            .softColor(self.colorMapping(0).opacity(0.2))
-                            .highlightColor(self.colorMapping(0).opacity(0.7))
-                            .fontWeight(.heavy)
-                            .rightComponent {
-                                Image(systemName: "xmark.circle.fill")
-                                    .font(.system(size: 14, design: .rounded))
-                                    .foregroundStyle(.black)
-                                    .erasedToAnyView()
-                            }
-                    }
-                    .tint(Color(UIColor.label))
-                }
-                
                 ScrollView(.vertical, showsIndicators: false) {
-                    List {
-                        ForEach(cardsInThisSection, id: \.self) { card in
-                            RequirementCard(
-                                accentColor: colorMapping(self.activeTabIndex),
-                                text: card.wrappedValue()
-                            ) { tab in
-                                return self.colorMapping(tab)
-                            }
-                            .includeRequirementsChip(includeRequirementsChip?(card) ?? false) { @Sendable in
-                                Task {
-                                    await MainActor.run {
-                                        self.onRequirementsChipTapped?(card)
+                    VStack(alignment: .leading, spacing: 20) {
+                        if let searchToken = self.activeToken {
+                            Button {
+                                self.activeChipTapped?()
+                            } label: {
+                                Chip(text: searchToken.capitalized, isActive: true)
+                                    .softColor(self.colorMapping(0).opacity(0.2))
+                                    .highlightColor(self.colorMapping(0).opacity(0.7))
+                                    .fontWeight(.heavy)
+                                    .rightComponent {
+                                        Image(systemName: "xmark.circle.fill")
+                                            .font(.system(size: 14, design: .rounded))
+                                            .foregroundStyle(.black)
+                                            .erasedToAnyView()
                                     }
-                                }
                             }
-                            .includeDontsChip(includeDontsChip?(card) ?? false) { @Sendable in
-                                Task {
-                                    await MainActor.run {
-                                        self.onDontsChipTapped?(card)
-                                    }
-                                }
-                            }
-                            .includeBugsChip(includeBugsChip?(card) ?? false) { @Sendable in
-                                Task {
-                                    await MainActor.run {
-                                        self.onBugsChipTapped?(card)
-                                    }
-                                }
-                            }
-                            .includeProTipsChip(includeProTipsChip?(card) ?? false) { @Sendable in
-                                Task {
-                                    await MainActor.run {
-                                        self.onProTipsChipTapped?(card)
-                                    }
-                                }
-                            }
-                            .listRowBackground(Color.clear)
-                            .listRowSeparator(.hidden)
-                            .listRowInsets(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
+                            .tint(Color(UIColor.label))
                         }
+                        
+                        List {
+                            ForEach(cardsInThisSection, id: \.self) { card in
+                                RequirementCard(
+                                    accentColor: colorMapping(self.activeTabIndex),
+                                    text: card.wrappedValue()
+                                ) { tab in
+                                    return self.colorMapping(tab)
+                                }
+                                .includeRequirementsChip(includeRequirementsChip?(card) ?? false) { @Sendable in
+                                    Task {
+                                        await MainActor.run {
+                                            self.onRequirementsChipTapped?(card)
+                                        }
+                                    }
+                                }
+                                .includeDontsChip(includeDontsChip?(card) ?? false) { @Sendable in
+                                    Task {
+                                        await MainActor.run {
+                                            self.onDontsChipTapped?(card)
+                                        }
+                                    }
+                                }
+                                .includeBugsChip(includeBugsChip?(card) ?? false) { @Sendable in
+                                    Task {
+                                        await MainActor.run {
+                                            self.onBugsChipTapped?(card)
+                                        }
+                                    }
+                                }
+                                .includeProTipsChip(includeProTipsChip?(card) ?? false) { @Sendable in
+                                    Task {
+                                        await MainActor.run {
+                                            self.onProTipsChipTapped?(card)
+                                        }
+                                    }
+                                }
+                                .listRowBackground(Color.clear)
+                                .listRowSeparator(.hidden)
+                                .listRowInsets(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
+                            }
+                        }
+                        .listStyle(.plain)
+                        .frame(width: geo.size.width, height: geo.size.height + 200.0)
                     }
-                    .listStyle(.plain)
                     .frame(width: geo.size.width, height: geo.size.height + 200.0)
                 }
             }

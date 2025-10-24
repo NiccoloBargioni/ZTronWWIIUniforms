@@ -55,7 +55,7 @@ public struct UniformsChallenges: View {
                         .frame(maxWidth: .infinity, alignment: .center)
                     }
                     .background(
-                        Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial)
+                        Color(self.theme.erasedToAnyTheme().colorSet, value: \.appBackground)
                     )
                 }
                 .padding(.bottom)
@@ -65,7 +65,7 @@ public struct UniformsChallenges: View {
                                 radius: 1, x: 0, y: 1)
                         .overlay {
                             Rectangle()
-                                .fill(Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial))
+                                .fill(Color(self.theme.erasedToAnyTheme().colorSet, value: \.appBackground))
                                 .overlay(alignment: .topLeading) {
                                     Rectangle()
                                         .fill(Color(self.theme.erasedToAnyTheme().colorSet, value: \.appBackground))
