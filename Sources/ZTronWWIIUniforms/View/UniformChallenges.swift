@@ -54,24 +54,12 @@ public struct UniformsChallenges: View {
                         }
                         .frame(maxWidth: .infinity, alignment: .center)
                     }
-                    .background(
-                        Color(self.theme.erasedToAnyTheme().colorSet, value: \.appBackground)
-                    )
                 }
                 .padding(.bottom)
                 .background {
                     Rectangle()
                         .shadow(color: Color(UIColor.label).opacity(0.15),
                                 radius: 1, x: 0, y: 1)
-                        .overlay {
-                            Rectangle()
-                                .fill(Color(self.theme.erasedToAnyTheme().colorSet, value: \.appBackground))
-                                .overlay(alignment: .topLeading) {
-                                    Rectangle()
-                                        .fill(Color(self.theme.erasedToAnyTheme().colorSet, value: \.appBackground))
-                                        .frame(height: 1.0)
-                                }
-                        }
                 }
                 .ignoresSafeArea(.all, edges: .horizontal)
             } content: {
