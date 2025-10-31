@@ -1,14 +1,11 @@
 import SwiftUI
-import ZTronTheme
 
 public struct UniformQuests: View {
     @StateObject private var questsModel: QuestModel
-    private var theme: any ZTronTheme
     
     
     public init?(
-        map: String,
-        theme: any ZTronTheme = ZTronThemeProvider.default()
+        map: String
     ) {
         guard let model = QuestModel(
             routes: makeAllChallengesByMap(),
@@ -21,7 +18,6 @@ public struct UniformQuests: View {
         
        UITableView.appearance().backgroundColor = .none
         
-        self.theme = theme
         self._questsModel = StateObject(wrappedValue: model)
     }
     
@@ -101,16 +97,13 @@ public struct UniformQuests: View {
                                     NavigationLink(destination: UniformsChallenges(
                                         quest,
                                         fromMap: questsSet.getParentPath().last!,
-                                        theme: self.theme
                                     )) {
                                         ChallengesListItem(
                                             image: quest.getImage(),
                                             charcterName: quest.getCharacterName(),
                                             setName: quest.getSetName()
                                         )
-                                        .listRowBackground(Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial))
                                     }
-                                    .tint(Color(self.theme.erasedToAnyTheme().colorSet, value: \.label))
                                 }
                             }
                         }
@@ -121,15 +114,14 @@ public struct UniformQuests: View {
                         if let chipQuests = self.questsModel.getQuestsMapperFor(chip: chip) {
                             Section(chip.last!.capitalized) {
                                 ForEach(chipQuests.getQuests(), id: \.id) { quest in
-                                    NavigationLink(destination: UniformsChallenges(quest, fromMap: chip.last!, theme: self.theme)) {
+                                    NavigationLink(destination: UniformsChallenges(quest, fromMap: chip.last!)) {
                                         ChallengesListItem(
                                             image: quest.getImage(),
                                             charcterName: quest.getCharacterName(),
                                             setName: quest.getSetName()
                                         )
-                                        .listRowBackground(Color(self.theme.erasedToAnyTheme().colorSet, value: \.visitedMaterial))
                                     }
-                                    .tint(Color(self.theme.erasedToAnyTheme().colorSet, value: \.label))
+                                    .tint(.primary)
                                 }
                             }
                         }
