@@ -13,6 +13,8 @@ public struct ChallengeRequirementsPage: View {
     @State private var swipeAngle: CGFloat = .zero
     
     @StateObject private var swipeManager: ChallengeRequirementsSwipeManager
+    
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
 
     public init(quest: Quest, challenge: Int, peers: [Challenge<String>]) {
         self.challenge = peers[challenge]
@@ -26,17 +28,18 @@ public struct ChallengeRequirementsPage: View {
         )
     }
     
+    
     public var body: some View {
         GeometryReader { geo in
             ZStack {
                 ForEach(Array(self.swipeManager.getChallengesStack()), id: \.id) { challengeBuffer in
                     if challengeBuffer.getPosition() > 0 || self.offset != 0 || self.swipeAngle != 0 {
                         ScalingHeaderScrollView {
-                            VStack {
+                            VStack(spacing: 8) {
                                 Image("Challenge Banner", bundle: .module)
                                     .resizable()
                                     .aspectRatio(1.0, contentMode: .fit)
-                                    .frame(width: 75)
+                                    .frame(width: 75, height: 75)
                                 
                                 VStack(spacing: 4) {
                                     Text(self.peerChallenges[challengeBuffer.getWrappedValue()].getName().capitalized)
@@ -52,10 +55,12 @@ public struct ChallengeRequirementsPage: View {
                                         .minimumScaleFactor(0.5)
                                         .lineLimit(2)
                                 }
-                                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                             }
+                            .frame(height: 140, alignment: .center)
+                            .frame(maxWidth: .infinity, alignment: .center)
                             .padding(.horizontal)
-                            .padding(.bottom)
+                            .padding(.bottom, 12)
+                            .padding(.top, horizontalSizeClass == .regular ? 2*geo.safeAreaInsets.top : 8)
                             .overlay(alignment: .trailing) {
                                 if self.swipeManager.getCurrentVisibleChallenge() < self.peerChallenges.count - 1 {
                                     Button {
@@ -90,10 +95,10 @@ public struct ChallengeRequirementsPage: View {
                                 peers: self.peerChallenges,
                                 frame: geo.frame(in: .global)
                             )
-                            .frame(minWidth: geo.size.width, minHeight: geo.size.height + 150.0)
+                            .frame(minWidth: geo.size.width)
                         }
                         .setHeaderSnapMode(.afterFinishAccelerating)
-                        .height(min: 0, max: 150)
+                        .height(min: 140, max: 140)
                         .allowsHeaderCollapse()
                         .headerSnappingPositions(snapPositions: [0, 1])
                         .offset(x: challengeBuffer.getPosition() == 0 ? 0.0 : self.offset, y: 1)
@@ -102,6 +107,7 @@ public struct ChallengeRequirementsPage: View {
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
+            .background(Color(UIColor.secondarySystemGroupedBackground))
         }
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
@@ -114,6 +120,7 @@ public struct ChallengeRequirementsPage: View {
         }
         .navigationTitle(self.peerChallenges[self.swipeManager.getCurrentVisibleChallenge()].getName().capitalized)
     }
+    
     
     private func performSwipeAnimation(direction: SwipeDirection, screenWidth: CGFloat) {
         let directionMultiplier: CGFloat = direction == .right ? -1 : 1

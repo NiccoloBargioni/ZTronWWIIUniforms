@@ -12,6 +12,8 @@ public struct ChallengeRequirementsTabsSection: View {
     @State private var isShowingExtraSection: Bool = false
     
     @StateObject private var history: ZTronNavigator = .init(initialPath: [">"])
+    
+    @State private var tabHeights: [Int: CGFloat] = [:]
 
     private var quest: Quest
     private var challenge: Challenge<String>
@@ -36,6 +38,10 @@ public struct ChallengeRequirementsTabsSection: View {
         "lightbulb"
     ]
     
+    private var currentTabHeight: CGFloat {
+        self.tabHeights[self.selection] ?? 0
+    }
+    
     public var body: some View {
         VStack {
             AxisTabView(selection: $selection, constant: ATConstant(axisMode: .top)) { state in
@@ -59,6 +65,10 @@ public struct ChallengeRequirementsTabsSection: View {
                     .includeBugsChip(self.includeBugsChip(for:), self.onGlitchChipTap(from:))
                     .includeProTipsChip(self.includeProTipsChip(for:), self.onProTipChipTap(from:))
                     .onActiveChipTapped(self.onActiveChipTapped)
+                    .onHeightChange { height in
+                        // Store height for this tab index
+                        self.tabHeights[index] = height
+                    }
                     .tabItem(tag: index, normal: {
                         Image(systemName: icon)
                             .font(.system(size: 16, design: .rounded))
@@ -68,7 +78,6 @@ public struct ChallengeRequirementsTabsSection: View {
                             .foregroundStyle(makeColorFor(tag: index))
                             .padding(.bottom, 10)
                     })
-                    .frame(minWidth: max(0, frame.size.width), minHeight: max(0, frame.size.height))
                     .padding(.top)
                 }
             }
@@ -76,7 +85,10 @@ public struct ChallengeRequirementsTabsSection: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {
             Color(UIColor.systemGroupedBackground)
+                .ignoresSafeArea(.all, edges: .bottom)
         }
+        .frame(height: self.currentTabHeight > 0 ? self.currentTabHeight : nil)
+        .preference(key: HeightPreferenceKey.self, value: self.currentTabHeight)
         .onValueChange(of: self.selection) { @MainActor in
             if self.selection == 4 {
                 self.isShowingExtraSection = true
@@ -200,3 +212,4 @@ public struct ChallengeRequirementsTabsSection: View {
         }
     }
 }
+

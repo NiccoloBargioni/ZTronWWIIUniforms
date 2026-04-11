@@ -22,6 +22,7 @@ internal struct ARequirementTab: View {
     private var onBugsChipTapped: (@MainActor @Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
     private var onProTipsChipTapped: (@MainActor @Sendable (_:Challenge<String>.TaggedString) -> Void)? = nil
     
+    private var onHeightChange: (@MainActor @Sendable (CGFloat) -> Void)? = nil
     
     private let frame: CGRect
     
@@ -44,77 +45,80 @@ internal struct ARequirementTab: View {
     
     internal var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            GeometryReader { geo in
-                ScrollView(.vertical, showsIndicators: false) {
-                    VStack(alignment: .leading, spacing: 20) {
-                        if let searchToken = self.activeToken {
-                            Button {
-                                self.activeChipTapped?()
-                            } label: {
-                                Chip(text: searchToken.capitalized, isActive: true)
-                                    .softColor(self.colorMapping(0).opacity(0.2))
-                                    .highlightColor(self.colorMapping(0).opacity(0.7))
-                                    .fontWeight(.heavy)
-                                    .rightComponent {
-                                        Image(systemName: "xmark.circle.fill")
-                                            .font(.system(size: 14, design: .rounded))
-                                            .foregroundStyle(.black)
-                                            .erasedToAnyView()
-                                    }
-                            }
-                            .tint(Color(UIColor.label))
+            if let searchToken = self.activeToken {
+                Button {
+                    self.activeChipTapped?()
+                } label: {
+                    Chip(text: searchToken.capitalized, isActive: true)
+                        .softColor(self.colorMapping(0).opacity(0.2))
+                        .highlightColor(self.colorMapping(0).opacity(0.7))
+                        .fontWeight(.heavy)
+                        .rightComponent {
+                            Image(systemName: "xmark.circle.fill")
+                                .font(.system(size: 14, design: .rounded))
+                                .foregroundStyle(.black)
+                                .erasedToAnyView()
                         }
-                        
-                        List {
-                            ForEach(cardsInThisSection, id: \.self) { card in
-                                RequirementCard(
-                                    accentColor: colorMapping(self.activeTabIndex),
-                                    text: card.wrappedValue()
-                                ) { tab in
-                                    return self.colorMapping(tab)
-                                }
-                                .includeRequirementsChip(includeRequirementsChip?(card) ?? false) { @Sendable in
-                                    Task {
-                                        await MainActor.run {
-                                            self.onRequirementsChipTapped?(card)
-                                        }
-                                    }
-                                }
-                                .includeDontsChip(includeDontsChip?(card) ?? false) { @Sendable in
-                                    Task {
-                                        await MainActor.run {
-                                            self.onDontsChipTapped?(card)
-                                        }
-                                    }
-                                }
-                                .includeBugsChip(includeBugsChip?(card) ?? false) { @Sendable in
-                                    Task {
-                                        await MainActor.run {
-                                            self.onBugsChipTapped?(card)
-                                        }
-                                    }
-                                }
-                                .includeProTipsChip(includeProTipsChip?(card) ?? false) { @Sendable in
-                                    Task {
-                                        await MainActor.run {
-                                            self.onProTipsChipTapped?(card)
-                                        }
-                                    }
-                                }
-                                .listRowBackground(Color.clear)
-                                .listRowSeparator(.hidden)
-                                .listRowInsets(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
-                            }
-                        }
-                        .listStyle(.plain)
-                        .frame(width: geo.size.width, height: geo.size.height + 200.0)
+                }
+                .tint(Color(UIColor.label))
+                .padding(.horizontal)
+            }
+            
+            VStack(spacing: 0) {
+                ForEach(cardsInThisSection, id: \.self) { card in
+                    RequirementCard(
+                        accentColor: colorMapping(self.activeTabIndex),
+                        text: card.wrappedValue()
+                    ) { tab in
+                        return self.colorMapping(tab)
                     }
-                    .frame(width: geo.size.width, height: geo.size.height + 250.0)
+                    .includeRequirementsChip(includeRequirementsChip?(card) ?? false) { @Sendable in
+                        Task {
+                            await MainActor.run {
+                                self.onRequirementsChipTapped?(card)
+                            }
+                        }
+                    }
+                    .includeDontsChip(includeDontsChip?(card) ?? false) { @Sendable in
+                        Task {
+                            await MainActor.run {
+                                self.onDontsChipTapped?(card)
+                            }
+                        }
+                    }
+                    .includeBugsChip(includeBugsChip?(card) ?? false) { @Sendable in
+                        Task {
+                            await MainActor.run {
+                                self.onBugsChipTapped?(card)
+                            }
+                        }
+                    }
+                    .includeProTipsChip(includeProTipsChip?(card) ?? false) { @Sendable in
+                        Task {
+                            await MainActor.run {
+                                self.onProTipsChipTapped?(card)
+                            }
+                        }
+                    }
+                    .padding(.vertical, 10)
+                    .padding(.horizontal, 20)
                 }
             }
+            .padding(.bottom, 40)
         }
-        .padding()
-        .frame(minWidth: frame.size.width, minHeight: frame.size.height, alignment: .topLeading)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .background(
+            GeometryReader { geometry in
+                Color(UIColor.secondarySystemGroupedBackground)
+                    .preference(key: HeightPreferenceKey.self, value: geometry.size.height)
+                    .onAppear {
+                        self.onHeightChange?(geometry.size.height)
+                    }
+                    .onChange(of: geometry.size.height) { newHeight in
+                        self.onHeightChange?(newHeight)
+                    }
+            }
+        )
     }
 }
 
@@ -177,4 +181,10 @@ extension ARequirementTab {
         return copy
     }
     
+    // NEW: Height change callback
+    func onHeightChange(_ action: @escaping @MainActor @Sendable (CGFloat) -> Void) -> Self {
+        var copy = self
+        copy.onHeightChange = action
+        return copy
+    }
 }
