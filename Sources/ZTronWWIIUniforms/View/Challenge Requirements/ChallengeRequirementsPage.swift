@@ -35,11 +35,11 @@ public struct ChallengeRequirementsPage: View {
                 ForEach(Array(self.swipeManager.getChallengesStack()), id: \.id) { challengeBuffer in
                     if challengeBuffer.getPosition() > 0 || self.offset != 0 || self.swipeAngle != 0 {
                         ScalingHeaderScrollView {
-                            VStack(spacing: 8) {
+                            VStack {
                                 Image("Challenge Banner", bundle: .module)
                                     .resizable()
                                     .aspectRatio(1.0, contentMode: .fit)
-                                    .frame(width: 75, height: 75)
+                                    .frame(width: 75)
                                 
                                 VStack(spacing: 4) {
                                     Text(self.peerChallenges[challengeBuffer.getWrappedValue()].getName().capitalized)
@@ -55,12 +55,10 @@ public struct ChallengeRequirementsPage: View {
                                         .minimumScaleFactor(0.5)
                                         .lineLimit(2)
                                 }
+                                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                             }
-                            .frame(height: 140, alignment: .center)
-                            .frame(maxWidth: .infinity, alignment: .center)
                             .padding(.horizontal)
-                            .padding(.bottom, 12)
-                            .padding(.top, horizontalSizeClass == .regular ? 2*geo.safeAreaInsets.top : 8)
+                            .padding(.bottom)
                             .overlay(alignment: .trailing) {
                                 if self.swipeManager.getCurrentVisibleChallenge() < self.peerChallenges.count - 1 {
                                     Button {
