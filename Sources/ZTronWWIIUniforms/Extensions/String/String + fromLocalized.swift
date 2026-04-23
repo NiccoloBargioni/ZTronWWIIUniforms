@@ -1,6 +1,6 @@
 import Foundation
 
-public extension String {
+internal extension String {
     func fromLocalized() -> String {
         return String(
             localized: String.LocalizationValue(self),
